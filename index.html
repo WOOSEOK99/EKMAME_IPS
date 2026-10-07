@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="EKMAME IPS patch download library">
+  <title>EKMAME IPS Patch Library</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <header class="hero">
+    <div class="wrap hero-inner">
+      <div>
+        <p class="eyebrow">EKMAME PROJECT</p>
+        <h1>IPS Patch Library</h1>
+        <p class="hero-copy">EKMAME용 IPS 패치를 검색하고 필요한 파일만 골라 다운로드하세요.</p>
+      </div>
+      <a class="github-link" href="https://github.com/WOOSEOK99/EKMAME_IPS" target="_blank" rel="noopener noreferrer">GitHub 저장소 ↗</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="stats" aria-label="패치 현황">
+      <article class="stat-card">
+        <span class="stat-label">등록 패치</span>
+        <strong id="patchCount">0</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-label">게임</span>
+        <strong id="gameCount">0</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-label">선택됨</span>
+        <strong id="selectedCount">0</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-label">선택 용량</span>
+        <strong id="selectedSize">0 B</strong>
+      </article>
+    </section>
+
+    <section class="panel toolbar">
+      <label class="search-box">
+        <span class="sr-only">패치 검색</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
+        <input id="searchInput" type="search" placeholder="게임명, ROM명, 패치명 검색..." autocomplete="off">
+      </label>
+
+      <div class="toolbar-actions">
+        <button id="selectVisibleBtn" class="btn btn-secondary" type="button">보이는 항목 전체 선택</button>
+        <button id="clearSelectionBtn" class="btn btn-ghost" type="button">선택 해제</button>
+      </div>
+    </section>
+
+    <section class="panel list-panel">
+      <div class="list-header">
+        <div>
+          <h2>패치 목록</h2>
+          <p id="resultSummary">패치 정보를 불러오는 중입니다.</p>
+        </div>
+        <label class="sort-control">
+          <span>정렬</span>
+          <select id="sortSelect">
+            <option value="game">게임명</option>
+            <option value="rom">ROM명</option>
+            <option value="updated">최근 업데이트</option>
+          </select>
+        </label>
+      </div>
+
+      <div id="emptyState" class="empty-state" hidden>
+        <div class="empty-icon">IPS</div>
+        <h3 id="emptyTitle">등록된 패치가 없습니다.</h3>
+        <p id="emptyMessage">GitHub Releases에 패치를 올린 뒤 data/patches.json에 목록을 추가하면 여기에 표시됩니다.</p>
+      </div>
+
+      <div id="patchList" class="patch-list" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <div class="download-bar" id="downloadBar">
+    <div class="wrap download-bar-inner">
+      <div class="download-summary">
+        <strong><span id="barSelectedCount">0</span>개 선택</strong>
+        <span id="barSelectedSize">0 B</span>
+      </div>
+      <div class="download-actions">
+        <button id="selectedDownloadBtn" class="btn btn-primary" type="button" disabled>선택 다운로드</button>
+        <button id="bulkDownloadBtn" class="btn btn-accent" type="button" disabled>전체 다운로드</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <p>EKMAME IPS Patch Library</p>
+      <p>원본 ROM/CHD는 제공하지 않습니다.</p>
+    </div>
+  </footer>
+
+  <script src="./assets/app.js" defer></script>
+</body>
+</html>
