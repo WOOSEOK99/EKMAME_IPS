@@ -40,6 +40,11 @@ if (-not (Test-Path -LiteralPath $mngRoot -PathType Container)) {
 $files = @(Get-ChildItem -LiteralPath $mngRoot -Recurse -File |
     Where-Object { $_.Extension -ieq '.mng' } |
     Sort-Object -Property FullName)
+$emptyFiles = @($files | Where-Object { $_.Length -eq 0 })
+if ($emptyFiles.Count -gt 0) {
+    Write-Warning ("Skipping zero-byte MNG files: {0}" -f (($emptyFiles | ForEach-Object { $_.Name }) -join ', '))
+}
+$files = @($files | Where-Object { $_.Length -gt 0 })
 if ($files.Count -eq 0) {
     throw "No .mng files found under $mngRoot"
 }
