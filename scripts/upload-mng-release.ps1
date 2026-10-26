@@ -111,7 +111,11 @@ foreach ($release in $mngReleases) {
         if ($LASTEXITCODE -ne 0) {
             throw "Could not list assets for $($release.tagName), page $page."
         }
-        $pageAssets = @(($assetText -join "`n") | ConvertFrom-Json)
+        # Normalize JSON array output across Windows PowerShell and PowerShell 7.
+        $pageAssets = @()
+        foreach ($parsedAsset in (($assetText -join "`n") | ConvertFrom-Json)) {
+            $pageAssets += $parsedAsset
+        }
         $assetList += $pageAssets
         $page++
     } while ($pageAssets.Count -eq 100)
