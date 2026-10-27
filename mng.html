@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="EKMAME MNG recording download library">
+  <title>EKMAME MNG Recording Library</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <header class="hero">
+    <div class="wrap hero-inner">
+      <div>
+        <p class="eyebrow">EKMAME PROJECT</p>
+        <h1>MNG Recording Library</h1>
+        <p class="hero-copy">MNG 녹화 파일과 같은 이름의 MP3 오디오를 한 쌍으로 검색하고 다운로드하세요.</p>
+      </div>
+      <div class="toolbar-actions">
+        <a class="github-link" href="./index.html">IPS 패치 목록 ↗</a>
+        <a class="github-link" href="https://github.com/WOOSEOK99/EKMAME_IPS/releases/tag/mng-001" target="_blank" rel="noopener noreferrer">MNG Release ↗</a>
+        <a class="github-link" href="https://github.com/WOOSEOK99/EKMAME_IPS/releases/tag/mp3-001" target="_blank" rel="noopener noreferrer">MP3 Release ↗</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="stats" aria-label="MNG 파일 현황">
+      <article class="stat-card"><span class="stat-label">등록 MNG</span><strong id="fileCount">0</strong></article>
+      <article class="stat-card"><span class="stat-label">전체 용량 (MNG + MP3)</span><strong id="totalSize">0 B</strong></article>
+      <article class="stat-card"><span class="stat-label">선택됨</span><strong id="selectedCount">0</strong></article>
+      <article class="stat-card"><span class="stat-label">선택 용량</span><strong id="selectedSize">0 B</strong></article>
+    </section>
+
+    <section class="panel toolbar">
+      <label class="search-box">
+        <span class="sr-only">MNG 파일 검색</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
+        <input id="searchInput" type="search" placeholder="게임 ROM명, MNG 파일명 검색..." autocomplete="off">
+      </label>
+      <div class="toolbar-actions">
+        <button id="selectVisibleBtn" class="btn btn-secondary" type="button">보이는 항목 전체 선택</button>
+        <button id="clearSelectionBtn" class="btn btn-ghost" type="button">선택 해제</button>
+      </div>
+    </section>
+
+    <section class="panel list-panel">
+      <div class="list-header">
+        <div>
+          <h2>MNG 다운로드 목록</h2>
+          <p id="resultSummary">파일 목록을 불러오는 중입니다.</p>
+        </div>
+        <label class="sort-control">
+          <span>정렬</span>
+          <select id="sortSelect">
+            <option value="name">파일명</option>
+            <option value="size">용량 큰 순</option>
+          </select>
+        </label>
+      </div>
+
+      <div id="emptyState" class="empty-state" hidden>
+        <div class="empty-icon">MNG</div>
+        <h3 id="emptyTitle">검색 결과가 없습니다.</h3>
+        <p id="emptyMessage">다른 ROM명이나 파일명으로 검색해 보세요.</p>
+      </div>
+      <div id="mngList" class="patch-list" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <div class="download-bar" id="downloadBar">
+    <div class="wrap download-bar-inner">
+      <div class="download-summary">
+        <strong><span id="barSelectedCount">0</span>개 선택</strong>
+        <span id="barSelectedSize">0 B</span>
+      </div>
+      <div class="download-actions">
+        <button id="selectedDownloadBtn" class="btn btn-primary" type="button" disabled>선택한 쌍 다운로드</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <p>EKMAME MNG Recording Library</p>
+      <p>MNG와 MP3 파일은 GitHub Releases에서 다운로드됩니다.</p>
+    </div>
+  </footer>
+  <script src="./assets/mng.js" defer></script>
+</body>
+</html>

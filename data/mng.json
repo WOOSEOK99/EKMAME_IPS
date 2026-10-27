@@ -1,0 +1,2755 @@
+{
+  "version": 1,
+  "release": "mng-001",
+  "files": [
+    {
+      "name": "3wonders.mng",
+      "size": 4138270,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/3wonders.mng",
+      "mp3_name": "3wonders.mp3",
+      "mp3_size": 131780,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/3wonders.mp3"
+    },
+    {
+      "name": "19xx.mng",
+      "size": 4168839,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/19xx.mng",
+      "mp3_name": "19xx.mp3",
+      "mp3_size": 328294,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/19xx.mp3"
+    },
+    {
+      "name": "88games.mng",
+      "size": 2458250,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/88games.mng",
+      "mp3_name": "88games.mp3",
+      "mp3_size": 127618,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/88games.mp3"
+    },
+    {
+      "name": "1941.mng",
+      "size": 6001203,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/1941.mng",
+      "mp3_name": "1941.mp3",
+      "mp3_size": 89185,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/1941.mp3"
+    },
+    {
+      "name": "1942.mng",
+      "size": 788376,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/1942.mng",
+      "mp3_name": "1942.mp3",
+      "mp3_size": 97910,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/1942.mp3"
+    },
+    {
+      "name": "1943.mng",
+      "size": 2771806,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/1943.mng",
+      "mp3_name": "1943.mp3",
+      "mp3_size": 84840,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/1943.mp3"
+    },
+    {
+      "name": "1943kai.mng",
+      "size": 3207060,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/1943kai.mng",
+      "mp3_name": "1943kai.mp3",
+      "mp3_size": 201339,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/1943kai.mp3"
+    },
+    {
+      "name": "1943mii.mng",
+      "size": 30697393,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/1943mii.mng",
+      "mp3_name": "1943mii.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/1943mii.mp3"
+    },
+    {
+      "name": "1944.mng",
+      "size": 7641691,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/1944.mng",
+      "mp3_name": "1944.mp3",
+      "mp3_size": 268570,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/1944.mp3"
+    },
+    {
+      "name": "1945kiii.mng",
+      "size": 5727237,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/1945kiii.mng",
+      "mp3_name": "1945kiii.mp3",
+      "mp3_size": 144440,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/1945kiii.mp3"
+    },
+    {
+      "name": "aerofgt.mng",
+      "size": 3085692,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/aerofgt.mng",
+      "mp3_name": "aerofgt.mp3",
+      "mp3_size": 231629,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/aerofgt.mp3"
+    },
+    {
+      "name": "airbustr.mng",
+      "size": 1471392,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/airbustr.mng",
+      "mp3_name": "airbustr.mp3",
+      "mp3_size": 254961,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/airbustr.mp3"
+    },
+    {
+      "name": "airduel.mng",
+      "size": 1739239,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/airduel.mng",
+      "mp3_name": "airduel.mp3",
+      "mp3_size": 239167,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/airduel.mp3"
+    },
+    {
+      "name": "airwolf.mng",
+      "size": 652352,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/airwolf.mng",
+      "mp3_name": "airwolf.mp3",
+      "mp3_size": 248473,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/airwolf.mp3"
+    },
+    {
+      "name": "aliensyn.mng",
+      "size": 1591015,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/aliensyn.mng",
+      "mp3_name": "aliensyn.mp3",
+      "mp3_size": 292348,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/aliensyn.mp3"
+    },
+    {
+      "name": "altbeast.mng",
+      "size": 1177296,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/altbeast.mng",
+      "mp3_name": "altbeast.mp3",
+      "mp3_size": 269420,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/altbeast.mp3"
+    },
+    {
+      "name": "androdun.mng",
+      "size": 2351733,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/androdun.mng",
+      "mp3_name": "androdun.mp3",
+      "mp3_size": 246930,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/androdun.mp3"
+    },
+    {
+      "name": "aof.mng",
+      "size": 2938150,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/aof.mng",
+      "mp3_name": "aof.mp3",
+      "mp3_size": 319875,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/aof.mp3"
+    },
+    {
+      "name": "aof2.mng",
+      "size": 4545871,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/aof2.mng",
+      "mp3_name": "aof2.mp3",
+      "mp3_size": 389333,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/aof2.mp3"
+    },
+    {
+      "name": "aof3.mng",
+      "size": 5130830,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/aof3.mng",
+      "mp3_name": "aof3.mp3",
+      "mp3_size": 292195,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/aof3.mp3"
+    },
+    {
+      "name": "aofkt.mng",
+      "size": 12946853,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/aofkt.mng",
+      "mp3_name": "aofkt.mp3",
+      "mp3_size": 352749,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/aofkt.mp3"
+    },
+    {
+      "name": "area88rk.mng",
+      "size": 34714431,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/area88rk.mng",
+      "mp3_name": "area88rk.mp3",
+      "mp3_size": 560835,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/area88rk.mp3"
+    },
+    {
+      "name": "area88rka.mng",
+      "size": 12884649,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/area88rka.mng",
+      "mp3_name": "area88rka.mp3",
+      "mp3_size": 272861,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/area88rka.mp3"
+    },
+    {
+      "name": "arkanoid.mng",
+      "size": 135515,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/arkanoid.mng",
+      "mp3_name": "arkanoid.mp3",
+      "mp3_size": 244957,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/arkanoid.mp3"
+    },
+    {
+      "name": "armwar.mng",
+      "size": 23013246,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/armwar.mng",
+      "mp3_name": "armwar.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/armwar.mp3"
+    },
+    {
+      "name": "asterix.mng",
+      "size": 1964369,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/asterix.mng",
+      "mp3_name": "asterix.mp3",
+      "mp3_size": 269145,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/asterix.mp3"
+    },
+    {
+      "name": "atetris.mng",
+      "size": 47567,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/atetris.mng",
+      "mp3_name": "atetris.mp3",
+      "mp3_size": 74807,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/atetris.mp3"
+    },
+    {
+      "name": "avsp.mng",
+      "size": 3157859,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/avsp.mng",
+      "mp3_name": "avsp.mp3",
+      "mp3_size": 302983,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/avsp.mp3"
+    },
+    {
+      "name": "baddudes.mng",
+      "size": 883592,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/baddudes.mng",
+      "mp3_name": "baddudes.mp3",
+      "mp3_size": 245748,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/baddudes.mp3"
+    },
+    {
+      "name": "batcir.mng",
+      "size": 4774512,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/batcir.mng",
+      "mp3_name": "batcir.mp3",
+      "mp3_size": 310985,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/batcir.mp3"
+    },
+    {
+      "name": "batsugun.mng",
+      "size": 3886090,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/batsugun.mng",
+      "mp3_name": "batsugun.mp3",
+      "mp3_size": 216975,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/batsugun.mp3"
+    },
+    {
+      "name": "bayroute.mng",
+      "size": 2048837,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/bayroute.mng",
+      "mp3_name": "bayroute.mp3",
+      "mp3_size": 246696,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/bayroute.mp3"
+    },
+    {
+      "name": "bbmanw.mng",
+      "size": 483643,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/bbmanw.mng",
+      "mp3_name": "bbmanw.mp3",
+      "mp3_size": 159651,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/bbmanw.mp3"
+    },
+    {
+      "name": "bchopper.mng",
+      "size": 1565579,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/bchopper.mng",
+      "mp3_name": "bchopper.mp3",
+      "mp3_size": 268922,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/bchopper.mp3"
+    },
+    {
+      "name": "blkdrgonk.mng",
+      "size": 6525264,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/blkdrgonk.mng",
+      "mp3_name": "blkdrgonk.mp3",
+      "mp3_size": 241096,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/blkdrgonk.mp3"
+    },
+    {
+      "name": "blktiger.mng",
+      "size": 933286,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/blktiger.mng",
+      "mp3_name": "blktiger.mp3",
+      "mp3_size": 243543,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/blktiger.mp3"
+    },
+    {
+      "name": "bloodbro.mng",
+      "size": 2089208,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/bloodbro.mng",
+      "mp3_name": "bloodbro.mp3",
+      "mp3_size": 240818,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/bloodbro.mp3"
+    },
+    {
+      "name": "blswhstl.mng",
+      "size": 1479395,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/blswhstl.mng",
+      "mp3_name": "blswhstl.mp3",
+      "mp3_size": 82187,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/blswhstl.mp3"
+    },
+    {
+      "name": "bnzabros.mng",
+      "size": 1286705,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/bnzabros.mng",
+      "mp3_name": "bnzabros.mp3",
+      "mp3_size": 273602,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/bnzabros.mp3"
+    },
+    {
+      "name": "bssoccer.mng",
+      "size": 2130149,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/bssoccer.mng",
+      "mp3_name": "bssoccer.mp3",
+      "mp3_size": 335742,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/bssoccer.mp3"
+    },
+    {
+      "name": "bubblem.mng",
+      "size": 838466,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/bubblem.mng",
+      "mp3_name": "bubblem.mp3",
+      "mp3_size": 193649,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/bubblem.mp3"
+    },
+    {
+      "name": "bublbob2.mng",
+      "size": 2377528,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/bublbob2.mng",
+      "mp3_name": "bublbob2.mp3",
+      "mp3_size": 242268,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/bublbob2.mp3"
+    },
+    {
+      "name": "bublbobl.mng",
+      "size": 174516,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/bublbobl.mng",
+      "mp3_name": "bublbobl.mp3",
+      "mp3_size": 80726,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/bublbobl.mp3"
+    },
+    {
+      "name": "bucky.mng",
+      "size": 3618183,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/bucky.mng",
+      "mp3_name": "bucky.mp3",
+      "mp3_size": 263701,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/bucky.mp3"
+    },
+    {
+      "name": "cabal.mng",
+      "size": 403531,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/cabal.mng",
+      "mp3_name": "cabal.mp3",
+      "mp3_size": 205644,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/cabal.mp3"
+    },
+    {
+      "name": "captaven.mng",
+      "size": 2833284,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/captaven.mng",
+      "mp3_name": "captaven.mp3",
+      "mp3_size": 88412,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/captaven.mp3"
+    },
+    {
+      "name": "captcomek1k.mng",
+      "size": 8865704,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/captcomek1k.mng",
+      "mp3_name": "captcomek1k.mp3",
+      "mp3_size": 241100,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/captcomek1k.mp3"
+    },
+    {
+      "name": "captcomjk.mng",
+      "size": 12199513,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/captcomjk.mng",
+      "mp3_name": "captcomjk.mp3",
+      "mp3_size": 240678,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/captcomjk.mp3"
+    },
+    {
+      "name": "captcomm.mng",
+      "size": 2223837,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/captcomm.mng",
+      "mp3_name": "captcomm.mp3",
+      "mp3_size": 240819,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/captcomm.mp3"
+    },
+    {
+      "name": "cawing.mng",
+      "size": 3360764,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/cawing.mng",
+      "mp3_name": "cawing.mp3",
+      "mp3_size": 137060,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/cawing.mp3"
+    },
+    {
+      "name": "cbuster.mng",
+      "size": 2611638,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/cbuster.mng",
+      "mp3_name": "cbuster.mp3",
+      "mp3_size": 252675,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/cbuster.mp3"
+    },
+    {
+      "name": "chelnov.mng",
+      "size": 568938,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/chelnov.mng",
+      "mp3_name": "chelnov.mp3",
+      "mp3_size": 88683,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/chelnov.mp3"
+    },
+    {
+      "name": "chinagat.mng",
+      "size": 588266,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/chinagat.mng",
+      "mp3_name": "chinagat.mp3",
+      "mp3_size": 242286,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/chinagat.mp3"
+    },
+    {
+      "name": "chinhero.mng",
+      "size": 717948,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/chinhero.mng",
+      "mp3_name": "chinhero.mp3",
+      "mp3_size": 247535,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/chinhero.mp3"
+    },
+    {
+      "name": "chukatai.mng",
+      "size": 1097933,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/chukatai.mng",
+      "mp3_name": "chukatai.mp3",
+      "mp3_size": 242075,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/chukatai.mp3"
+    },
+    {
+      "name": "circusc.mng",
+      "size": 1097120,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/circusc.mng",
+      "mp3_name": "circusc.mp3",
+      "mp3_size": 240610,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/circusc.mp3"
+    },
+    {
+      "name": "cninja.mng",
+      "size": 3756303,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/cninja.mng",
+      "mp3_name": "cninja.mp3",
+      "mp3_size": 173406,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/cninja.mp3"
+    },
+    {
+      "name": "combasc.mng",
+      "size": 2276073,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/combasc.mng",
+      "mp3_name": "combasc.mp3",
+      "mp3_size": 242075,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/combasc.mp3"
+    },
+    {
+      "name": "contra.mng",
+      "size": 1320382,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/contra.mng",
+      "mp3_name": "contra.mp3",
+      "mp3_size": 312441,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/contra.mp3"
+    },
+    {
+      "name": "crkdown.mng",
+      "size": 13199444,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/crkdown.mng",
+      "mp3_name": "crkdown.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/crkdown.mp3"
+    },
+    {
+      "name": "csclubk.mng",
+      "size": 20971520,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/csclubk.mng",
+      "mp3_name": "csclubk.mp3",
+      "mp3_size": 404510,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/csclubk.mp3"
+    },
+    {
+      "name": "ctribe.mng",
+      "size": 1618163,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ctribe.mng",
+      "mp3_name": "ctribe.mp3",
+      "mp3_size": 291320,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ctribe.mp3"
+    },
+    {
+      "name": "cupsoc.mng",
+      "size": 3850074,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/cupsoc.mng",
+      "mp3_name": "cupsoc.mp3",
+      "mp3_size": 59706,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/cupsoc.mp3"
+    },
+    {
+      "name": "daimakaik.mng",
+      "size": 6911837,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/daimakaik.mng",
+      "mp3_name": "daimakaik.mp3",
+      "mp3_size": 310481,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/daimakaik.mp3"
+    },
+    {
+      "name": "dangar.mng",
+      "size": 1070891,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/dangar.mng",
+      "mp3_name": "dangar.mp3",
+      "mp3_size": 240610,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/dangar.mp3"
+    },
+    {
+      "name": "ddcrew.mng",
+      "size": 1517046,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ddcrew.mng",
+      "mp3_name": "ddcrew.mp3",
+      "mp3_size": 153477,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ddcrew.mp3"
+    },
+    {
+      "name": "ddonpach.mng",
+      "size": 13132536,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ddonpach.mng",
+      "mp3_name": "ddonpach.mp3",
+      "mp3_size": 152511,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ddonpach.mp3"
+    },
+    {
+      "name": "ddp3.mng",
+      "size": 9907846,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ddp3.mng",
+      "mp3_name": "ddp3.mp3",
+      "mp3_size": 159486,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ddp3.mp3"
+    },
+    {
+      "name": "ddragon.mng",
+      "size": 777438,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ddragon.mng",
+      "mp3_name": "ddragon.mp3",
+      "mp3_size": 180771,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ddragon.mp3"
+    },
+    {
+      "name": "ddragon2.mng",
+      "size": 545068,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ddragon2.mng",
+      "mp3_name": "ddragon2.mp3",
+      "mp3_size": 301227,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ddragon2.mp3"
+    },
+    {
+      "name": "ddragon3.mng",
+      "size": 779195,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ddragon3.mng",
+      "mp3_name": "ddragon3.mp3",
+      "mp3_size": 249851,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ddragon3.mp3"
+    },
+    {
+      "name": "ddsom.mng",
+      "size": 1187419,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ddsom.mng",
+      "mp3_name": "ddsom.mp3",
+      "mp3_size": 395535,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ddsom.mp3"
+    },
+    {
+      "name": "ddsomak.mng",
+      "size": 4067733,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ddsomak.mng",
+      "mp3_name": "ddsomak.mp3",
+      "mp3_size": 241090,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ddsomak.mp3"
+    },
+    {
+      "name": "ddsomjk.mng",
+      "size": 4067733,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ddsomjk.mng",
+      "mp3_name": "ddsomjk.mp3",
+      "mp3_size": 241090,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ddsomjk.mp3"
+    },
+    {
+      "name": "ddsomk.mng",
+      "size": 4067733,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ddsomk.mng",
+      "mp3_name": "ddsomk.mp3",
+      "mp3_size": 241090,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ddsomk.mp3"
+    },
+    {
+      "name": "ddtod.mng",
+      "size": 1637849,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ddtod.mng",
+      "mp3_name": "ddtod.mp3",
+      "mp3_size": 266784,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ddtod.mp3"
+    },
+    {
+      "name": "dduxbl.mng",
+      "size": 26933694,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/dduxbl.mng",
+      "mp3_name": "dduxbl.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/dduxbl.mp3"
+    },
+    {
+      "name": "denjinmk.mng",
+      "size": 15034579,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/denjinmk.mng",
+      "mp3_name": "denjinmk.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/denjinmk.mp3"
+    },
+    {
+      "name": "dino.mng",
+      "size": 2106796,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/dino.mng",
+      "mp3_name": "dino.mp3",
+      "mp3_size": 145127,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/dino.mp3"
+    },
+    {
+      "name": "dinos145.mng",
+      "size": 19473826,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/dinos145.mng",
+      "mp3_name": "dinos145.mp3",
+      "mp3_size": 241100,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/dinos145.mp3"
+    },
+    {
+      "name": "dinos209.mng",
+      "size": 28474936,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/dinos209.mng",
+      "mp3_name": "dinos209.mp3",
+      "mp3_size": 241100,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/dinos209.mp3"
+    },
+    {
+      "name": "dinoslice.mng",
+      "size": 18213714,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/dinoslice.mng",
+      "mp3_name": "dinoslice.mp3",
+      "mp3_size": 241100,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/dinoslice.mp3"
+    },
+    {
+      "name": "dondokod.mng",
+      "size": 418420,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/dondokod.mng",
+      "mp3_name": "dondokod.mp3",
+      "mp3_size": 278574,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/dondokod.mp3"
+    },
+    {
+      "name": "donpachi.mng",
+      "size": 7011154,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/donpachi.mng",
+      "mp3_name": "donpachi.mp3",
+      "mp3_size": 188633,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/donpachi.mp3"
+    },
+    {
+      "name": "dstlk.mng",
+      "size": 5751275,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/dstlk.mng",
+      "mp3_name": "dstlk.mp3",
+      "mp3_size": 425645,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/dstlk.mp3"
+    },
+    {
+      "name": "dungeonm.mng",
+      "size": 2061930,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/dungeonm.mng",
+      "mp3_name": "dungeonm.mp3",
+      "mp3_size": 312171,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/dungeonm.mp3"
+    },
+    {
+      "name": "dynagear.mng",
+      "size": 13800570,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/dynagear.mng",
+      "mp3_name": "dynagear.mp3",
+      "mp3_size": 301755,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/dynagear.mp3"
+    },
+    {
+      "name": "esckids.mng",
+      "size": 1255957,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/esckids.mng",
+      "mp3_name": "esckids.mp3",
+      "mp3_size": 248756,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/esckids.mp3"
+    },
+    {
+      "name": "eswat.mng",
+      "size": 1217176,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/eswat.mng",
+      "mp3_name": "eswat.mp3",
+      "mp3_size": 262934,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/eswat.mp3"
+    },
+    {
+      "name": "fatfursp.mng",
+      "size": 5332562,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/fatfursp.mng",
+      "mp3_name": "fatfursp.mp3",
+      "mp3_size": 349970,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/fatfursp.mp3"
+    },
+    {
+      "name": "fatfury1.mng",
+      "size": 2114235,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/fatfury1.mng",
+      "mp3_name": "fatfury1.mp3",
+      "mp3_size": 385882,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/fatfury1.mp3"
+    },
+    {
+      "name": "fatfury2.mng",
+      "size": 7875398,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/fatfury2.mng",
+      "mp3_name": "fatfury2.mp3",
+      "mp3_size": 329493,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/fatfury2.mp3"
+    },
+    {
+      "name": "fatfury3.mng",
+      "size": 8095885,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/fatfury3.mng",
+      "mp3_name": "fatfury3.mp3",
+      "mp3_size": 302827,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/fatfury3.mp3"
+    },
+    {
+      "name": "ffight.mng",
+      "size": 1747156,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ffight.mng",
+      "mp3_name": "ffight.mp3",
+      "mp3_size": 83262,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ffight.mp3"
+    },
+    {
+      "name": "ffightaek.mng",
+      "size": 44635016,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ffightaek.mng",
+      "mp3_name": "ffightaek.mp3",
+      "mp3_size": 875144,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ffightaek.mp3"
+    },
+    {
+      "name": "ffightb.mng",
+      "size": 35128734,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ffightb.mng",
+      "mp3_name": "ffightb.mp3",
+      "mp3_size": 241100,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ffightb.mp3"
+    },
+    {
+      "name": "ffightjk.mng",
+      "size": 47436706,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ffightjk.mng",
+      "mp3_name": "ffightjk.mp3",
+      "mp3_size": 887265,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ffightjk.mp3"
+    },
+    {
+      "name": "flashgal.mng",
+      "size": 659240,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/flashgal.mng",
+      "mp3_name": "flashgal.mp3",
+      "mp3_size": 240922,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/flashgal.mp3"
+    },
+    {
+      "name": "flicky.mng",
+      "size": 594167,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/flicky.mng",
+      "mp3_name": "flicky.mp3",
+      "mp3_size": 232680,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/flicky.mp3"
+    },
+    {
+      "name": "gaias01.mng",
+      "size": 22449191,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/gaias01.mng",
+      "mp3_name": "gaias01.mp3",
+      "mp3_size": 480621,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/gaias01.mp3"
+    },
+    {
+      "name": "galaga.mng",
+      "size": 511373,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/galaga.mng",
+      "mp3_name": "galaga.mp3",
+      "mp3_size": 92011,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/galaga.mp3"
+    },
+    {
+      "name": "galaga88.mng",
+      "size": 1099249,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/galaga88.mng",
+      "mp3_name": "galaga88.mp3",
+      "mp3_size": 103725,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/galaga88.mp3"
+    },
+    {
+      "name": "gangwars.mng",
+      "size": 1042459,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/gangwars.mng",
+      "mp3_name": "gangwars.mp3",
+      "mp3_size": 245214,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/gangwars.mp3"
+    },
+    {
+      "name": "gberet.mng",
+      "size": 310997,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/gberet.mng",
+      "mp3_name": "gberet.mp3",
+      "mp3_size": 88600,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/gberet.mp3"
+    },
+    {
+      "name": "gemini.mng",
+      "size": 1781341,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/gemini.mng",
+      "mp3_name": "gemini.mp3",
+      "mp3_size": 100841,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/gemini.mp3"
+    },
+    {
+      "name": "gng.mng",
+      "size": 757045,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/gng.mng",
+      "mp3_name": "gng.mp3",
+      "mp3_size": 71168,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/gng.mp3"
+    },
+    {
+      "name": "goldnaxe.mng",
+      "size": 1404123,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/goldnaxe.mng",
+      "mp3_name": "goldnaxe.mp3",
+      "mp3_size": 155243,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/goldnaxe.mp3"
+    },
+    {
+      "name": "gondo.mng",
+      "size": 1393638,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/gondo.mng",
+      "mp3_name": "gondo.mp3",
+      "mp3_size": 241342,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/gondo.mp3"
+    },
+    {
+      "name": "grdians.mng",
+      "size": 3463153,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/grdians.mng",
+      "mp3_name": "grdians.mp3",
+      "mp3_size": 251108,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/grdians.mp3"
+    },
+    {
+      "name": "gunbird.mng",
+      "size": 3912386,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/gunbird.mng",
+      "mp3_name": "gunbird.mp3",
+      "mp3_size": 212367,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/gunbird.mp3"
+    },
+    {
+      "name": "gunbird2.mng",
+      "size": 5476374,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/gunbird2.mng",
+      "mp3_name": "gunbird2.mp3",
+      "mp3_size": 223106,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/gunbird2.mp3"
+    },
+    {
+      "name": "gunbirdkp.mng",
+      "size": 20971520,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/gunbirdkp.mng",
+      "mp3_name": "gunbirdkp.mp3",
+      "mp3_size": 627700,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/gunbirdkp.mp3"
+    },
+    {
+      "name": "gunforc2.mng",
+      "size": 8575956,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/gunforc2.mng",
+      "mp3_name": "gunforc2.mp3",
+      "mp3_size": 213376,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/gunforc2.mp3"
+    },
+    {
+      "name": "gunforce.mng",
+      "size": 2571454,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/gunforce.mng",
+      "mp3_name": "gunforce.mp3",
+      "mp3_size": 250452,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/gunforce.mp3"
+    },
+    {
+      "name": "hharry.mng",
+      "size": 1921692,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/hharry.mng",
+      "mp3_name": "hharry.mp3",
+      "mp3_size": 278941,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/hharry.mp3"
+    },
+    {
+      "name": "hoops96.mng",
+      "size": 4322461,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/hoops96.mng",
+      "mp3_name": "hoops96.mp3",
+      "mp3_size": 173430,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/hoops96.mp3"
+    },
+    {
+      "name": "hsf2a.mng",
+      "size": 25713436,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/hsf2a.mng",
+      "mp3_name": "hsf2a.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/hsf2a.mp3"
+    },
+    {
+      "name": "hyperspt.mng",
+      "size": 754095,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/hyperspt.mng",
+      "mp3_name": "hyperspt.mp3",
+      "mp3_size": 149916,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/hyperspt.mp3"
+    },
+    {
+      "name": "ichir.mng",
+      "size": 458962,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ichir.mng",
+      "mp3_name": "ichir.mp3",
+      "mp3_size": 208569,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ichir.mp3"
+    },
+    {
+      "name": "ichirk.mng",
+      "size": 30567752,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ichirk.mng",
+      "mp3_name": "ichirk.mp3",
+      "mp3_size": 241100,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ichirk.mp3"
+    },
+    {
+      "name": "ikari.mng",
+      "size": 613085,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ikari.mng",
+      "mp3_name": "ikari.mp3",
+      "mp3_size": 248885,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ikari.mp3"
+    },
+    {
+      "name": "insectx.mng",
+      "size": 961941,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/insectx.mng",
+      "mp3_name": "insectx.mp3",
+      "mp3_size": 234569,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/insectx.mp3"
+    },
+    {
+      "name": "inthunt.mng",
+      "size": 6292374,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/inthunt.mng",
+      "mp3_name": "inthunt.mp3",
+      "mp3_size": 221383,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/inthunt.mp3"
+    },
+    {
+      "name": "ironhors.mng",
+      "size": 642675,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ironhors.mng",
+      "mp3_name": "ironhors.mp3",
+      "mp3_size": 257477,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ironhors.mp3"
+    },
+    {
+      "name": "joemacr.mng",
+      "size": 2615358,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/joemacr.mng",
+      "mp3_name": "joemacr.mp3",
+      "mp3_size": 177807,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/joemacr.mp3"
+    },
+    {
+      "name": "kicker.mng",
+      "size": 690578,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kicker.mng",
+      "mp3_name": "kicker.mp3",
+      "mp3_size": 256838,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kicker.mp3"
+    },
+    {
+      "name": "kicknrun.mng",
+      "size": 876141,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kicknrun.mng",
+      "mp3_name": "kicknrun.mp3",
+      "mp3_size": 196795,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kicknrun.mp3"
+    },
+    {
+      "name": "kikcubic.mng",
+      "size": 1701269,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kikcubic.mng",
+      "mp3_name": "kikcubic.mp3",
+      "mp3_size": 200307,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kikcubic.mp3"
+    },
+    {
+      "name": "kikikai.mng",
+      "size": 958527,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kikikai.mng",
+      "mp3_name": "kikikai.mp3",
+      "mp3_size": 167605,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kikikai.mp3"
+    },
+    {
+      "name": "kncljoe.mng",
+      "size": 704479,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kncljoe.mng",
+      "mp3_name": "kncljoe.mp3",
+      "mp3_size": 234155,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kncljoe.mp3"
+    },
+    {
+      "name": "knights.mng",
+      "size": 1777867,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/knights.mng",
+      "mp3_name": "knights.mp3",
+      "mp3_size": 241342,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/knights.mp3"
+    },
+    {
+      "name": "knightsk.mng",
+      "size": 10212922,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/knightsk.mng",
+      "mp3_name": "knightsk.mp3",
+      "mp3_size": 448822,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/knightsk.mp3"
+    },
+    {
+      "name": "kod.mng",
+      "size": 2672672,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kod.mng",
+      "mp3_name": "kod.mp3",
+      "mp3_size": 240922,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kod.mp3"
+    },
+    {
+      "name": "kodjk.mng",
+      "size": 4302309,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kodjk.mng",
+      "mp3_name": "kodjk.mp3",
+      "mp3_size": 225218,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kodjk.mp3"
+    },
+    {
+      "name": "kodure.mng",
+      "size": 15296410,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kodure.mng",
+      "mp3_name": "kodure.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kodure.mp3"
+    },
+    {
+      "name": "kof2kkt.mng",
+      "size": 11776803,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof2kkt.mng",
+      "mp3_name": "kof2kkt.mp3",
+      "mp3_size": 480621,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof2kkt.mp3"
+    },
+    {
+      "name": "kof94.mng",
+      "size": 4717212,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof94.mng",
+      "mp3_name": "kof94.mp3",
+      "mp3_size": 347422,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof94.mp3"
+    },
+    {
+      "name": "kof94kt.mng",
+      "size": 11721754,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof94kt.mng",
+      "mp3_name": "kof94kt.mp3",
+      "mp3_size": 480621,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof94kt.mp3"
+    },
+    {
+      "name": "kof94rk.mng",
+      "size": 11091144,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof94rk.mng",
+      "mp3_name": "kof94rk.mp3",
+      "mp3_size": 320877,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof94rk.mp3"
+    },
+    {
+      "name": "kof94s20k.mng",
+      "size": 20059046,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof94s20k.mng",
+      "mp3_name": "kof94s20k.mp3",
+      "mp3_size": 480621,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof94s20k.mp3"
+    },
+    {
+      "name": "kof94srik.mng",
+      "size": 12458604,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof94srik.mng",
+      "mp3_name": "kof94srik.mp3",
+      "mp3_size": 320877,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof94srik.mp3"
+    },
+    {
+      "name": "kof95.mng",
+      "size": 4976204,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof95.mng",
+      "mp3_name": "kof95.mp3",
+      "mp3_size": 265162,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof95.mp3"
+    },
+    {
+      "name": "kof95kt.mng",
+      "size": 11866478,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof95kt.mng",
+      "mp3_name": "kof95kt.mp3",
+      "mp3_size": 480621,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof95kt.mp3"
+    },
+    {
+      "name": "kof95sehk.mng",
+      "size": 16079769,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof95sehk.mng",
+      "mp3_name": "kof95sehk.mp3",
+      "mp3_size": 320877,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof95sehk.mp3"
+    },
+    {
+      "name": "kof96.mng",
+      "size": 4741477,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof96.mng",
+      "mp3_name": "kof96.mp3",
+      "mp3_size": 367620,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof96.mp3"
+    },
+    {
+      "name": "kof96kt.mng",
+      "size": 18934362,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof96kt.mng",
+      "mp3_name": "kof96kt.mp3",
+      "mp3_size": 480621,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof96kt.mp3"
+    },
+    {
+      "name": "kof96s20k.mng",
+      "size": 23299320,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof96s20k.mng",
+      "mp3_name": "kof96s20k.mp3",
+      "mp3_size": 480621,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof96s20k.mp3"
+    },
+    {
+      "name": "kof97.mng",
+      "size": 7792804,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof97.mng",
+      "mp3_name": "kof97.mp3",
+      "mp3_size": 326867,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof97.mp3"
+    },
+    {
+      "name": "kof97kt.mng",
+      "size": 17871066,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof97kt.mng",
+      "mp3_name": "kof97kt.mp3",
+      "mp3_size": 480621,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof97kt.mp3"
+    },
+    {
+      "name": "kof97plskt.mng",
+      "size": 12226381,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof97plskt.mng",
+      "mp3_name": "kof97plskt.mp3",
+      "mp3_size": 480621,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof97plskt.mp3"
+    },
+    {
+      "name": "kof98.mng",
+      "size": 9460378,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof98.mng",
+      "mp3_name": "kof98.mp3",
+      "mp3_size": 310444,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof98.mp3"
+    },
+    {
+      "name": "kof98hkt.mng",
+      "size": 12322699,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof98hkt.mng",
+      "mp3_name": "kof98hkt.mp3",
+      "mp3_size": 480621,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof98hkt.mp3"
+    },
+    {
+      "name": "kof99.mng",
+      "size": 4831892,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof99.mng",
+      "mp3_name": "kof99.mp3",
+      "mp3_size": 341192,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof99.mp3"
+    },
+    {
+      "name": "kof99ndkt.mng",
+      "size": 13126779,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof99ndkt.mng",
+      "mp3_name": "kof99ndkt.mp3",
+      "mp3_size": 480621,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof99ndkt.mp3"
+    },
+    {
+      "name": "kof2000.mng",
+      "size": 5965672,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof2000.mng",
+      "mp3_name": "kof2000.mp3",
+      "mp3_size": 322173,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof2000.mp3"
+    },
+    {
+      "name": "kof2001.mng",
+      "size": 4234701,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof2001.mng",
+      "mp3_name": "kof2001.mp3",
+      "mp3_size": 129872,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof2001.mp3"
+    },
+    {
+      "name": "kof2002.mng",
+      "size": 3352628,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof2002.mng",
+      "mp3_name": "kof2002.mp3",
+      "mp3_size": 195659,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof2002.mp3"
+    },
+    {
+      "name": "kof2003.mng",
+      "size": 4242667,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kof2003.mng",
+      "mp3_name": "kof2003.mp3",
+      "mp3_size": 170040,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kof2003.mp3"
+    },
+    {
+      "name": "kotm.mng",
+      "size": 1815442,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kotm.mng",
+      "mp3_name": "kotm.mp3",
+      "mp3_size": 360616,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kotm.mp3"
+    },
+    {
+      "name": "kotm2.mng",
+      "size": 1134848,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kotm2.mng",
+      "mp3_name": "kotm2.mp3",
+      "mp3_size": 351957,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kotm2.mp3"
+    },
+    {
+      "name": "kov.mng",
+      "size": 3771246,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kov.mng",
+      "mp3_name": "kov.mp3",
+      "mp3_size": 240610,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kov.mp3"
+    },
+    {
+      "name": "kov115s02.mng",
+      "size": 50258960,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kov115s02.mng",
+      "mp3_name": "kov115s02.mp3",
+      "mp3_size": 480587,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kov115s02.mp3"
+    },
+    {
+      "name": "kovpluss125.mng",
+      "size": 28558909,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kovpluss125.mng",
+      "mp3_name": "kovpluss125.mp3",
+      "mp3_size": 480621,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kovpluss125.mp3"
+    },
+    {
+      "name": "kurikint.mng",
+      "size": 878650,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/kurikint.mng",
+      "mp3_name": "kurikint.mp3",
+      "mp3_size": 252341,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/kurikint.mp3"
+    },
+    {
+      "name": "ldrun.mng",
+      "size": 209480,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ldrun.mng",
+      "mp3_name": "ldrun.mp3",
+      "mp3_size": 233932,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ldrun.mp3"
+    },
+    {
+      "name": "madgear.mng",
+      "size": 2508381,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/madgear.mng",
+      "mp3_name": "madgear.mp3",
+      "mp3_size": 257076,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/madgear.mp3"
+    },
+    {
+      "name": "mazinger.mng",
+      "size": 3888726,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mazinger.mng",
+      "mp3_name": "mazinger.mp3",
+      "mp3_size": 182149,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mazinger.mp3"
+    },
+    {
+      "name": "megaman.mng",
+      "size": 1176476,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/megaman.mng",
+      "mp3_name": "megaman.mp3",
+      "mp3_size": 241343,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/megaman.mp3"
+    },
+    {
+      "name": "megaman2.mng",
+      "size": 1544186,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/megaman2.mng",
+      "mp3_name": "megaman2.mp3",
+      "mp3_size": 290607,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/megaman2.mp3"
+    },
+    {
+      "name": "moo.mng",
+      "size": 2643418,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/moo.mng",
+      "mp3_name": "moo.mp3",
+      "mp3_size": 312900,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/moo.mp3"
+    },
+    {
+      "name": "mp_gaxe2.mng",
+      "size": 6673346,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mp_gaxe2.mng",
+      "mp3_name": "mp_gaxe2.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mp_gaxe2.mp3"
+    },
+    {
+      "name": "mp_soni2.mng",
+      "size": 32178051,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mp_soni2.mng",
+      "mp3_name": "mp_soni2.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mp_soni2.mp3"
+    },
+    {
+      "name": "mp_sonic.mng",
+      "size": 38392716,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mp_sonic.mng",
+      "mp3_name": "mp_sonic.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mp_sonic.mp3"
+    },
+    {
+      "name": "mp_sor2.mng",
+      "size": 28076605,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mp_sor2.mng",
+      "mp3_name": "mp_sor2.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mp_sor2.mp3"
+    },
+    {
+      "name": "mpatrol.mng",
+      "size": 531532,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mpatrol.mng",
+      "mp3_name": "mpatrol.mp3",
+      "mp3_size": 241552,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mpatrol.mp3"
+    },
+    {
+      "name": "mrdo.mng",
+      "size": 211320,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mrdo.mng",
+      "mp3_name": "mrdo.mp3",
+      "mp3_size": 157705,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mrdo.mp3"
+    },
+    {
+      "name": "ms6boot.mng",
+      "size": 19740545,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ms6boot.mng",
+      "mp3_name": "ms6boot.mp3",
+      "mp3_size": 480621,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ms6boot.mp3"
+    },
+    {
+      "name": "ms6sre6px01.mng",
+      "size": 19079785,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ms6sre6px01.mng",
+      "mp3_name": "ms6sre6px01.mp3",
+      "mp3_size": 480621,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ms6sre6px01.mp3"
+    },
+    {
+      "name": "msh.mng",
+      "size": 31174588,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/msh.mng",
+      "mp3_name": "msh.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/msh.mp3"
+    },
+    {
+      "name": "mshvsf.mng",
+      "size": 23019156,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mshvsf.mng",
+      "mp3_name": "mshvsf.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mshvsf.mp3"
+    },
+    {
+      "name": "mslug.mng",
+      "size": 2511204,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mslug.mng",
+      "mp3_name": "mslug.mp3",
+      "mp3_size": 114873,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mslug.mp3"
+    },
+    {
+      "name": "mslug2.mng",
+      "size": 3089499,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mslug2.mng",
+      "mp3_name": "mslug2.mp3",
+      "mp3_size": 121123,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mslug2.mp3"
+    },
+    {
+      "name": "mslug2tsp.mng",
+      "size": 5514844,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mslug2tsp.mng",
+      "mp3_name": "mslug2tsp.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mslug2tsp.mp3"
+    },
+    {
+      "name": "mslug3.mng",
+      "size": 3479600,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mslug3.mng",
+      "mp3_name": "mslug3.mp3",
+      "mp3_size": 125759,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mslug3.mp3"
+    },
+    {
+      "name": "mslug3hek04.mng",
+      "size": 26418924,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mslug3hek04.mng",
+      "mp3_name": "mslug3hek04.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mslug3hek04.mp3"
+    },
+    {
+      "name": "mslug4.mng",
+      "size": 5226158,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mslug4.mng",
+      "mp3_name": "mslug4.mp3",
+      "mp3_size": 237247,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mslug4.mp3"
+    },
+    {
+      "name": "mslug4ek01.mng",
+      "size": 67346015,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mslug4ek01.mng",
+      "mp3_name": "mslug4ek01.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mslug4ek01.mp3"
+    },
+    {
+      "name": "mslug5.mng",
+      "size": 4774882,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mslug5.mng",
+      "mp3_name": "mslug5.mp3",
+      "mp3_size": 245602,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mslug5.mp3"
+    },
+    {
+      "name": "mslug5dh72.mng",
+      "size": 23436643,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mslug5dh72.mng",
+      "mp3_name": "mslug5dh72.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mslug5dh72.mp3"
+    },
+    {
+      "name": "mslugrmpl02.mng",
+      "size": 14389738,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mslugrmpl02.mng",
+      "mp3_name": "mslugrmpl02.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mslugrmpl02.mp3"
+    },
+    {
+      "name": "mslugx.mng",
+      "size": 3316303,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mslugx.mng",
+      "mp3_name": "mslugx.mp3",
+      "mp3_size": 119365,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mslugx.mp3"
+    },
+    {
+      "name": "mslugxsp2.mng",
+      "size": 39803144,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mslugxsp2.mng",
+      "mp3_name": "mslugxsp2.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mslugxsp2.mp3"
+    },
+    {
+      "name": "mtwins.mng",
+      "size": 1820767,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mtwins.mng",
+      "mp3_name": "mtwins.mp3",
+      "mp3_size": 112841,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mtwins.mp3"
+    },
+    {
+      "name": "mvp.mng",
+      "size": 471497,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mvp.mng",
+      "mp3_name": "mvp.mp3",
+      "mp3_size": 153947,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mvp.mp3"
+    },
+    {
+      "name": "mvsc.mng",
+      "size": 26618312,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/mvsc.mng",
+      "mp3_name": "mvsc.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/mvsc.mp3"
+    },
+    {
+      "name": "myhero.mng",
+      "size": 589217,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/myhero.mng",
+      "mp3_name": "myhero.mp3",
+      "mp3_size": 141808,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/myhero.mp3"
+    },
+    {
+      "name": "nbbatman.mng",
+      "size": 2710406,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/nbbatman.mng",
+      "mp3_name": "nbbatman.mp3",
+      "mp3_size": 240922,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/nbbatman.mp3"
+    },
+    {
+      "name": "ncommand.mng",
+      "size": 2235345,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ncommand.mng",
+      "mp3_name": "ncommand.mp3",
+      "mp3_size": 300474,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ncommand.mp3"
+    },
+    {
+      "name": "ninjak.mng",
+      "size": 2472582,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ninjak.mng",
+      "mp3_name": "ninjak.mp3",
+      "mp3_size": 282871,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ninjak.mp3"
+    },
+    {
+      "name": "ninjakd2.mng",
+      "size": 1404519,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ninjakd2.mng",
+      "mp3_name": "ninjakd2.mp3",
+      "mp3_size": 241205,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ninjakd2.mp3"
+    },
+    {
+      "name": "nrallyx.mng",
+      "size": 532487,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/nrallyx.mng",
+      "mp3_name": "nrallyx.mp3",
+      "mp3_size": 226994,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/nrallyx.mp3"
+    },
+    {
+      "name": "nspirit.mng",
+      "size": 2585700,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/nspirit.mng",
+      "mp3_name": "nspirit.mp3",
+      "mp3_size": 196050,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/nspirit.mp3"
+    },
+    {
+      "name": "nwarr.mng",
+      "size": 3494351,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/nwarr.mng",
+      "mp3_name": "nwarr.mp3",
+      "mp3_size": 428212,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/nwarr.mp3"
+    },
+    {
+      "name": "olds.mng",
+      "size": 18437611,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/olds.mng",
+      "mp3_name": "olds.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/olds.mp3"
+    },
+    {
+      "name": "orlegend.mng",
+      "size": 5334618,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/orlegend.mng",
+      "mp3_name": "orlegend.mp3",
+      "mp3_size": 241134,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/orlegend.mp3"
+    },
+    {
+      "name": "orlegndcf.mng",
+      "size": 5334618,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/orlegndcf.mng",
+      "mp3_name": "orlegndcf.mp3",
+      "mp3_size": 241134,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/orlegndcf.mp3"
+    },
+    {
+      "name": "oscar.mng",
+      "size": 745445,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/oscar.mng",
+      "mp3_name": "oscar.mp3",
+      "mp3_size": 245219,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/oscar.mp3"
+    },
+    {
+      "name": "outrun.mng",
+      "size": 12463554,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/outrun.mng",
+      "mp3_name": "outrun.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/outrun.mp3"
+    },
+    {
+      "name": "outzone.mng",
+      "size": 2188276,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/outzone.mng",
+      "mp3_name": "outzone.mp3",
+      "mp3_size": 241131,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/outzone.mp3"
+    },
+    {
+      "name": "pacplus.mng",
+      "size": 229251,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/pacplus.mng",
+      "mp3_name": "pacplus.mp3",
+      "mp3_size": 209845,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/pacplus.mp3"
+    },
+    {
+      "name": "pang.mng",
+      "size": 705812,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/pang.mng",
+      "mp3_name": "pang.mp3",
+      "mp3_size": 152143,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/pang.mp3"
+    },
+    {
+      "name": "pang3.mng",
+      "size": 837420,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/pang3.mng",
+      "mp3_name": "pang3.mp3",
+      "mp3_size": 146330,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/pang3.mp3"
+    },
+    {
+      "name": "pbobble.mng",
+      "size": 470398,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/pbobble.mng",
+      "mp3_name": "pbobble.mp3",
+      "mp3_size": 147631,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/pbobble.mp3"
+    },
+    {
+      "name": "pbobble2.mng",
+      "size": 3021963,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/pbobble2.mng",
+      "mp3_name": "pbobble2.mp3",
+      "mp3_size": 215579,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/pbobble2.mp3"
+    },
+    {
+      "name": "pbobble3.mng",
+      "size": 3280193,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/pbobble3.mng",
+      "mp3_name": "pbobble3.mp3",
+      "mp3_size": 354463,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/pbobble3.mp3"
+    },
+    {
+      "name": "pbobble4.mng",
+      "size": 959251,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/pbobble4.mng",
+      "mp3_name": "pbobble4.mp3",
+      "mp3_size": 311301,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/pbobble4.mp3"
+    },
+    {
+      "name": "pbobblen.mng",
+      "size": 649546,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/pbobblen.mng",
+      "mp3_name": "pbobblen.mp3",
+      "mp3_size": 206163,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/pbobblen.mp3"
+    },
+    {
+      "name": "ponpoko.mng",
+      "size": 151171,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ponpoko.mng",
+      "mp3_name": "ponpoko.mp3",
+      "mp3_size": 170292,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ponpoko.mp3"
+    },
+    {
+      "name": "pow.mng",
+      "size": 698830,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/pow.mng",
+      "mp3_name": "pow.mp3",
+      "mp3_size": 239471,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/pow.mp3"
+    },
+    {
+      "name": "progear.mng",
+      "size": 8866190,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/progear.mng",
+      "mp3_name": "progear.mp3",
+      "mp3_size": 143938,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/progear.mp3"
+    },
+    {
+      "name": "pspikes.mng",
+      "size": 960198,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/pspikes.mng",
+      "mp3_name": "pspikes.mp3",
+      "mp3_size": 284835,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/pspikes.mp3"
+    },
+    {
+      "name": "pspikes2.mng",
+      "size": 1911719,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/pspikes2.mng",
+      "mp3_name": "pspikes2.mp3",
+      "mp3_size": 295351,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/pspikes2.mp3"
+    },
+    {
+      "name": "psychic5.mng",
+      "size": 617984,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/psychic5.mng",
+      "mp3_name": "psychic5.mp3",
+      "mp3_size": 240818,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/psychic5.mp3"
+    },
+    {
+      "name": "psychos.mng",
+      "size": 1910576,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/psychos.mng",
+      "mp3_name": "psychos.mp3",
+      "mp3_size": 241550,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/psychos.mp3"
+    },
+    {
+      "name": "punisher.mng",
+      "size": 2465351,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/punisher.mng",
+      "mp3_name": "punisher.mp3",
+      "mp3_size": 263545,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/punisher.mp3"
+    },
+    {
+      "name": "puzldprk.mng",
+      "size": 8286502,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/puzldprk.mng",
+      "mp3_name": "puzldprk.mp3",
+      "mp3_size": 760623,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/puzldprk.mp3"
+    },
+    {
+      "name": "puzzldpk.mng",
+      "size": 9779066,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/puzzldpk.mng",
+      "mp3_name": "puzzldpk.mp3",
+      "mp3_size": 1059870,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/puzzldpk.mp3"
+    },
+    {
+      "name": "pwrgoal.mng",
+      "size": 6481969,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/pwrgoal.mng",
+      "mp3_name": "pwrgoal.mp3",
+      "mp3_size": 230074,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/pwrgoal.mp3"
+    },
+    {
+      "name": "raiden.mng",
+      "size": 1796384,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/raiden.mng",
+      "mp3_name": "raiden.mp3",
+      "mp3_size": 206093,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/raiden.mp3"
+    },
+    {
+      "name": "raiden2.mng",
+      "size": 33976257,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/raiden2.mng",
+      "mp3_name": "raiden2.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/raiden2.mp3"
+    },
+    {
+      "name": "rampage.mng",
+      "size": 412466,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/rampage.mng",
+      "mp3_name": "rampage.mp3",
+      "mp3_size": 188466,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/rampage.mp3"
+    },
+    {
+      "name": "rbff1.mng",
+      "size": 4937386,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/rbff1.mng",
+      "mp3_name": "rbff1.mp3",
+      "mp3_size": 365025,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/rbff1.mp3"
+    },
+    {
+      "name": "rbff2.mng",
+      "size": 2713511,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/rbff2.mng",
+      "mp3_name": "rbff2.mp3",
+      "mp3_size": 355795,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/rbff2.mp3"
+    },
+    {
+      "name": "rbffspec.mng",
+      "size": 2858974,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/rbffspec.mng",
+      "mp3_name": "rbffspec.mp3",
+      "mp3_size": 297215,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/rbffspec.mp3"
+    },
+    {
+      "name": "rckman2k.mng",
+      "size": 20971520,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/rckman2k.mng"
+    },
+    {
+      "name": "robocop.mng",
+      "size": 1611286,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/robocop.mng",
+      "mp3_name": "robocop.mp3",
+      "mp3_size": 237272,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/robocop.mp3"
+    },
+    {
+      "name": "rockn.mng",
+      "size": 2912301,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/rockn.mng",
+      "mp3_name": "rockn.mp3",
+      "mp3_size": 177432,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/rockn.mp3"
+    },
+    {
+      "name": "rockn2.mng",
+      "size": 2994169,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/rockn2.mng",
+      "mp3_name": "rockn2.mp3",
+      "mp3_size": 191231,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/rockn2.mp3"
+    },
+    {
+      "name": "rockn3.mng",
+      "size": 2856611,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/rockn3.mng",
+      "mp3_name": "rockn3.mp3",
+      "mp3_size": 184197,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/rockn3.mp3"
+    },
+    {
+      "name": "rockn4.mng",
+      "size": 3147838,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/rockn4.mng",
+      "mp3_name": "rockn4.mp3",
+      "mp3_size": 184509,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/rockn4.mp3"
+    },
+    {
+      "name": "rranger.mng",
+      "size": 663460,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/rranger.mng",
+      "mp3_name": "rranger.mp3",
+      "mp3_size": 271197,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/rranger.mp3"
+    },
+    {
+      "name": "rungun.mng",
+      "size": 40576688,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/rungun.mng",
+      "mp3_name": "rungun.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/rungun.mp3"
+    },
+    {
+      "name": "rygar.mng",
+      "size": 2226167,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/rygar.mng",
+      "mp3_name": "rygar.mp3",
+      "mp3_size": 240922,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/rygar.mp3"
+    },
+    {
+      "name": "s1945.mng",
+      "size": 3472821,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/s1945.mng",
+      "mp3_name": "s1945.mp3",
+      "mp3_size": 215651,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/s1945.mp3"
+    },
+    {
+      "name": "s1945ii.mng",
+      "size": 11482680,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/s1945ii.mng",
+      "mp3_name": "s1945ii.mp3",
+      "mp3_size": 114981,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/s1945ii.mp3"
+    },
+    {
+      "name": "s1945iii.mng",
+      "size": 13849880,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/s1945iii.mng",
+      "mp3_name": "s1945iii.mp3",
+      "mp3_size": 121251,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/s1945iii.mp3"
+    },
+    {
+      "name": "s1945p.mng",
+      "size": 7883249,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/s1945p.mng",
+      "mp3_name": "s1945p.mp3",
+      "mp3_size": 226806,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/s1945p.mp3"
+    },
+    {
+      "name": "s1945ps01.mng",
+      "size": 7883249,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/s1945ps01.mng",
+      "mp3_name": "s1945ps01.mp3",
+      "mp3_size": 226806,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/s1945ps01.mp3"
+    },
+    {
+      "name": "samsh5sp.mng",
+      "size": 4087470,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/samsh5sp.mng",
+      "mp3_name": "samsh5sp.mp3",
+      "mp3_size": 254746,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/samsh5sp.mp3"
+    },
+    {
+      "name": "samsho.mng",
+      "size": 4601414,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/samsho.mng",
+      "mp3_name": "samsho.mp3",
+      "mp3_size": 310674,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/samsho.mp3"
+    },
+    {
+      "name": "samsho2.mng",
+      "size": 7763528,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/samsho2.mng",
+      "mp3_name": "samsho2.mp3",
+      "mp3_size": 331754,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/samsho2.mp3"
+    },
+    {
+      "name": "samsho3.mng",
+      "size": 4214658,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/samsho3.mng",
+      "mp3_name": "samsho3.mp3",
+      "mp3_size": 339062,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/samsho3.mp3"
+    },
+    {
+      "name": "samsho4.mng",
+      "size": 3484945,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/samsho4.mng",
+      "mp3_name": "samsho4.mp3",
+      "mp3_size": 258374,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/samsho4.mp3"
+    },
+    {
+      "name": "samsho5.mng",
+      "size": 4662056,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/samsho5.mng",
+      "mp3_name": "samsho5.mp3",
+      "mp3_size": 210001,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/samsho5.mp3"
+    },
+    {
+      "name": "searchey.mng",
+      "size": 4123709,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/searchey.mng",
+      "mp3_name": "searchey.mp3",
+      "mp3_size": 241096,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/searchey.mp3"
+    },
+    {
+      "name": "searcheya.mng",
+      "size": 4123709,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/searcheya.mng",
+      "mp3_name": "searcheya.mp3",
+      "mp3_size": 241096,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/searcheya.mp3"
+    },
+    {
+      "name": "searchp2.mng",
+      "size": 10428022,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/searchp2.mng",
+      "mp3_name": "searchp2.mp3",
+      "mp3_size": 241096,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/searchp2.mp3"
+    },
+    {
+      "name": "sengoku.mng",
+      "size": 1509265,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/sengoku.mng",
+      "mp3_name": "sengoku.mp3",
+      "mp3_size": 333088,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/sengoku.mp3"
+    },
+    {
+      "name": "sengoku2.mng",
+      "size": 1904163,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/sengoku2.mng",
+      "mp3_name": "sengoku2.mp3",
+      "mp3_size": 361646,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/sengoku2.mp3"
+    },
+    {
+      "name": "sengoku3.mng",
+      "size": 2003711,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/sengoku3.mng",
+      "mp3_name": "sengoku3.mp3",
+      "mp3_size": 224958,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/sengoku3.mp3"
+    },
+    {
+      "name": "sengoku3e3.mng",
+      "size": 22224333,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/sengoku3e3.mng",
+      "mp3_name": "sengoku3e3.mp3",
+      "mp3_size": 481009,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/sengoku3e3.mp3"
+    },
+    {
+      "name": "sengoku3s09.mng",
+      "size": 23586745,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/sengoku3s09.mng",
+      "mp3_name": "sengoku3s09.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/sengoku3s09.mp3"
+    },
+    {
+      "name": "sf2.mng",
+      "size": 2792057,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/sf2.mng",
+      "mp3_name": "sf2.mp3",
+      "mp3_size": 245328,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/sf2.mp3"
+    },
+    {
+      "name": "sf2ce.mng",
+      "size": 2780730,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/sf2ce.mng",
+      "mp3_name": "sf2ce.mp3",
+      "mp3_size": 240820,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/sf2ce.mp3"
+    },
+    {
+      "name": "sfa.mng",
+      "size": 3439459,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/sfa.mng",
+      "mp3_name": "sfa.mp3",
+      "mp3_size": 390476,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/sfa.mp3"
+    },
+    {
+      "name": "sfa2.mng",
+      "size": 5459394,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/sfa2.mng",
+      "mp3_name": "sfa2.mp3",
+      "mp3_size": 347220,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/sfa2.mp3"
+    },
+    {
+      "name": "sfa3.mng",
+      "size": 5203144,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/sfa3.mng",
+      "mp3_name": "sfa3.mp3",
+      "mp3_size": 371036,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/sfa3.mp3"
+    },
+    {
+      "name": "sfz2aljk.mng",
+      "size": 78824021,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/sfz2aljk.mng",
+      "mp3_name": "sfz2aljk.mp3",
+      "mp3_size": 481427,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/sfz2aljk.mp3"
+    },
+    {
+      "name": "sfz2jr1k.mng",
+      "size": 62523050,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/sfz2jr1k.mng",
+      "mp3_name": "sfz2jr1k.mp3",
+      "mp3_size": 433361,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/sfz2jr1k.mp3"
+    },
+    {
+      "name": "sfzjk.mng",
+      "size": 57379065,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/sfzjk.mng",
+      "mp3_name": "sfzjk.mp3",
+      "mp3_size": 480591,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/sfzjk.mp3"
+    },
+    {
+      "name": "shadoww.mng",
+      "size": 1100653,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/shadoww.mng",
+      "mp3_name": "shadoww.mp3",
+      "mp3_size": 240505,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/shadoww.mp3"
+    },
+    {
+      "name": "shinobi.mng",
+      "size": 1352682,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/shinobi.mng",
+      "mp3_name": "shinobi.mp3",
+      "mp3_size": 88238,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/shinobi.mp3"
+    },
+    {
+      "name": "shocktr2.mng",
+      "size": 5439016,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/shocktr2.mng",
+      "mp3_name": "shocktr2.mp3",
+      "mp3_size": 307677,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/shocktr2.mp3"
+    },
+    {
+      "name": "shocktro.mng",
+      "size": 2686827,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/shocktro.mng",
+      "mp3_name": "shocktro.mp3",
+      "mp3_size": 269237,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/shocktro.mp3"
+    },
+    {
+      "name": "simpsons.mng",
+      "size": 729309,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/simpsons.mng",
+      "mp3_name": "simpsons.mp3",
+      "mp3_size": 329796,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/simpsons.mp3"
+    },
+    {
+      "name": "snowbro2.mng",
+      "size": 761912,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/snowbro2.mng",
+      "mp3_name": "snowbro2.mp3",
+      "mp3_size": 258333,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/snowbro2.mp3"
+    },
+    {
+      "name": "snowbros.mng",
+      "size": 524123,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/snowbros.mng",
+      "mp3_name": "snowbros.mp3",
+      "mp3_size": 177223,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/snowbros.mp3"
+    },
+    {
+      "name": "solomon.mng",
+      "size": 216714,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/solomon.mng",
+      "mp3_name": "solomon.mp3",
+      "mp3_size": 240820,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/solomon.mp3"
+    },
+    {
+      "name": "sonicwi2.mng",
+      "size": 2144219,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/sonicwi2.mng",
+      "mp3_name": "sonicwi2.mp3",
+      "mp3_size": 234356,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/sonicwi2.mp3"
+    },
+    {
+      "name": "sonicwi3.mng",
+      "size": 1563279,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/sonicwi3.mng",
+      "mp3_name": "sonicwi3.mp3",
+      "mp3_size": 221152,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/sonicwi3.mp3"
+    },
+    {
+      "name": "sonson.mng",
+      "size": 545896,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/sonson.mng",
+      "mp3_name": "sonson.mp3",
+      "mp3_size": 89337,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/sonson.mp3"
+    },
+    {
+      "name": "spdodgeb.mng",
+      "size": 721036,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/spdodgeb.mng",
+      "mp3_name": "spdodgeb.mp3",
+      "mp3_size": 287611,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/spdodgeb.mp3"
+    },
+    {
+      "name": "spinmast.mng",
+      "size": 2781777,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/spinmast.mng",
+      "mp3_name": "spinmast.mp3",
+      "mp3_size": 266845,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/spinmast.mp3"
+    },
+    {
+      "name": "ssf2.mng",
+      "size": 79331451,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ssf2.mng",
+      "mp3_name": "ssf2.mp3",
+      "mp3_size": 1073257,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ssf2.mp3"
+    },
+    {
+      "name": "ssf2t.mng",
+      "size": 58357865,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ssf2t.mng",
+      "mp3_name": "ssf2t.mp3",
+      "mp3_size": 746831,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ssf2t.mp3"
+    },
+    {
+      "name": "ssriders.mng",
+      "size": 1631258,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/ssriders.mng",
+      "mp3_name": "ssriders.mp3",
+      "mp3_size": 271670,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/ssriders.mp3"
+    },
+    {
+      "name": "stadhero.mng",
+      "size": 353588,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/stadhero.mng",
+      "mp3_name": "stadhero.mp3",
+      "mp3_size": 240922,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/stadhero.mp3"
+    },
+    {
+      "name": "strhoop.mng",
+      "size": 3700440,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/strhoop.mng",
+      "mp3_name": "strhoop.mp3",
+      "mp3_size": 343586,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/strhoop.mp3"
+    },
+    {
+      "name": "strider.mng",
+      "size": 2890813,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/strider.mng",
+      "mp3_name": "strider.mp3",
+      "mp3_size": 241553,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/strider.mp3"
+    },
+    {
+      "name": "striderjrk.mng",
+      "size": 25082621,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/striderjrk.mng",
+      "mp3_name": "striderjrk.mp3",
+      "mp3_size": 483922,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/striderjrk.mp3"
+    },
+    {
+      "name": "superman.mng",
+      "size": 1224438,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/superman.mng",
+      "mp3_name": "superman.mp3",
+      "mp3_size": 276050,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/superman.mp3"
+    },
+    {
+      "name": "suprmrio.mng",
+      "size": 419145,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/suprmrio.mng",
+      "mp3_name": "suprmrio.mp3",
+      "mp3_size": 241658,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/suprmrio.mp3"
+    },
+    {
+      "name": "suprslam.mng",
+      "size": 3967674,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/suprslam.mng",
+      "mp3_name": "suprslam.mp3",
+      "mp3_size": 223585,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/suprslam.mp3"
+    },
+    {
+      "name": "svc.mng",
+      "size": 18915025,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/svc.mng",
+      "mp3_name": "svc.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/svc.mp3"
+    },
+    {
+      "name": "svolley.mng",
+      "size": 499583,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/svolley.mng",
+      "mp3_name": "svolley.mp3",
+      "mp3_size": 241656,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/svolley.mp3"
+    },
+    {
+      "name": "tankfrce.mng",
+      "size": 400040,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/tankfrce.mng",
+      "mp3_name": "tankfrce.mp3",
+      "mp3_size": 314127,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/tankfrce.mp3"
+    },
+    {
+      "name": "tantr.mng",
+      "size": 331429,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/tantr.mng",
+      "mp3_name": "tantr.mp3",
+      "mp3_size": 241763,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/tantr.mp3"
+    },
+    {
+      "name": "tantrkor.mng",
+      "size": 26376069,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/tantrkor.mng",
+      "mp3_name": "tantrkor.mp3",
+      "mp3_size": 241100,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/tantrkor.mp3"
+    },
+    {
+      "name": "tehkanwc.mng",
+      "size": 902692,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/tehkanwc.mng",
+      "mp3_name": "tehkanwc.mp3",
+      "mp3_size": 177914,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/tehkanwc.mp3"
+    },
+    {
+      "name": "terracre.mng",
+      "size": 748355,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/terracre.mng",
+      "mp3_name": "terracre.mp3",
+      "mp3_size": 85598,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/terracre.mp3"
+    },
+    {
+      "name": "tigeroad.mng",
+      "size": 1289569,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/tigeroad.mng",
+      "mp3_name": "tigeroad.mp3",
+      "mp3_size": 246164,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/tigeroad.mp3"
+    },
+    {
+      "name": "tk2c21k.mng",
+      "size": 29809079,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/tk2c21k.mng",
+      "mp3_name": "tk2c21k.mp3",
+      "mp3_size": 241100,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/tk2c21k.mp3"
+    },
+    {
+      "name": "tk2h10k.mng",
+      "size": 7136448,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/tk2h10k.mng",
+      "mp3_name": "tk2h10k.mp3",
+      "mp3_size": 241100,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/tk2h10k.mp3"
+    },
+    {
+      "name": "tk2h65k.mng",
+      "size": 15185119,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/tk2h65k.mng",
+      "mp3_name": "tk2h65k.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/tk2h65k.mp3"
+    },
+    {
+      "name": "tk2h71k.mng",
+      "size": 10823387,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/tk2h71k.mng",
+      "mp3_name": "tk2h71k.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/tk2h71k.mp3"
+    },
+    {
+      "name": "tk2h142k.mng",
+      "size": 22707974,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/tk2h142k.mng",
+      "mp3_name": "tk2h142k.mp3",
+      "mp3_size": 241100,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/tk2h142k.mp3"
+    },
+    {
+      "name": "tk2hek06k.mng",
+      "size": 14529546,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/tk2hek06k.mng",
+      "mp3_name": "tk2hek06k.mp3",
+      "mp3_size": 160848,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/tk2hek06k.mp3"
+    },
+    {
+      "name": "tmnt.mng",
+      "size": 2419807,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/tmnt.mng",
+      "mp3_name": "tmnt.mp3",
+      "mp3_size": 242707,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/tmnt.mp3"
+    },
+    {
+      "name": "tmnt2.mng",
+      "size": 42136047,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/tmnt2.mng",
+      "mp3_name": "tmnt2.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/tmnt2.mp3"
+    },
+    {
+      "name": "tnzs.mng",
+      "size": 546771,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/tnzs.mng",
+      "mp3_name": "tnzs.mp3",
+      "mp3_size": 242913,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/tnzs.mp3"
+    },
+    {
+      "name": "toki.mng",
+      "size": 4307796,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/toki.mng",
+      "mp3_name": "toki.mp3",
+      "mp3_size": 181754,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/toki.mp3"
+    },
+    {
+      "name": "tophuntrk.mng",
+      "size": 74422649,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/tophuntrk.mng",
+      "mp3_name": "tophuntrk.mp3",
+      "mp3_size": 1144716,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/tophuntrk.mp3"
+    },
+    {
+      "name": "trackfld.mng",
+      "size": 868120,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/trackfld.mng",
+      "mp3_name": "trackfld.mp3",
+      "mp3_size": 181994,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/trackfld.mp3"
+    },
+    {
+      "name": "tumblep.mng",
+      "size": 1480677,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/tumblep.mng",
+      "mp3_name": "tumblep.mp3",
+      "mp3_size": 263282,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/tumblep.mp3"
+    },
+    {
+      "name": "uccopsk.mng",
+      "size": 4595238,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/uccopsk.mng",
+      "mp3_name": "uccopsk.mp3",
+      "mp3_size": 286654,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/uccopsk.mp3"
+    },
+    {
+      "name": "unsquad.mng",
+      "size": 3830585,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/unsquad.mng",
+      "mp3_name": "unsquad.mp3",
+      "mp3_size": 102823,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/unsquad.mp3"
+    },
+    {
+      "name": "vball.mng",
+      "size": 780159,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/vball.mng",
+      "mp3_name": "vball.mp3",
+      "mp3_size": 320685,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/vball.mp3"
+    },
+    {
+      "name": "vhunt2.mng",
+      "size": 31026551,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/vhunt2.mng",
+      "mp3_name": "vhunt2.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/vhunt2.mp3"
+    },
+    {
+      "name": "viostorm.mng",
+      "size": 21248256,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/viostorm.mng",
+      "mp3_name": "viostorm.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/viostorm.mp3"
+    },
+    {
+      "name": "vsav.mng",
+      "size": 5529967,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/vsav.mng",
+      "mp3_name": "vsav.mp3",
+      "mp3_size": 390598,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/vsav.mp3"
+    },
+    {
+      "name": "vsav2.mng",
+      "size": 4930743,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/vsav2.mng",
+      "mp3_name": "vsav2.mp3",
+      "mp3_size": 394860,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/vsav2.mp3"
+    },
+    {
+      "name": "wb3.mng",
+      "size": 1611569,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/wb3.mng",
+      "mp3_name": "wb3.mp3",
+      "mp3_size": 185490,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/wb3.mp3"
+    },
+    {
+      "name": "wbml.mng",
+      "size": 2250709,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/wbml.mng",
+      "mp3_name": "wbml.mp3",
+      "mp3_size": 241205,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/wbml.mp3"
+    },
+    {
+      "name": "wbmlkb.mng",
+      "size": 7614160,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/wbmlkb.mng",
+      "mp3_name": "wbmlkb.mp3",
+      "mp3_size": 241090,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/wbmlkb.mp3"
+    },
+    {
+      "name": "wboy.mng",
+      "size": 1039874,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/wboy.mng",
+      "mp3_name": "wboy.mp3",
+      "mp3_size": 70051,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/wboy.mp3"
+    },
+    {
+      "name": "wc90.mng",
+      "size": 1338842,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/wc90.mng",
+      "mp3_name": "wc90.mp3",
+      "mp3_size": 172819,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/wc90.mp3"
+    },
+    {
+      "name": "wh1.mng",
+      "size": 3836139,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/wh1.mng",
+      "mp3_name": "wh1.mp3",
+      "mp3_size": 346199,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/wh1.mp3"
+    },
+    {
+      "name": "wh2.mng",
+      "size": 2974766,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/wh2.mng",
+      "mp3_name": "wh2.mp3",
+      "mp3_size": 325425,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/wh2.mp3"
+    },
+    {
+      "name": "wh2j.mng",
+      "size": 3027421,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/wh2j.mng",
+      "mp3_name": "wh2j.mp3",
+      "mp3_size": 380291,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/wh2j.mp3"
+    },
+    {
+      "name": "whp.mng",
+      "size": 6106511,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/whp.mng",
+      "mp3_name": "whp.mp3",
+      "mp3_size": 363454,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/whp.mp3"
+    },
+    {
+      "name": "wiz.mng",
+      "size": 1044127,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/wiz.mng",
+      "mp3_name": "wiz.mp3",
+      "mp3_size": 241342,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/wiz.mp3"
+    },
+    {
+      "name": "wizdfire.mng",
+      "size": 2821702,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/wizdfire.mng",
+      "mp3_name": "wizdfire.mp3",
+      "mp3_size": 184184,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/wizdfire.mp3"
+    },
+    {
+      "name": "wndrplnt.mng",
+      "size": 1168863,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/wndrplnt.mng",
+      "mp3_name": "wndrplnt.mp3",
+      "mp3_size": 241133,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/wndrplnt.mp3"
+    },
+    {
+      "name": "wof.mng",
+      "size": 1861826,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/wof.mng",
+      "mp3_name": "wof.mp3",
+      "mp3_size": 336264,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/wof.mp3"
+    },
+    {
+      "name": "wofch.mng",
+      "size": 26078061,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/wofch.mng",
+      "mp3_name": "wofch.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/wofch.mp3"
+    },
+    {
+      "name": "wofchk.mng",
+      "size": 13758177,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/wofchk.mng",
+      "mp3_name": "wofchk.mp3",
+      "mp3_size": 609318,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/wofchk.mp3"
+    },
+    {
+      "name": "wofk.mng",
+      "size": 13758177,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/wofk.mng",
+      "mp3_name": "wofk.mp3",
+      "mp3_size": 609318,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/wofk.mp3"
+    },
+    {
+      "name": "wwfsstar.mng",
+      "size": 1014285,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/wwfsstar.mng",
+      "mp3_name": "wwfsstar.mp3",
+      "mp3_size": 170777,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/wwfsstar.mp3"
+    },
+    {
+      "name": "wwfwfest.mng",
+      "size": 1775703,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/wwfwfest.mng",
+      "mp3_name": "wwfwfest.mp3",
+      "mp3_size": 166680,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/wwfwfest.mp3"
+    },
+    {
+      "name": "xmcota.mng",
+      "size": 5580638,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/xmcota.mng",
+      "mp3_name": "xmcota.mp3",
+      "mp3_size": 399662,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/xmcota.mp3"
+    },
+    {
+      "name": "xmen.mng",
+      "size": 1888667,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/xmen.mng",
+      "mp3_name": "xmen.mp3",
+      "mp3_size": 390842,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/xmen.mp3"
+    },
+    {
+      "name": "xmvsf.mng",
+      "size": 15668435,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/xmvsf.mng",
+      "mp3_name": "xmvsf.mp3",
+      "mp3_size": 160852,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/xmvsf.mp3"
+    },
+    {
+      "name": "xsleena.mng",
+      "size": 1711307,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/xsleena.mng",
+      "mp3_name": "xsleena.mp3",
+      "mp3_size": 239984,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/xsleena.mp3"
+    },
+    {
+      "name": "yiear.mng",
+      "size": 292275,
+      "url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mng-001/yiear.mng",
+      "mp3_name": "yiear.mp3",
+      "mp3_size": 129381,
+      "mp3_url": "https://github.com/WOOSEOK99/EKMAME_IPS/releases/download/mp3-001/yiear.mp3"
+    }
+  ]
+}
