@@ -154,15 +154,17 @@ els.selectedDownload.addEventListener("click", async () => {
     if (safeMp3Url(file)) downloads.push({ name: file.mp3_name, url: file.mp3_url });
   });
   if (!downloads.length) return;
-  showToast(downloads.length + "개 파일 다운로드를 시작합니다. 브라우저가 여러 파일 다운로드 허용을 요청할 수 있습니다.");
+  showToast(downloads.length + "개 파일 다운로드를 요청합니다. 브라우저에서 여러 파일 다운로드를 허용해야 할 수 있습니다.");
   for (const file of downloads) {
-    const link = document.createElement("a");
-    link.href = file.url;
-    link.download = file.name;
-    document.body.appendChild(link);
-    link.click();
-    link.remove();
-    await new Promise(resolve => setTimeout(resolve, 500));
+    // Release URLs are cross-origin: an <a download> click can navigate this page.
+    // Separate iframes prevent a later MP3 navigation from replacing an MNG request.
+    const frame = document.createElement("iframe");
+    frame.style.display = "none";
+    frame.setAttribute("aria-hidden", "true");
+    document.body.appendChild(frame);
+    frame.src = file.url;
+    setTimeout(() => frame.remove(), 30000);
+    await new Promise(resolve => setTimeout(resolve, 1200));
   }
 });
 fetch("./data/mng.json", { cache: "no-store" })
