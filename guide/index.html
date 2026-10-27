@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="EKMAME / EKGUI 0.289.8 사용설명서: 게임 검색, IPS 패치, RomData, 컨트롤러, 화면 설정, 공략 표시 기능 안내">
+  <meta name="theme-color" content="#101d35">
+  <title>EKMAME / EKGUI 사용설명서</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">본문으로 바로가기</a>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#top" aria-label="사용설명서 처음으로">
+        <span class="brand-mark">EK<span>+</span></span>
+        <span class="brand-copy"><strong>EKMAME</strong><small>USER GUIDE</small></span>
+      </a>
+      <div class="topbar-actions">
+        <span class="version-pill">0.289.8 기준</span>
+        <a class="topbar-link" href="../">IPS 다운로드</a>
+        <a class="topbar-link external" href="https://github.com/WOOSEOK99/EKMAME_IPS" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        <button type="button" class="menu-button" id="menuButton" aria-controls="sidebar" aria-expanded="false">☰ <span>목차</span></button>
+      </div>
+    </div>
+  </header>
+
+  <div id="mobileScrim" class="mobile-scrim" hidden></div>
+  <div class="site-shell" id="top">
+    <aside class="sidebar" id="sidebar" aria-label="문서 목차">
+      <div class="sidebar-head">
+        <span class="sidebar-kicker">DOCUMENTATION</span>
+        <strong>EKGUI 사용설명서</strong>
+        <span>0.289.3 – 0.289.8</span>
+      </div>
+      <label class="search-field" for="guideSearch">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="7"/><path d="m16 16 5 5"/></svg>
+        <input id="guideSearch" type="search" placeholder="설명서 검색" autocomplete="off">
+        <kbd>/</kbd>
+      </label>
+      <nav id="guideNav" class="guide-nav">
+        <span class="nav-label">시작하기</span>
+        <a href="#overview"><span>01</span> 처음 사용하기</a>
+        <a href="#games"><span>02</span> 게임 목록과 검색</a>
+        <a href="#scan"><span>03</span> ROM 검사와 갱신</a>
+        <span class="nav-label">주요 기능</span>
+        <a href="#ips"><span>04</span> IPS 패치 관리</a>
+        <a href="#romdata"><span>05</span> RomData 사용</a>
+        <a href="#controller"><span>06</span> 컨트롤러 설정</a>
+        <a href="#video"><span>07</span> 화면과 비디오 설정</a>
+        <a href="#preview"><span>08</span> 아트워크·동영상</a>
+        <a href="#commands"><span>09</span> 게임 내 공략 보기</a>
+        <span class="nav-label">관리와 참고</span>
+        <a href="#folders"><span>10</span> 폴더와 데이터 이전</a>
+        <a href="#faq"><span>11</span> 문제 해결</a>
+        <a href="#history"><span>12</span> 버전별 변경 사항</a>
+      </nav>
+      <div class="sidebar-note"><span class="dot"></span> 사용자 게시글과 첨부 화면을 바탕으로 작성했습니다.</div>
+    </aside>
+
+    <main id="content" class="main-content">
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero-orb hero-orb-one"></div><div class="hero-orb hero-orb-two"></div>
+        <div class="hero-copy">
+          <div class="hero-eyebrow"><span class="eyebrow-line"></span> EKMAME PROJECT / OFFICIAL FEATURE NOTES</div>
+          <h1 id="heroTitle">게임은 쉽게,<br><em>설정은 정확하게.</em></h1>
+          <p>게임 목록부터 IPS 패치, RomData, 조이스틱, 화면 효과, 게임 내 공략까지. EKMAME / EKGUI의 주요 기능을 한곳에 정리한 웹 사용설명서입니다.</p>
+          <div class="hero-actions">
+            <a class="button-primary" href="#overview">사용 시작하기 <span aria-hidden="true">→</span></a>
+            <a class="button-outline" href="#ips">IPS 패치 알아보기</a>
+          </div>
+          <div class="hero-meta"><span>자료 범위 <strong>0.289.3 – 0.289.8</strong></span><i></i><span>문서 기준 <strong>2026.10</strong></span></div>
+        </div>
+        <div class="hero-visual"><img src="./images/overview.webp" alt="EKMAME 0.289.8의 게임 목록과 공략 탭 화면"><div class="hero-visual-label"><span class="live-dot"></span> EKGUI INTERFACE</div></div>
+      </section>
+
+      <div class="notice notice-primary"><span class="notice-symbol">i</span><p><strong>먼저 확인하세요.</strong> 이 문서는 0.289.3~0.289.8 배포 글과 스크린샷을 기준으로 작성했습니다. 실제 메뉴 위치는 사용 중인 버전에 따라 다를 수 있습니다. 설치 파일이나 ROM/CHD 파일은 제공하지 않습니다.</p></div>
+
+      <section class="doc-section" id="overview" data-title="처음 사용하기 설치 실행 시작하기">
+        <div class="section-heading"><span class="section-index">01 / GETTING STARTED</span><h2>처음 사용하기</h2><p>압축을 풀고, 게임 폴더를 지정하고, 목록에서 실행하는 기본 흐름입니다.</p></div>
+        <div class="step-grid">
+          <div class="step-card"><span class="step-num">01</span><h3>배포 파일 준비</h3><p>배포된 EKGUI / EKMAME 패키지를 준비하고 압축을 해제합니다. 분할 압축 파일은 구성 파일을 함께 준비해야 합니다.</p></div>
+          <div class="step-card"><span class="step-num">02</span><h3>게임 경로 지정</h3><p><strong>옵션 → 디렉터리</strong>에서 ROM 경로를 확인하거나 추가합니다. 기존 경로를 사용한다면 실제 폴더 위치와 일치하는지 확인하세요.</p></div>
+          <div class="step-card"><span class="step-num">03</span><h3>게임 목록 확인</h3><p>필요한 ROM 검사를 실행한 다음 왼쪽 폴더에서 게임을 찾습니다. 게임 목록의 항목을 더블클릭해 실행할 수 있습니다.</p></div>
+        </div>
+        <div class="notice notice-amber"><span class="notice-symbol">!</span><p><strong>기존 버전에서 업데이트한다면</strong> 개별 게임의 INI·CFG와 사용자 데이터를 먼저 백업하세요. 특히 0.289.7부터 폴더 구조가 바뀌었습니다. <a href="#folders">데이터 이전 안내 보기</a></p></div>
+      </section>
+
+      <section class="doc-section" id="games" data-title="게임 목록 검색 한국어 제목 카드 전체화면 아이콘 폴더">
+        <div class="section-heading"><span class="section-index">02 / GAME LIBRARY</span><h2>게임 목록과 검색</h2><p>왼쪽에서 분류를 선택하고, 가운데에서 게임을 찾고, 오른쪽에서 미리보기와 정보를 확인합니다.</p></div>
+        <figure class="screenshot screenshot-wide"><a href="./images/overview.webp" data-lightbox><img src="./images/overview.webp" alt="0.289.8 게임 리스트의 검색창, 왼쪽 분류, 오른쪽 공략 탭" loading="lazy"></a><figcaption><span>01</span> 일반 게임 목록 — 왼쪽 폴더, 중앙 리스트, 오른쪽 미리보기·정보·공략 영역</figcaption></figure>
+        <div class="feature-grid">
+          <article class="feature-card"><div class="feature-icon">⌕</div><h3>게임 검색</h3><p>게임 제목뿐 아니라 ROM 파일명으로도 검색할 수 있습니다. 한국어 검색은 띄어쓰기를 무시하고, 영문 검색은 대소문자를 구분하지 않도록 개선됐습니다.</p><small>0.289.4 ~ 0.289.6</small></article>
+          <article class="feature-card"><div class="feature-icon">▦</div><h3>보기 방식</h3><p>목록·상세·아이콘·카드형 보기와 별도의 게임 목록 전체화면 모드를 사용할 수 있습니다. 표시 형태는 버전에 따라 다릅니다.</p><small>0.289.6 ~ 0.289.7</small></article>
+          <article class="feature-card"><div class="feature-icon">☰</div><h3>분류 폴더</h3><p>네오지오, CPS, PGM의 전체·해킹 목록과 한국어 게임 등으로 이동할 수 있습니다. 폴더 표시 여부와 순서도 조정할 수 있습니다.</p><small>0.289.3 ~ 0.289.7</small></article>
+        </div>
+        <div class="image-pair">
+          <figure class="screenshot"><a href="./images/cards.webp" data-lightbox><img src="./images/cards.webp" alt="카드형 게임 목록 화면" loading="lazy"></a><figcaption>카드형 보기 — 게임 이미지를 크게 표시</figcaption></figure>
+          <figure class="screenshot"><a href="./images/icons.webp" data-lightbox><img src="./images/icons.webp" alt="아이콘 방식 게임 목록 화면" loading="lazy"></a><figcaption>아이콘 보기 — 다수의 게임을 한눈에 표시</figcaption></figure>
+        </div>
+        <figure class="screenshot screenshot-wide"><a href="./images/fullscreen.webp" data-lightbox><img src="./images/fullscreen.webp" alt="게임 목록 전체화면 모드" loading="lazy"></a><figcaption>0.289.7 전체화면 뷰 — 방향키 이동, Enter 실행, Esc 나가기</figcaption></figure>
+        <div class="tip"><strong>참고</strong><p>전체화면 뷰에서 MP4·MNG 동영상 미리보기를 지원하며, <strong>인터페이스 옵션</strong>에서 실행 시 전체화면 모드로 자동 진입하도록 지정할 수 있습니다.</p></div>
+      </section>
+
+      <section class="doc-section" id="scan" data-title="ROM 검사 빠른검색 F5 캐시 ZIP 변경 검색 갱신">
+        <div class="section-heading"><span class="section-index">03 / ROM SCAN</span><h2>ROM 검사와 목록 갱신</h2><p>처음에는 전체 검사, 그 뒤에는 변경된 파일을 중심으로 빠르게 검사합니다.</p></div>
+        <div class="two-column">
+          <div><ol class="numbered"><li><strong>최초 전체 검사</strong><span>설정한 ROM 폴더의 게임들을 처음 검사하면 검사 결과가 캐시에 저장됩니다.</span></li><li><strong>ROM 추가·교체</strong><span>기존 폴더에 새 ZIP을 넣거나 파일이 변경됐다면 목록 갱신이 필요합니다.</span></li><li><strong>빠른 검색(F5)</strong><span>EKGUI의 게임 목록 화면에서 <kbd>F5</kbd>를 사용하면 기존 검사 결과를 재사용하고 변경된 항목을 빠르게 확인합니다.</span></li></ol></div>
+          <div class="note-card"><span class="note-card-tag">0.289.6 개선</span><h3>대량 목록도 더 빠르게</h3><p>초기 로딩, 정렬, 보기 전환과 ROM 검색 캐시 처리가 개선됐습니다. ZIP 파일 변경 감지와 최초 전체 검사 안내도 추가됐습니다.</p><div class="key-combo"><kbd>F5</kbd><span>게임 목록에서 빠른 검색</span></div></div>
+        </div>
+        <div class="notice notice-neutral"><span class="notice-symbol">↔</span><p><strong>F5의 기능은 화면에 따라 다릅니다.</strong> EKGUI 게임 목록에서는 ROM 빠른 검색, <strong>게임 실행 중</strong>에는 공략 보기/감추기 단축키로 안내돼 있습니다.</p></div>
+      </section>
+
+      <section class="doc-section" id="ips" data-title="IPS 해킹롬 패치 부모롬 다중 선택 패치명 한국어 게임 관리 DAT CRC">
+        <div class="section-heading"><span class="section-index">04 / IPS PATCHES</span><h2>IPS 패치 관리</h2><p>원본 ROM에 IPS 패치를 적용하고, 여러 패치를 함께 선택하거나 이름을 수정할 수 있습니다.</p></div>
+        <div class="badge-line"><span class="soft-badge">0.289.3 자동 목록</span><span class="soft-badge">0.289.5 다중 패치</span><span class="soft-badge">0.289.6 분류 개선</span></div>
+        <h3 class="subheading">패치 파일 준비와 실행</h3>
+        <ol class="numbered"><li><strong>부모 ROM 확인</strong><span>패치를 적용할 원본 게임(부모롬)의 ROM 이름을 확인합니다.</span></li><li><strong>IPS 파일 배치</strong><span>배포 글의 안내에 따라 <code>ips</code> 폴더에 부모롬 이름을 기준으로 패치 파일을 배치합니다. 한국어 게임 분류에 사용할 패치에는 해당 <code>.dat</code> 정보와 <code>.ips</code>가 함께 있어야 합니다.</span></li><li><strong>목록에서 실행</strong><span>해킹 폴더에 나타난 IPS 항목을 더블클릭하면 부모 ROM에 패치를 적용해 게임을 실행하는 방식입니다.</span></li></ol>
+        <figure class="screenshot"><a href="./images/ips-list.webp" data-lightbox><img src="./images/ips-list.webp" alt="해킹 게임 목록에 표시된 다양한 IPS 패치 항목" loading="lazy"></a><figcaption>부모 ROM과 IPS 패치 이름이 게임 목록에 표시된 예시 (0.289.3)</figcaption></figure>
+        <h3 class="subheading">한 번에 여러 IPS 선택하기</h3>
+        <p>0.289.5부터 하나의 게임에 여러 패치를 함께 선택할 수 있습니다. 예를 들어 한국어 패치와 캐릭터 선택 패치를 조합할 수 있지만, 패치 변경 영역이 겹치면 함께 적용되지 않을 수 있습니다.</p>
+        <div class="image-pair unequal">
+          <figure class="screenshot"><a href="./images/ips-multiple.webp" data-lightbox><img src="./images/ips-multiple.webp" alt="KOF94 패치를 여러 개 선택하는 창" loading="lazy"></a><figcaption>패치 선택 창 — 상태가 <strong>정상</strong>인지 확인</figcaption></figure>
+          <figure class="screenshot"><a href="./images/ips-manager.webp" data-lightbox><img src="./images/ips-manager.webp" alt="IPS 관리 화면과 패치 편집 기능" loading="lazy"></a><figcaption><strong>도구 → IPS 관리</strong> — 패치 선택 및 이름·정보 수정</figcaption></figure>
+        </div>
+        <div class="notice notice-amber"><span class="notice-symbol">!</span><p>복수 패치 선택 시 상태가 <strong>정상</strong>으로 표시되지 않으면 패치 내용이 충돌할 가능성이 있습니다. 정상 조합인지 먼저 확인하세요.</p></div>
+        <h3 class="subheading">패치명을 한글로 표시하기</h3>
+        <p>IPS 관리에서 <strong>패치명</strong>을 한글로 수정하면 게임 목록에도 한글 이름을 표시할 수 있습니다. 한국어 게임 폴더에 포함하려면 패치명에 <strong>한국어</strong> 또는 <strong>한글</strong>이라는 표현을 포함하도록 안내돼 있습니다.</p>
+        <div class="code-panel"><div class="code-title"><span>DAT 항목 예시 · 0.289.3 게시글</span></div><pre><code>cde_23a.8f  Uzi CRC(8f4e585e)
+
+[en_US]
+Extra Uzi (한국어 패치)</code></pre></div>
+        <p class="text-small">예시 첫 줄에는 부모 ROM 내부 파일명, 패치 파일명, 원본 CRC 정보가 차례로 들어갑니다. 실제 값은 사용하는 패치의 데이터와 일치해야 합니다.</p>
+      </section>
+
+      <section class="doc-section" id="romdata" data-title="RomData 네오지오 MVS CPS 스트리트 파이터 2 드라이버 해킹롬">
+        <div class="section-heading"><span class="section-index">05 / ROMDATA</span><h2>RomData 사용</h2><p>일부 게임은 IPS 패치 대신 외부 ROM 정의로 지원할 수 있습니다.</p></div>
+        <div class="romdata-banner"><div><span class="soft-badge on-dark">0.289.4 추가</span><h3>IPS만으로 처리하기 어려운 변형 ROM</h3><p>파일 크기가 달라졌거나 새로 추가된 ROM을 소스에 직접 하드코딩하지 않고, <code>romdata</code> 폴더의 외부 정의로 다루는 기능입니다.</p></div><div class="folder-glyph">ROM<span>DATA</span></div></div>
+        <div class="feature-grid two-features"><article class="feature-card"><h3>NeoGeo MVS</h3><p>외부 ROM 정의 기능을 지원합니다. 게시글에는 해당 지원이 <strong>MVS 전용</strong>이라고 명시돼 있습니다.</p></article><article class="feature-card"><h3>일부 CPS 게임</h3><p>스트리트 파이터 II 및 대시 계열 일부 게임으로 확대됐으며, CPS-B 프로필과 일부 부트레그 ROM 처리가 개선됐습니다.</p></article></div>
+        <div class="notice notice-neutral"><span class="notice-symbol">i</span><p><strong>모든 ROM을 지원하는 기능은 아닙니다.</strong> RomData 형식의 구체적인 작성 문법·필수 파일은 제공된 자료에 없으므로 이 설명서에서 임의로 정하지 않았습니다. 0.289.4부터 폴더 자동 생성과 IPS 목록 통합이 지원됩니다.</p></div>
+      </section>
+
+      <section class="doc-section" id="controller" data-title="컨트롤러 조이스틱 DirectInput 구버전 입력 1P 2P 3P 4P POV 아날로그 매핑 테스트">
+        <div class="section-heading"><span class="section-index">06 / CONTROLLER</span><h2>컨트롤러 설정</h2><p>키 매핑과 입력 진단을 이용해 조이스틱 인식 상태를 확인합니다.</p></div>
+        <figure class="screenshot"><a href="./images/controller.webp" data-lightbox><img src="./images/controller.webp" alt="컨트롤러 설정 화면의 구버전 입력 방식 선택과 1P부터 4P까지의 버튼 매핑" loading="lazy"></a><figcaption>컨트롤러 설정 — 입력 방식, 1~4P 버튼 매핑, 테스트 기능</figcaption></figure>
+        <div class="feature-grid"><article class="feature-card"><h3>1~4P 버튼 매핑</h3><p>기본 및 개별 게임 설정에서 플레이어별 방향과 버튼을 설정할 수 있습니다.</p><small>0.289.4 추가</small></article><article class="feature-card"><h3>입력 진단</h3><p>조이스틱 버튼·방향·아날로그 축·POV 입력을 확인하는 진단 기능이 제공됩니다.</p><small>0.289.4 추가</small></article><article class="feature-card"><h3>구버전 호환 입력</h3><p>일부 2P 난입 문제에 대응하기 위해 구버전 DirectInput 호환 모드와 폴링·매핑 설정이 추가됐습니다.</p><small>0.289.7 추가</small></article></div>
+        <ol class="numbered"><li><strong>컨트롤러 설정 열기</strong><span>기본 게임 설정 또는 해당 게임의 개별 설정에서 컨트롤러 관련 항목을 확인합니다.</span></li><li><strong>플레이어 탭 선택</strong><span>1P~4P 중 설정할 대상을 선택하고 방향·버튼 매핑을 확인합니다.</span></li><li><strong>입력 테스트</strong><span>조이스틱을 조작해 버튼, 아날로그 축, POV 등이 올바르게 감지되는지 확인합니다.</span></li><li><strong>호환 모드 비교</strong><span>특정 조이스틱에서 2P 난입 문제가 발생한다면 구버전 입력 방식을 바꾸어 비교해 볼 수 있습니다. 모든 장치의 해결을 보장하지는 않습니다.</span></li></ol>
+      </section>
+
+      <section class="doc-section" id="video" data-title="화면 표시 비디오 설정 와이드스크린 GPU 가속 Model 3 비디오 효과 BGFX 실험 입력 지연">
+        <div class="section-heading"><span class="section-index">07 / DISPLAY & VIDEO</span><h2>화면과 비디오 설정</h2><p>화면 비율, 효과, 렌더링과 실험 기능을 사용하는 곳입니다.</p></div>
+        <div class="settings-strip"><span>화면 표시</span><span>비디오 설정</span><span>컨트롤러 설정</span><span>기타</span></div>
+        <p>0.289.4에서 주요 게임 설정 UI가 위 네 영역으로 재구성되고, 항목별 고급 설정과 비디오 효과·성능 옵션이 개선됐습니다. 0.289.6에서는 화면을 모니터 비율에 맞게 늘리는 <strong>와이드스크린 늘리기</strong> 옵션이 추가됐습니다.</p>
+        <div class="feature-grid two-features"><article class="feature-card"><div class="feature-icon">▣</div><h3>화면 비율과 효과</h3><p>전체화면 표시, 화면 비율, 비디오 효과 등을 필요에 맞게 조정합니다. 개별 설정이 있으면 기본 설정과 다르게 동작할 수 있습니다.</p></article><article class="feature-card"><div class="feature-icon">⚡</div><h3>Model 3 GPU 가속</h3><p>0.289.6에서 추가된 실험적 기능입니다. 효과는 그래픽카드 성능과 게임에 따라 달라지며, 모든 Model 3 게임의 원활한 실행을 보장하지 않습니다.</p></article></div>
+        <figure class="screenshot"><a href="./images/experimental.webp" data-lightbox><img src="./images/experimental.webp" alt="GPU 출력 대기열과 디지털 입력 지연 실험 기능 설정 화면" loading="lazy"></a><figcaption>0.289.7 실험 기능 — GPU 출력 대기열 및 입력 지연 관련 옵션</figcaption></figure>
+        <div class="notice notice-amber"><span class="notice-symbol">!</span><p><strong>실험 기능은 기본적으로 꺼져 있습니다.</strong> GPU 출력 대기열 제한과 디지털 입력 지연 개선 옵션은 실제 효과가 검증 중이라고 안내됐습니다. 문제가 생기거나 효과가 없다면 다시 비활성화하세요.</p></div>
+        <div class="tip"><strong>설정 상속</strong><p>0.289.4에서 기본 설정과 게임·소스별 INI 저장 방식이 개선됐습니다. 기본 설정을 바꿔도 적용되지 않는다면 과거에 생성된 개별 게임 INI가 우선하는지 <a href="#faq">문제 해결</a>에서 확인하세요.</p></div>
+      </section>
+
+      <section class="doc-section" id="preview" data-title="미리보기 아트워크 동영상 MP4 MNG 스냅샷 캐비넷 정보 이미지 Artwork">
+        <div class="section-heading"><span class="section-index">08 / ARTWORK & PREVIEW</span><h2>아트워크와 동영상 미리보기</h2><p>게임을 고를 때 스냅샷과 동영상을 보고, 아트워크를 미리 확인할 수 있습니다.</p></div>
+        <figure class="screenshot"><a href="./images/artwork.webp" data-lightbox><img src="./images/artwork.webp" alt="고급 화면 표시 설정의 설치된 아트워크 미리보기" loading="lazy"></a><figcaption><strong>화면 표시 → 고급 설정</strong>의 설치된 아트워크 미리보기 (0.289.5)</figcaption></figure>
+        <div class="two-column"><div><h3 class="subheading">게임 미리보기</h3><p>0.289.7부터 오른쪽 화면이 <strong>동영상 미리보기</strong>와 <strong>게임 정보</strong> 영역으로 나뉘고, 두 영역의 높이를 조절할 수 있습니다. 한글명·영문명·제조사·연도 등의 상세 정보가 표시됩니다.</p><p>전체화면 게임 목록에서도 MP4와 MNG 동영상 미리보기가 지원됩니다.</p></div><div class="path-card"><span>0.289.7부터 안내된 경로</span><code>Artwork/mp4</code><code>Artwork/mng</code><p>각 형식의 동영상 파일은 해당 폴더에 배치하도록 안내돼 있습니다.</p></div></div>
+        <p class="text-small">미리보기 파일의 이름, 지원 확장자 전체 목록, 필수 압축 형식은 이번 자료만으로 확정할 수 없어 별도로 기재하지 않았습니다.</p>
+      </section>
+
+      <section class="doc-section" id="commands" data-title="공략 커맨드 가이드 F5 F8 F9 캐릭터 기술표 자동 표시 마키 스냅샷 플라이어">
+        <div class="section-heading"><span class="section-index">09 / COMMAND GUIDE</span><h2>게임 내 공략 보기</h2><p>0.289.8에서 공략 탭과 게임 실행 중 커맨드 가이드 표시 기능이 추가됐습니다.</p></div>
+        <figure class="screenshot screenshot-wide"><a href="./images/guide-overlay.webp" data-lightbox><img src="./images/guide-overlay.webp" alt="스트리트 파이터 II 실행 중 좌우에 표시된 캐릭터별 커맨드 공략" loading="lazy"></a><figcaption>게임 화면 좌우에 캐릭터 공략을 표시하는 예시</figcaption></figure>
+        <div class="shortcut-panel"><div class="shortcut-heading"><span>IN-GAME SHORTCUTS</span><h3>게임 실행 중 단축키</h3></div><div class="shortcut-row"><kbd>F5</kbd><span>공략 보기 / 감추기</span></div><div class="shortcut-row"><kbd>F8</kbd><span>왼쪽 공략 캐릭터 변경</span></div><div class="shortcut-row"><kbd>F9</kbd><span>오른쪽 공략 캐릭터 변경</span></div></div>
+        <div class="image-pair"><figure class="screenshot"><a href="./images/guide-game.webp" data-lightbox><img src="./images/guide-game.webp" alt="개별 게임 설정의 공략 표시 옵션" loading="lazy"></a><figcaption>개별 게임 설정 — 해당 게임의 공략 표시 방식</figcaption></figure><figure class="screenshot"><a href="./images/guide-default.webp" data-lightbox><img src="./images/guide-default.webp" alt="기본 게임 설정의 공략 표시 옵션" loading="lazy"></a><figcaption>기본 게임 설정 — 공통 공략 표시 방식</figcaption></figure></div>
+        <p>공략의 자동 표시 여부, 화면 배치, 상단·하단 마키 표시, 이미지 종류 등을 기본 설정 또는 개별 게임 설정에서 조정할 수 있습니다. 게임 내부의 설정 메뉴에서 바꾸면 해당 개별 게임 설정으로 저장됩니다.</p>
+        <figure class="screenshot"><a href="./images/guide-options.webp" data-lightbox><img src="./images/guide-options.webp" alt="게임 실행 중 공략 표시와 이미지 설정을 변경하는 메뉴" loading="lazy"></a><figcaption>실행 중 공략 표시 설정 메뉴 — 배치·이미지 선택 등</figcaption></figure>
+        <div class="tip"><strong>이미지 표시</strong><p>마키·스냅샷·플라이어 파일이 존재하면 공략과 함께 표시할 수 있습니다. 해당 이미지가 없어도 공략 자체는 표시되도록 안내돼 있습니다.</p></div>
+      </section>
+
+      <section class="doc-section" id="folders" data-title="디렉터리 폴더 구조 변경 이전 백업 경로 UserData Games Resources Artwork ini">
+        <div class="section-heading"><span class="section-index">10 / FILES & MIGRATION</span><h2>폴더와 데이터 이전</h2><p>0.289.7부터 배포 폴더 구조가 변경됐으므로, 구버전 데이터를 자동으로 옮겨주지 않습니다.</p></div>
+        <div class="notice notice-amber strong"><span class="notice-symbol">!</span><p><strong>중요: 기존 데이터는 자동 이전되지 않습니다.</strong> 업데이트하기 전에 ROM, 설정, 저장 데이터와 아트워크를 백업한 뒤 새 폴더 구조에 맞춰 직접 옮겨야 합니다.</p></div>
+        <div class="image-pair"><figure class="screenshot"><a href="./images/directories.webp" data-lightbox><img src="./images/directories.webp" alt="ROM 경로 추가, 편집, 삭제, 정렬을 지원하는 디렉터리 설정창" loading="lazy"></a><figcaption>디렉터리 설정 — 경로 추가·수정·삭제·순서 변경</figcaption></figure><figure class="screenshot"><a href="./images/folders.webp" data-lightbox><img src="./images/folders.webp" alt="게임 폴더 표시 여부와 순서를 선택하는 창" loading="lazy"></a><figcaption>폴더 항목 설정 — 표시 여부와 왼쪽 목록 순서 변경</figcaption></figure></div>
+        <div class="two-column"><div><h3 class="subheading">이전 체크리스트</h3><ul class="check-list"><li>현재 설치 폴더 및 개인 설정 파일 백업</li><li>새 버전의 기본 폴더 구조 확인</li><li>기존 ROM·아트워크·저장 데이터 이동</li><li><strong>옵션 → 디렉터리</strong>의 경로 재확인</li><li>필요한 경우 게임 목록 다시 검사</li></ul></div><figure class="screenshot"><a href="./images/structure.webp" data-lightbox><img src="./images/structure.webp" alt="0.289.7 배포 패키지의 Artwork, docs, Games, ini, Resources, UserData 폴더" loading="lazy"></a><figcaption>0.289.7 배포 폴더 구성 예시</figcaption></figure></div>
+        <div class="path-card path-grid"><span>0.289.7 배포 자료에서 확인된 주요 폴더</span><div><code>Artwork/</code><code>Games/</code><code>ini/</code><code>Resources/</code><code>UserData/</code></div><p>파일의 실제 저장 위치는 배포 패키지와 디렉터리 설정을 우선 확인하세요.</p></div>
+      </section>
+
+      <section class="doc-section" id="faq" data-title="문제 해결 FAQ 설정 적용 안됨 INI CFG 검색 한글 조이스틱 게임 실행 오류">
+        <div class="section-heading"><span class="section-index">11 / TROUBLESHOOTING</span><h2>자주 묻는 문제</h2><p>업데이트 공지와 개발자 답변에서 확인된 주의 사항을 정리했습니다.</p></div>
+        <div class="faq-list">
+          <details><summary>기본 게임 설정을 바꿨는데 게임에 적용되지 않습니다.<span>+</span></summary><div><p>구버전에서 생성된 <strong>개별 게임 INI</strong> 설정이 기본 설정보다 우선할 수 있습니다. 0.289.3 공지에는 기존 루트 및 <code>ini/mame.ini</code>를 사용하지 않는다고 안내돼 있습니다.</p><p>기존 설정을 먼저 백업한 뒤 해당 게임의 개별 INI가 값을 덮어쓰는지 확인하세요. 초기화하면 사용자별 설정도 사라질 수 있으므로 일괄 삭제는 신중히 결정해야 합니다.</p></div></details>
+          <details><summary>게임 목록에서 한글로 검색하거나 분류가 잘 안 됩니다.<span>+</span></summary><div><p>0.289.4에서 한글 검색이 추가됐고, 0.289.6에서 공백 무시·영문 대소문자 무시·ROM 파일명 검색이 개선됐습니다. 사용하는 버전을 확인하세요.</p><p>한국어 IPS 패치 게임은 <code>.dat</code> 정보와 패치명이 올바르게 등록돼 있는지도 확인해야 합니다.</p></div></details>
+          <details><summary>조이스틱 2P 난입 시 방향이나 캐릭터 선택이 이상합니다.<span>+</span></summary><div><p>0.289.4 입력 진단과 0.289.7 구버전 DirectInput 호환 설정으로 상태를 비교할 수 있습니다. 일부 사용자 사례는 장치별로 재현 여부가 달랐으며 완전 해결을 확인할 수 없었습니다.</p><p>플레이어별 버튼 매핑, 스타트 버튼 중복 설정, 입력 테스트 결과를 순서대로 확인하세요.</p></div></details>
+          <details><summary>화면 효과나 쉐이더가 적용되지 않습니다.<span>+</span></summary><div><p>0.289.3에서 비디오 옵션 미적용 문제를 수정했다고 안내했습니다. 구버전 INI가 남아 있는지, 기본 설정과 개별 설정이 충돌하는지 확인하세요. 0.289.4에서 저장 방식도 추가로 개선됐습니다.</p></div></details>
+          <details><summary>0.289.7 업데이트 후 폴더나 미리보기가 안 보입니다.<span>+</span></summary><div><p>새 폴더 구조로 파일을 직접 이동했는지, <strong>옵션 → 디렉터리</strong> 경로가 새 위치인지 확인하세요. MP4와 MNG는 각각 <code>Artwork/mp4</code>, <code>Artwork/mng</code> 경로로 안내돼 있습니다.</p></div></details>
+          <details><summary>GPU 가속·입력 지연 실험 기능을 켜야 하나요?<span>+</span></summary><div><p>필수 기능이 아닙니다. 자료에는 기본 비활성화이며 효과를 검증 중이라고 명시돼 있습니다. 안정적인 사용을 원한다면 기본값을 유지하고 필요한 경우에만 한 항목씩 비교하는 편이 좋습니다.</p></div></details>
+        </div>
+      </section>
+
+      <section class="doc-section" id="history" data-title="버전 업데이트 0.289.3 0.289.4 0.289.5 0.289.6 0.289.7 0.289.8 변경사항">
+        <div class="section-heading"><span class="section-index">12 / RELEASE HISTORY</span><h2>버전별 주요 변경 사항</h2><p>이번 문서에서 다룬 기능의 도입·개선 시점을 빠르게 찾아보세요.</p></div>
+        <div class="timeline">
+          <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-meta">0.289.8 <time datetime="2026-10-25">2026.10.25</time></div><h3>공략 보기 기능</h3><p>게임 목록 공략 탭, 실행 중 캐릭터별 가이드, F5/F8/F9 조작, 해킹롬 제외 필터, 한글 경로 호환성 개선.</p></div>
+          <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-meta">0.289.7 <time datetime="2026-10-19">2026.10.19</time></div><h3>게임 목록 UI 개편</h3><p>전체화면·카드·아이콘 보기, 게임 정보와 미리보기 분할, 폴더 순서, 구버전 입력 호환, 디렉터리 개선, 폴더 구조 변경.</p></div>
+          <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-meta">0.289.6 <time datetime="2026-10-14">2026.10.14</time></div><h3>속도·검색·화면 개선</h3><p>게임 목록·ROM 스캔 성능, 검색 조건 확대, IPS 표시 개선, 와이드스크린 늘리기, Model 3 GPU 가속 실험 기능.</p></div>
+          <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-meta">0.289.5 <time datetime="2026-10-12">2026.10.12</time></div><h3>IPS 다중 선택과 BIOS</h3><p>게임별 BIOS 선택, 여러 IPS 패치 선택·상태 확인, 아트워크 미리보기.</p></div>
+          <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-meta">0.289.4</div><h3>RomData·입력 설정 확대</h3><p>다수의 해킹롬 추가, RomData, 한국어 검색, 1~4P 키 매핑, 입력 진단, 설정 UI·INI 상속 개선.</p></div>
+          <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-meta">0.289.3 <time datetime="2026-10-07">2026.10.07</time></div><h3>IPS 목록 및 기초 설정 수정</h3><p>해킹 IPS 목록과 한국어 분류, ESC 종료 확인, 비디오 옵션 적용 수정. 0.289.2에서 IPS 압축 지원.</p></div>
+        </div>
+        <div class="sources"><h3>자료 출처</h3><p>사용자가 제공한 네이버 카페 배포 글 PDF와 0.289.4 업데이트 내역을 바탕으로 재구성했습니다. 아래는 원문 게시글 링크입니다.</p><ul><li><a href="https://cafe.naver.com/f-e/cafes/10347637/articles/32914" target="_blank" rel="noopener noreferrer">0.289.3 배포 글 ↗</a></li><li><a href="https://cafe.naver.com/f-e/cafes/10347637/articles/32917" target="_blank" rel="noopener noreferrer">0.289.5 배포 글 (0.289.4 변경 내역 포함) ↗</a></li><li><a href="https://cafe.naver.com/f-e/cafes/10347637/articles/32918" target="_blank" rel="noopener noreferrer">0.289.6 배포 글 ↗</a></li><li><a href="https://cafe.naver.com/f-e/cafes/10347637/articles/32923" target="_blank" rel="noopener noreferrer">0.289.7 배포 글 ↗</a></li><li><a href="https://cafe.naver.com/f-e/cafes/10347637/articles/32930" target="_blank" rel="noopener noreferrer">0.289.8 배포 글 ↗</a></li></ul></div>
+      </section>
+
+      <footer class="guide-footer"><span class="brand-footer">EK<span>+</span> <strong>EKMAME USER GUIDE</strong></span><p>기능 안내는 제공된 배포 자료를 기준으로 하며, 모든 환경에서의 실제 동작을 검증한 것은 아닙니다.</p><a href="#top">맨 위로 ↑</a></footer>
+    </main>
+  </div>
+
+  <dialog id="imageDialog" class="image-dialog" aria-label="스크린샷 확대 보기"><form method="dialog"><button aria-label="이미지 닫기" title="닫기">×</button></form><img alt=""><p>클릭하거나 Esc 키를 누르면 닫힙니다.</p></dialog>
+</body>
+</html>
