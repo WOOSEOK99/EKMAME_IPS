@@ -21,6 +21,7 @@ globalThis.fetch = async (url, options = {}) => {
 try {
   const response = await app.fetch(new Request("https://example.test/api/search?q=sfiii3"));
   assert.equal(response.status, 200);
+  assert.equal(response.headers.get("access-control-allow-origin"), "https://wooseok99.github.io");
   const data = await response.json();
   assert.equal(data.sources.mdk.items[0].id, "sfiii3");
   assert.equal(data.sources.emu.items[0].id, "sfiii3");

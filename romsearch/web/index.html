@@ -205,7 +205,9 @@
         submit.disabled=true;submit.textContent='검색 중...';
         saveRecent(q);
         try {
-          const url='/api/search?q='+encodeURIComponent(q)+'&sites='+encodeURIComponent(chosen.map(s=>s.id).join(','));
+          const apiOrigin=location.origin==='https://wooseok99.github.io'
+            ? 'https://arcade-rom-search-2026.rosy-ash-6331.chatgpt.site' : '';
+          const url=apiOrigin+'/api/search?q='+encodeURIComponent(q)+'&sites='+encodeURIComponent(chosen.map(s=>s.id).join(','));
           const response=await fetch(url,{signal:active.signal});
           const data=await response.json();
           if(!response.ok)throw new Error(data.error || '검색 서버 오류');

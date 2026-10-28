@@ -4,6 +4,11 @@ MAME 게임명 또는 ROM ID를 한 번 입력해 **MDK.CAB, Emu-Land, RomsDL**�
 
 검색 결과에는 게임 제목과 해당 사이트의 실제 상세 페이지 링크가 표시됩니다. 브라우저에서 외부 사이트의 광고 스크립트나 이미지를 검색 화면으로 불러오지 않습니다.
 
+## 공개 페이지
+
+- [ROM 검색 페이지](https://wooseok99.github.io/EKMAME_IPS/romsearch/) — 기존 IPS·MNG 다운로드와 같은 GitHub Pages 주소
+- GitHub Pages는 정적 HTML만 제공하므로, 검색 결과는 별도로 배포된 공개 검색 API(`https://arcade-rom-search-2026.rosy-ash-6331.chatgpt.site/api/search`)에서 받아옵니다.
+
 ## 기능
 
 - 게임 제목과 `sfiii3`, `kof98` 같은 MAME ROM ID 검색
@@ -19,6 +24,7 @@ MAME 게임명 또는 ROM ID를 한 번 입력해 **MDK.CAB, Emu-Land, RomsDL**�
 
 | 경로 | 내용 |
 | --- | --- |
+| `index.html` | GitHub Pages의 `/romsearch/` 진입 페이지 (`web/index.html`과 동일한 UI) |
 | `web/index.html` | 검색 UI (HTML/CSS/JavaScript) |
 | `worker/index.js` | 서버 검색 API 및 사이트별 HTML 결과 파서 |
 | `scripts/build.mjs` | HTML을 Worker 모듈에 포함하는 빌드 |

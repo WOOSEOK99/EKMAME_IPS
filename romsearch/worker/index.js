@@ -12,6 +12,7 @@ const JSON_HEADERS = {
   "content-type": "application/json; charset=utf-8",
   "cache-control": "public, max-age=60",
   "x-content-type-options": "nosniff",
+  "access-control-allow-origin": "https://wooseok99.github.io",
 };
 
 function textOnly(html = "") {
