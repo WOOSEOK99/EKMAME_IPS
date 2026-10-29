@@ -6,6 +6,7 @@
   <meta name="description" content="EKMAME IPS patch download library">
   <title>EKMAME IPS Patch Library</title>
   <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="./assets/updates.css">
 </head>
 <body>
   <div class="bg-glow bg-glow-1"></div>
@@ -43,6 +44,17 @@
         <span class="stat-label">선택 용량</span>
         <strong id="selectedSize">0 B</strong>
       </article>
+    </section>
+
+    <section class="panel recent-updates" aria-label="최근 저장소 업데이트">
+      <div class="recent-updates-header">
+        <div>
+          <h2>최근 업데이트</h2>
+          <p id="recentUpdatesStatus" role="status">GitHub 변경 내역을 불러오는 중입니다.</p>
+        </div>
+        <a class="recent-updates-link" href="https://github.com/WOOSEOK99/EKMAME_IPS/commits/main/" target="_blank" rel="noopener noreferrer">모든 커밋 보기 ↗</a>
+      </div>
+      <div id="recentUpdatesList" class="recent-updates-list"></div>
     </section>
 
     <section class="panel toolbar">
@@ -107,5 +119,6 @@
   </footer>
 
   <script src="./assets/app.js" defer></script>
+  <script src="./assets/updates.js" defer></script>
 </body>
 </html>
