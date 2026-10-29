@@ -4,8 +4,9 @@
   const repository = "WOOSEOK99/EKMAME_IPS";
   const githubUrl = `https://github.com/${repository}`;
   const apiUrl = `https://api.github.com/repos/${repository}`;
+  const patchDirectory = "EKIPS_7z/";
   const commitLimit = 5;
-  const visibleFileLimit = 15;
+  const visibleFileLimit = 50;
   const list = document.querySelector("#recentUpdatesList");
   const status = document.querySelector("#recentUpdatesStatus");
   if (!list || !status) return;
@@ -15,7 +16,7 @@
     renamed: "이름 변경", copied: "복사", changed: "변경"
   };
   const fileOrder = {added: 0, modified: 1, renamed: 2, copied: 3, removed: 4};
-  const lastSeenKey = "ekmame-ips-last-seen-commit";
+  const lastSeenKey = "ekmame-ips-last-seen-patch-commit";
 
   async function getJson(url) {
     const response = await fetch(url, {
@@ -60,7 +61,7 @@
     const item = make("li", "recent-file");
     const category = fileLabels[file.status] ? file.status : "changed";
     item.appendChild(make("span", `recent-file-tag recent-file-${category}`, fileLabels[category]));
-    const fileAnchor = link(fileUrl(commitSha, file), file.filename, "recent-file-name");
+    const fileAnchor = link(fileUrl(commitSha, file), file.filename.slice(patchDirectory.length), "recent-file-name");
     fileAnchor.title = file.filename;
     item.appendChild(fileAnchor);
     if (file.status === "renamed" && file.previous_filename) {
@@ -72,27 +73,29 @@
   function buildCommit(commit, detail, index, isNew) {
     const sha = commit.sha;
     const commitLink = `${githubUrl}/commit/${sha}`;
-    const files = Array.isArray(detail?.files) ? detail.files : null;
+    const allFiles = Array.isArray(detail?.files) ? detail.files : null;
+    const files = allFiles?.filter(file => file.filename?.startsWith(patchDirectory) && file.status !== "removed") ?? null;
     const section = make("details", `recent-commit${isNew ? " recent-commit-new" : ""}`);
     section.open = index === 0;
 
     const heading = make("summary", "recent-commit-heading");
     const headingBody = make("span", "recent-commit-heading-main");
-    const title = make("span", "recent-commit-title", (commit.commit?.message || sha.slice(0, 7)).split("\n")[0]);
+    const title = make("span", "recent-commit-title", files ? `패치 파일 ${files.length}개 추가/변경` : "패치 파일 내역 확인 불가");
     headingBody.appendChild(title);
-    const meta = make("span", "recent-commit-meta", `${commitDate(commit)} · ${sha.slice(0, 7)}`);
+    const message = (commit.commit?.message || sha.slice(0, 7)).split("\n")[0];
+    const meta = make("span", "recent-commit-meta", `${commitDate(commit)} · ${message}`);
     headingBody.appendChild(meta);
     const chips = make("span", "recent-commit-chips");
     if (isNew) chips.appendChild(make("span", "recent-visit-tag", "지난 방문 이후"));
-    chips.appendChild(make("span", "recent-count-tag", files ? (files.length >= 300 ? "파일 300개 이상" : `파일 ${files.length}개`) : "파일 내역 확인 불가"));
+    chips.appendChild(make("span", "recent-count-tag", files ? `패치 ${files.length}개` : "파일 내역 확인 불가"));
     heading.append(headingBody, chips);
     section.appendChild(heading);
 
     const contents = make("div", "recent-commit-body");
     if (files === null) {
-      contents.appendChild(make("p", "recent-notice", "파일 변경 내역을 불러오지 못했습니다. GitHub 커밋에서 확인해 주세요."));
+      contents.appendChild(make("p", "recent-notice", "패치 변경 내역을 불러오지 못했습니다. GitHub에서 확인해 주세요."));
     } else if (files.length === 0) {
-      contents.appendChild(make("p", "recent-notice", "이 커밋에 표시할 파일 변경 내역이 없습니다."));
+      contents.appendChild(make("p", "recent-notice", "이 커밋에 표시할 패치 변경 내역이 없습니다."));
     } else {
       const fileList = make("ul", "recent-file-list");
       const sorted = [...files].sort((a, b) => (fileOrder[a.status] ?? 9) - (fileOrder[b.status] ?? 9));
@@ -100,9 +103,10 @@
       contents.appendChild(fileList);
       if (files.length > visibleFileLimit) {
         const hidden = files.length - visibleFileLimit;
-        contents.appendChild(make("p", "recent-notice", `나머지 ${hidden}개 파일은 GitHub에서 확인할 수 있습니다.${files.length >= 300 ? " GitHub API는 커밋당 파일을 최대 300개까지 제공할 수 있습니다." : ""}`));
+        contents.appendChild(make("p", "recent-notice", `나머지 ${hidden}개 패치 파일은 GitHub에서 확인할 수 있습니다.`));
       }
     }
+    if (allFiles?.length >= 300) contents.appendChild(make("p", "recent-notice", "GitHub API의 파일 300개 제한으로 일부 내역이 누락될 수 있습니다."));
     contents.appendChild(link(commitLink, "GitHub에서 변경 내용 전체 보기 ↗", "recent-commit-link"));
     section.appendChild(contents);
     return section;
@@ -110,9 +114,9 @@
 
   async function loadUpdates() {
     try {
-      const commits = await getJson(`${apiUrl}/commits?sha=main&per_page=${commitLimit}`);
+      const commits = await getJson(`${apiUrl}/commits?sha=main&path=${encodeURIComponent(patchDirectory.slice(0, -1))}&per_page=${commitLimit}`);
       if (!Array.isArray(commits) || !commits.length) {
-        status.textContent = "표시할 커밋 내역이 없습니다.";
+        status.textContent = "최근 변경된 패치 파일이 없습니다.";
         return;
       }
 
@@ -123,17 +127,25 @@
         getJson(`${apiUrl}/commits/${encodeURIComponent(commit.sha)}`)
       ));
       const fragment = document.createDocumentFragment();
+      let displayedCount = 0;
+      let failedCount = 0;
       commits.forEach((commit, index) => {
-        const newSinceVisit = Boolean(previous && commit.sha !== previous && (seenIndex < 0 || index < seenIndex));
         const detail = results[index].status === "fulfilled" ? results[index].value : null;
-        fragment.appendChild(buildCommit(commit, detail, index, newSinceVisit));
+        if (!detail) failedCount++;
+        const patchFiles = detail?.files?.filter(file => file.filename?.startsWith(patchDirectory) && file.status !== "removed");
+        if (detail && !patchFiles?.length) return;
+        const newSinceVisit = Boolean(previous && commit.sha !== previous && (seenIndex < 0 || index < seenIndex));
+        fragment.appendChild(buildCommit(commit, detail, displayedCount++, newSinceVisit));
       });
       list.replaceChildren(fragment);
-      status.textContent = `최근 ${commits.length}개 커밋 · NEW는 해당 커밋에서 추가된 파일을 뜻합니다.`;
+      status.textContent = displayedCount
+        ? `EKIPS_7z 패치 변경 커밋 ${displayedCount}개 · NEW는 새로 추가된 파일입니다.${failedCount ? " · 일부 내역 조회 실패" : ""}`
+        : failedCount ? "패치 변경 내역을 불러오지 못했습니다. GitHub에서 확인해 주세요."
+          : "최근 추가되거나 수정된 패치 파일이 없습니다.";
       try { localStorage.setItem(lastSeenKey, commits[0].sha); } catch (_) { /* 저장소 접근 제한 */ }
     } catch (error) {
       console.error("최근 업데이트 내역 조회 실패:", error);
-      status.textContent = "업데이트 내역을 불러오지 못했습니다. GitHub에서 커밋 기록을 확인해 주세요.";
+      status.textContent = "EKIPS_7z 패치 업데이트를 불러오지 못했습니다. GitHub에서 확인해 주세요.";
     }
   }
 
