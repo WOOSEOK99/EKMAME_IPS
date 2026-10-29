@@ -19,6 +19,7 @@
       </a>
       <div class="topbar-actions">
         <span class="version-pill">0.289.8 기준</span>
+        <span class="version-pill">0.289.9 내용 추가</span>
         <a class="topbar-link" href="../">IPS 다운로드</a>
         <a class="topbar-link external" href="https://github.com/WOOSEOK99/EKMAME_IPS" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
         <button type="button" class="menu-button" id="menuButton" aria-controls="sidebar" aria-expanded="false">☰ <span>목차</span></button>
@@ -76,6 +77,7 @@
       </section>
 
       <div class="notice notice-primary"><span class="notice-symbol">i</span><p><strong>먼저 확인하세요.</strong> 이 문서는 0.289.3~0.289.8 배포 글과 스크린샷을 기준으로 작성했습니다. 실제 메뉴 위치는 사용 중인 버전에 따라 다를 수 있습니다. 설치 파일이나 ROM/CHD 파일은 제공하지 않습니다.</p></div>
+      <div class="notice notice-neutral"><span class="notice-symbol">+</span><p><strong>0.289.9 추가 안내 (2026.10.29).</strong> 기존 0.289.3~0.289.8 설명은 유지하고, 0.289.9 배포 글의 신규 기능과 변경점을 관련 항목 아래에 덧붙였습니다. ROM 파일 자체를 제공하는 기능은 아닙니다.</p></div>
 
       <section class="doc-section" id="overview" data-title="처음 사용하기 설치 실행 시작하기">
         <div class="section-heading"><span class="section-index">01 / GETTING STARTED</span><h2>처음 사용하기</h2><p>압축을 풀고, 게임 폴더를 지정하고, 목록에서 실행하는 기본 흐름입니다.</p></div>
@@ -85,6 +87,7 @@
           <div class="step-card"><span class="step-num">03</span><h3>게임 목록 확인</h3><p>필요한 ROM 검사를 실행한 다음 왼쪽 폴더에서 게임을 찾습니다. 게임 목록의 항목을 더블클릭해 실행할 수 있습니다.</p></div>
         </div>
         <div class="notice notice-amber"><span class="notice-symbol">!</span><p><strong>기존 버전에서 업데이트한다면</strong> 개별 게임의 INI·CFG와 사용자 데이터를 먼저 백업하세요. 특히 0.289.7부터 폴더 구조가 바뀌었습니다. <a href="#folders">데이터 이전 안내 보기</a></p></div>
+        <div class="note-card"><span class="note-card-tag">0.289.9 추가</span><h3>도움말(H) 메뉴에서 추가된 항목</h3><p><strong>도움말(H)</strong>에 <strong>IPS 패치파일 다운</strong>, <strong>MNG 파일 다운</strong>, <strong>롬파일 다운</strong>, <strong>사용 설명서</strong> 항목이 추가됐습니다. 롬파일 다운은 프로그램이 ROM을 직접 배포하는 기능이 아니라 인터넷의 외부 검색 결과를 보여주는 방식입니다.</p></div>
       </section>
 
       <section class="doc-section" id="games" data-title="게임 목록 검색 한국어 제목 카드 전체화면 아이콘 폴더">
@@ -101,6 +104,13 @@
         </div>
         <figure class="screenshot screenshot-wide"><a href="./images/fullscreen.webp" data-lightbox><img src="./images/fullscreen.webp" alt="게임 목록 전체화면 모드" loading="lazy"></a><figcaption>0.289.7 전체화면 뷰 — 방향키 이동, Enter 실행, Esc 나가기</figcaption></figure>
         <div class="tip"><strong>참고</strong><p>전체화면 뷰에서 MP4·MNG 동영상 미리보기를 지원하며, <strong>인터페이스 옵션</strong>에서 실행 시 전체화면 모드로 자동 진입하도록 지정할 수 있습니다.</p></div>
+        <h3 class="subheading">0.289.9 — 게임 ROM 검색 및 외부 다운로드 연동</h3>
+        <ol class="numbered">
+          <li><strong>다운로드 화면 열기</strong><span>게임 목록에서 원하는 게임을 마우스 오른쪽 버튼으로 클릭한 뒤 <strong>선택된 게임 다운</strong>을 선택하거나, <strong>도움말(H) → 롬파일 다운</strong>을 엽니다.</span></li>
+          <li><strong>게임명 또는 ROM name 검색</strong><span>검색창에 게임 제목이나 ROM 이름을 입력해 검색합니다. 결과 목록에서 게임명, ROM name 및 연결 방식(<strong>직접 다운</strong> 또는 <strong>페이지 이동</strong>)을 확인할 수 있습니다.</span></li>
+          <li><strong>외부 검색 결과 확인</strong><span>선택한 게임에 따라 자식 ROM(SPLIT), BIOS/장치 ROM, 통합 ROM(MERGED), 독립형 ROM(STANDALONE) 등의 항목이 표시될 수 있습니다. 이용 가능한 링크와 파일 구성은 검색 결과에 따라 달라집니다.</span></li>
+        </ol>
+        <div class="notice notice-neutral"><span class="notice-symbol">i</span><p><strong>ROM 파일은 EKMAME에서 제공하거나 공유하지 않습니다.</strong> 인터넷 검색으로 찾은 외부 사이트의 결과를 표시하는 기능이며, 검색 결과에 따라 직접 다운로드 또는 외부 페이지 이동으로 연결됩니다. 다운로드한 파일은 아래 <a href="#scan">ROM 검사 안내</a>에 따라 확인하세요.</p></div>
       </section>
 
       <section class="doc-section" id="scan" data-title="ROM 검사 빠른검색 F5 캐시 ZIP 변경 검색 갱신">
@@ -110,6 +120,13 @@
           <div class="note-card"><span class="note-card-tag">0.289.6 개선</span><h3>대량 목록도 더 빠르게</h3><p>초기 로딩, 정렬, 보기 전환과 ROM 검색 캐시 처리가 개선됐습니다. ZIP 파일 변경 감지와 최초 전체 검사 안내도 추가됐습니다.</p><div class="key-combo"><kbd>F5</kbd><span>게임 목록에서 빠른 검색</span></div></div>
         </div>
         <div class="notice notice-neutral"><span class="notice-symbol">↔</span><p><strong>F5의 기능은 화면에 따라 다릅니다.</strong> EKGUI 게임 목록에서는 ROM 빠른 검색, <strong>게임 실행 중</strong>에는 공략 보기/감추기 단축키로 안내돼 있습니다.</p></div>
+        <h3 class="subheading">0.289.9 — 다운로드한 ROM 파일 검사</h3>
+        <ol class="numbered">
+          <li><strong>ROM 폴더로 직접 이동</strong><span>다운로드한 ROM 파일은 사용자가 설정한 ROM 폴더로 직접 옮겨야 합니다. 다운로드만으로 해당 폴더에 자동 배치되는 것은 아닙니다.</span></li>
+          <li><strong>선택한 게임 검사</strong><span>게임 목록에서 해당 게임을 마우스 오른쪽 버튼으로 클릭하고 <strong>검사</strong>를 선택합니다.</span></li>
+          <li><strong>검사 결과 확인</strong><span>해당 게임의 ROM 검사 결과가 <strong>Passed</strong>인지 확인합니다. 0.289.9 공지에서는 실행을 위해 Passed 상태가 되어야 한다고 안내합니다.</span></li>
+        </ol>
+        <div class="tip"><strong>0.289.9 ROM 검색 개선</strong><p>ROM 검색 도중 단계별 진행 상태와 진행률을 보여주고, 검색 중 UI 응답성을 개선했습니다. 이는 기존 빠른 검색 기능에 덧붙여진 변경 사항입니다.</p></div>
       </section>
 
       <section class="doc-section" id="ips" data-title="IPS 해킹롬 패치 부모롬 다중 선택 패치명 한국어 게임 관리 DAT CRC">
@@ -132,6 +149,7 @@
 [en_US]
 Extra Uzi (한국어 패치)</code></pre></div>
         <p class="text-small">예시 첫 줄에는 부모 ROM 내부 파일명, 패치 파일명, 원본 CRC 정보가 차례로 들어갑니다. 실제 값은 사용하는 패치의 데이터와 일치해야 합니다.</p>
+        <div class="tip"><strong>0.289.9 보충</strong><p><strong>도움말(H) → IPS 패치파일 다운</strong> 메뉴가 추가됐습니다. 한국어 패치 지원도 원더보이, KOF 시리즈, CPS1/CPS2, 사이쿄 게임 등으로 확대되고 관련 호환성이 개선됐다고 안내돼 있습니다. 기존 IPS 패치 준비·적용 절차는 위 설명을 참고하세요.</p></div>
       </section>
 
       <section class="doc-section" id="romdata" data-title="RomData 네오지오 MVS CPS 스트리트 파이터 2 드라이버 해킹롬">
@@ -156,6 +174,13 @@ Extra Uzi (한국어 패치)</code></pre></div>
         <figure class="screenshot"><a href="./images/experimental.webp" data-lightbox><img src="./images/experimental.webp" alt="GPU 출력 대기열과 디지털 입력 지연 실험 기능 설정 화면" loading="lazy"></a><figcaption>0.289.7 실험 기능 — GPU 출력 대기열 및 입력 지연 관련 옵션</figcaption></figure>
         <div class="notice notice-amber"><span class="notice-symbol">!</span><p><strong>실험 기능은 기본적으로 꺼져 있습니다.</strong> GPU 출력 대기열 제한과 디지털 입력 지연 개선 옵션은 실제 효과가 검증 중이라고 안내됐습니다. 문제가 생기거나 효과가 없다면 다시 비활성화하세요.</p></div>
         <div class="tip"><strong>설정 상속</strong><p>0.289.4에서 기본 설정과 게임·소스별 INI 저장 방식이 개선됐습니다. 기본 설정을 바꿔도 적용되지 않는다면 과거에 생성된 개별 게임 INI가 우선하는지 <a href="#faq">문제 해결</a>에서 확인하세요.</p></div>
+        <h3 class="subheading">0.289.9 — 화면 출력과 GPU 가속 보충</h3>
+        <p><strong>창 모드·전체 화면</strong>, <strong>화면비 유지·화면 채우기</strong> 설정이 간소화되고 화면 출력 기능이 개선됐습니다. 기존 와이드스크린·비디오 효과 설명은 그대로 적용되는 별개의 안내입니다.</p>
+        <div class="feature-grid two-features">
+          <article class="feature-card"><h3>Model 3 GPU 가속</h3><p>0.289.9의 <strong>GPU 가속</strong> 설정 화면에서도 Model 3 GPU 가속 방식을 선택할 수 있습니다. 기존 0.289.6 설명에 대한 추가 안내이며, 모든 환경에서의 성능 향상을 보장하지는 않습니다.</p></article>
+          <article class="feature-card"><h3>System 23 GPU 가속 추가</h3><p><strong>GPU 가속 → System 23 GPU 가속 사용</strong> 항목이 추가됐습니다. 공지에 따르면 <strong>Crisis Zone</strong>과 <strong>Time Crisis II</strong> 일부 버전에 네이티브 가속 코어가 추가되고 기본 활성화됩니다. 다른 System 23 게임은 기존에도 정상 구동돼 적용하지 않았다고 안내돼 있습니다.</p></article>
+        </div>
+        <div class="notice notice-neutral"><span class="notice-symbol">i</span><p>System 23 지원 대상은 공지에 언급된 게임 및 해당 일부 버전에 한정됩니다. 위의 <strong>GPU 출력 대기열·입력 지연 실험 기능</strong>에 대한 기본 비활성화 안내와 System 23 가속의 기본 활성화 안내는 서로 다른 설정을 설명합니다.</p></div>
       </section>
 
       <section class="doc-section" id="preview" data-title="미리보기 아트워크 동영상 MP4 MNG 스냅샷 캐비넷 정보 이미지 Artwork">
@@ -163,6 +188,7 @@ Extra Uzi (한국어 패치)</code></pre></div>
         <figure class="screenshot"><a href="./images/artwork.webp" data-lightbox><img src="./images/artwork.webp" alt="고급 화면 표시 설정의 설치된 아트워크 미리보기" loading="lazy"></a><figcaption><strong>화면 표시 → 고급 설정</strong>의 설치된 아트워크 미리보기 (0.289.5)</figcaption></figure>
         <div class="two-column"><div><h3 class="subheading">게임 미리보기</h3><p>0.289.7부터 오른쪽 화면이 <strong>동영상 미리보기</strong>와 <strong>게임 정보</strong> 영역으로 나뉘고, 두 영역의 높이를 조절할 수 있습니다. 한글명·영문명·제조사·연도 등의 상세 정보가 표시됩니다.</p><p>전체화면 게임 목록에서도 MP4와 MNG 동영상 미리보기가 지원됩니다.</p></div><div class="path-card"><span>0.289.7부터 안내된 경로</span><code>Artwork/mp4</code><code>Artwork/mng</code><p>각 형식의 동영상 파일은 해당 폴더에 배치하도록 안내돼 있습니다.</p></div></div>
         <p class="text-small">미리보기 파일의 이름, 지원 확장자 전체 목록, 필수 압축 형식은 이번 자료만으로 확정할 수 없어 별도로 기재하지 않았습니다.</p>
+        <div class="tip"><strong>0.289.9 미리보기 개선</strong><p><strong>MNG 영상의 MP3 오디오 재생</strong>을 지원하고 미디어 경로 설정이 개선됐습니다. <strong>도움말(H) → MNG 파일 다운</strong> 메뉴도 추가됐습니다. MNG의 기존 배치 경로에 관한 설명은 위 내용을 참고하세요.</p></div>
       </section>
 
       <section class="doc-section" id="commands" data-title="공략 커맨드 가이드 F5 F8 F9 캐릭터 기술표 자동 표시 마키 스냅샷 플라이어">
@@ -193,11 +219,13 @@ Extra Uzi (한국어 패치)</code></pre></div>
           <details><summary>0.289.7 업데이트 후 폴더나 미리보기가 안 보입니다.<span>+</span></summary><div><p>새 폴더 구조로 파일을 직접 이동했는지, <strong>옵션 → 디렉터리</strong> 경로가 새 위치인지 확인하세요. MP4와 MNG는 각각 <code>Artwork/mp4</code>, <code>Artwork/mng</code> 경로로 안내돼 있습니다.</p></div></details>
           <details><summary>GPU 가속·입력 지연 실험 기능을 켜야 하나요?<span>+</span></summary><div><p>필수 기능이 아닙니다. 자료에는 기본 비활성화이며 효과를 검증 중이라고 명시돼 있습니다. 안정적인 사용을 원한다면 기본값을 유지하고 필요한 경우에만 한 항목씩 비교하는 편이 좋습니다.</p></div></details>
         </div>
+        <div class="note-card"><span class="note-card-tag">0.289.9 치트 호환성</span><h3>클론 게임의 치트 파일이 없는 경우</h3><p>클론 게임에 별도의 치트 파일이 없으면 <strong>부모 게임의 치트 파일을 자동으로 불러오는 기능</strong>이 추가됐습니다. 치트 파일을 찾을 수 없는 상황에서 참고할 수 있는 0.289.9 변경 사항입니다.</p></div>
       </section>
 
       <section class="doc-section" id="history" data-title="버전 업데이트 0.289.3 0.289.4 0.289.5 0.289.6 0.289.7 0.289.8 변경사항">
         <div class="section-heading"><span class="section-index">12 / RELEASE HISTORY</span><h2>버전별 주요 변경 사항</h2><p>이번 문서에서 다룬 기능의 도입·개선 시점을 빠르게 찾아보세요.</p></div>
         <div class="timeline">
+          <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-meta">0.289.9 <time datetime="2026-10-29">2026.10.29</time></div><h3>ROM 외부 검색·다운로드와 System 23 GPU 가속</h3><p>도움말 메뉴 4종 추가, 게임 목록 우클릭 ROM 검색·다운로드 연동 및 검사 안내, System 23 GPU 가속(Crisis Zone·Time Crisis II 일부 버전), 한국어 패치 게임 확대, 디스플레이 설정 간소화, MNG의 MP3 오디오 재생, ROM 검색 진행 표시, 클론 게임 치트의 부모 파일 자동 대체.</p></div>
           <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-meta">0.289.8 <time datetime="2026-10-25">2026.10.25</time></div><h3>공략 보기 기능</h3><p>게임 목록 공략 탭, 실행 중 캐릭터별 가이드, F5/F8/F9 조작, 해킹롬 제외 필터, 한글 경로 호환성 개선.</p></div>
           <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-meta">0.289.7 <time datetime="2026-10-19">2026.10.19</time></div><h3>게임 목록 UI 개편</h3><p>전체화면·카드·아이콘 보기, 게임 정보와 미리보기 분할, 폴더 순서, 구버전 입력 호환, 디렉터리 개선, 폴더 구조 변경.</p></div>
           <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-meta">0.289.6 <time datetime="2026-10-14">2026.10.14</time></div><h3>속도·검색·화면 개선</h3><p>게임 목록·ROM 스캔 성능, 검색 조건 확대, IPS 표시 개선, 와이드스크린 늘리기, Model 3 GPU 가속 실험 기능.</p></div>
@@ -206,6 +234,7 @@ Extra Uzi (한국어 패치)</code></pre></div>
           <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-meta">0.289.3 <time datetime="2026-10-07">2026.10.07</time></div><h3>IPS 목록 및 기초 설정 수정</h3><p>해킹 IPS 목록과 한국어 분류, ESC 종료 확인, 비디오 옵션 적용 수정. 0.289.2에서 IPS 압축 지원.</p></div>
         </div>
         <div class="sources"><h3>자료 출처</h3><p>사용자가 제공한 네이버 카페 배포 글 PDF와 0.289.4 업데이트 내역을 바탕으로 재구성했습니다. 아래는 원문 게시글 링크입니다.</p><ul><li><a href="https://cafe.naver.com/f-e/cafes/10347637/articles/32914" target="_blank" rel="noopener noreferrer">0.289.3 배포 글 ↗</a></li><li><a href="https://cafe.naver.com/f-e/cafes/10347637/articles/32917" target="_blank" rel="noopener noreferrer">0.289.5 배포 글 (0.289.4 변경 내역 포함) ↗</a></li><li><a href="https://cafe.naver.com/f-e/cafes/10347637/articles/32918" target="_blank" rel="noopener noreferrer">0.289.6 배포 글 ↗</a></li><li><a href="https://cafe.naver.com/f-e/cafes/10347637/articles/32923" target="_blank" rel="noopener noreferrer">0.289.7 배포 글 ↗</a></li><li><a href="https://cafe.naver.com/f-e/cafes/10347637/articles/32930" target="_blank" rel="noopener noreferrer">0.289.8 배포 글 ↗</a></li></ul></div>
+        <p class="text-small"><strong>0.289.9 원문:</strong> <a href="https://cafe.naver.com/f-e/cafes/10347637/articles/32946" target="_blank" rel="noopener noreferrer">네이버 카페 「EKMAME 0.289.9 정보」 (2026.10.29) ↗</a></p>
       </section>
 
       <footer class="guide-footer"><span class="brand-footer">EK<span>+</span> <strong>EKMAME USER GUIDE</strong></span><p>기능 안내는 제공된 배포 자료를 기준으로 하며, 모든 환경에서의 실제 동작을 검증한 것은 아닙니다.</p><a href="#top">맨 위로 ↑</a></footer>
