@@ -6,6 +6,7 @@
   <meta name="description" content="EKMAME IPS patch download library">
   <title>EKMAME IPS Patch Library</title>
   <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="./assets/updates.css">
 </head>
 <body>
   <div class="bg-glow bg-glow-1"></div>
@@ -26,6 +27,13 @@
   </header>
 
   <main class="wrap">
+    <section class="panel ips-usage" aria-labelledby="ipsUsageTitle">
+      <h2 id="ipsUsageTitle">IPS 패치 적용 방법</h2>
+      <p><strong>패치 압축파일(.zip, .7z)은 압축을 풀지 말고</strong> <code>IPS/적용할 ROM명/</code> 폴더에 그대로 넣어 주세요.</p>
+      <p>압축파일 이름과 압축파일 내부의 <code>.dat</code> 파일 이름은 <strong>확장자를 제외하고 반드시 같아야 합니다.</strong></p>
+      <p class="ips-usage-example">배치 예시: <code>IPS/sfiii2/Korean_Translation.zip</code> → 압축파일 내부 <code>Korean_Translation.dat</code> (이름 일치 예시)</p>
+    </section>
+
     <section class="stats" aria-label="패치 현황">
       <article class="stat-card">
         <span class="stat-label">등록 패치</span>
@@ -43,6 +51,17 @@
         <span class="stat-label">선택 용량</span>
         <strong id="selectedSize">0 B</strong>
       </article>
+    </section>
+
+    <section class="panel recent-updates" aria-label="최근 IPS 패치 업데이트">
+      <div class="recent-updates-header">
+        <div>
+          <h2>최근 30일 IPS 패치 업데이트</h2>
+          <p id="recentUpdatesStatus" role="status">최근 추가·변경된 IPS 패치 파일을 불러오는 중입니다.</p>
+        </div>
+        <a class="recent-updates-link" href="https://github.com/WOOSEOK99/EKMAME_IPS/commits/main/EKIPS_7z" target="_blank" rel="noopener noreferrer">패치 변경 기록 보기 ↗</a>
+      </div>
+      <div id="recentUpdatesList" class="recent-updates-list"></div>
     </section>
 
     <section class="panel toolbar">
@@ -73,6 +92,8 @@
           </select>
         </label>
       </div>
+
+      <nav id="alphabetNav" class="alphabet-nav" aria-label="ROM명 알파벳 바로가기"></nav>
 
       <div id="emptyState" class="empty-state" hidden>
         <div class="empty-icon">IPS</div>
@@ -107,5 +128,6 @@
   </footer>
 
   <script src="./assets/app.js" defer></script>
+  <script src="./assets/updates.js" defer></script>
 </body>
 </html>

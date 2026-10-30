@@ -1,5 +1,5 @@
-const state={patches:[],filtered:[],selected:new Set(),query:"",sort:"game"};
-const els={patchList:document.querySelector("#patchList"),emptyState:document.querySelector("#emptyState"),emptyTitle:document.querySelector("#emptyTitle"),emptyMessage:document.querySelector("#emptyMessage"),searchInput:document.querySelector("#searchInput"),sortSelect:document.querySelector("#sortSelect"),selectVisibleBtn:document.querySelector("#selectVisibleBtn"),clearSelectionBtn:document.querySelector("#clearSelectionBtn"),selectedDownloadBtn:document.querySelector("#selectedDownloadBtn"),bulkDownloadBtn:document.querySelector("#bulkDownloadBtn"),patchCount:document.querySelector("#patchCount"),gameCount:document.querySelector("#gameCount"),selectedCount:document.querySelector("#selectedCount"),selectedSize:document.querySelector("#selectedSize"),barSelectedCount:document.querySelector("#barSelectedCount"),barSelectedSize:document.querySelector("#barSelectedSize"),resultSummary:document.querySelector("#resultSummary"),toast:document.querySelector("#toast")};
+const state={patches:[],filtered:[],selected:new Set(),query:"",sort:"game",expandedLetters:new Set(["0-9"])};
+const els={patchList:document.querySelector("#patchList"),alphabetNav:document.querySelector("#alphabetNav"),emptyState:document.querySelector("#emptyState"),emptyTitle:document.querySelector("#emptyTitle"),emptyMessage:document.querySelector("#emptyMessage"),searchInput:document.querySelector("#searchInput"),sortSelect:document.querySelector("#sortSelect"),selectVisibleBtn:document.querySelector("#selectVisibleBtn"),clearSelectionBtn:document.querySelector("#clearSelectionBtn"),selectedDownloadBtn:document.querySelector("#selectedDownloadBtn"),bulkDownloadBtn:document.querySelector("#bulkDownloadBtn"),patchCount:document.querySelector("#patchCount"),gameCount:document.querySelector("#gameCount"),selectedCount:document.querySelector("#selectedCount"),selectedSize:document.querySelector("#selectedSize"),barSelectedCount:document.querySelector("#barSelectedCount"),barSelectedSize:document.querySelector("#barSelectedSize"),resultSummary:document.querySelector("#resultSummary"),toast:document.querySelector("#toast")};
 
 function bytes(value){const n=Number(value)||0;if(!n)return"0 B";const units=["B","KB","MB","GB"];const i=Math.min(Math.floor(Math.log(n)/Math.log(1024)),units.length-1);return `${(n/1024**i).toFixed(i===0?0:1)} ${units[i]}`}
 function text(v){return String(v??"")}
@@ -7,11 +7,69 @@ function escapeHtml(v){return text(v).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&
 function idFor(p,i){return p.id||p.rom||p.file||String(i)}
 function searchable(p){return [p.game,p.rom,p.title,p.description,p.file,p.category].map(text).join(" ").toLowerCase()}
 function compare(a,b){if(state.sort==="updated")return text(b.updated).localeCompare(text(a.updated));if(state.sort==="rom")return text(a.rom).localeCompare(text(b.rom),"en",{numeric:true});return text(a.game).localeCompare(text(b.game),"ko",{numeric:true})||text(a.rom).localeCompare(text(b.rom),"en",{numeric:true})}
+const alphabet=["0-9",..."ABCDEFGHIJKLMNOPQRSTUVWXYZ","#"];
+function letterFor(p){const first=text(p.game||p.rom||p.file).trim().charAt(0).toUpperCase();return /^[0-9]$/.test(first)?"0-9":/^[A-Z]$/.test(first)?first:"#"}
+function visiblePatches(){
+  const expanded=new Set(Array.from(els.patchList.querySelectorAll(".patch-group[open]")).map(group=>group.dataset.letter));
+  return state.filtered.filter(p=>expanded.has(letterFor(p)));
+}
+function renderAlphabetNav(groups){
+  if(!els.alphabetNav)return;
+  els.alphabetNav.hidden=!!state.query.trim()||!state.filtered.length;
+  const frag=document.createDocumentFragment();
+  alphabet.forEach(letter=>{
+    const button=document.createElement("button");
+    button.type="button";
+    button.className="alphabet-btn";
+    button.textContent=letter;
+    button.disabled=!groups.has(letter);
+    button.title=groups.has(letter)?`${letter} 그룹 ${groups.get(letter).length}개 보기`:"해당 그룹에 패치가 없습니다.";
+    button.addEventListener("click",()=>{
+      const section=Array.from(els.patchList.children).find(el=>el.dataset.letter===letter);
+      if(!section)return;
+      state.expandedLetters.add(letter);
+      section.open=true;
+      section.scrollIntoView({behavior:"smooth",block:"start"});
+    });
+    frag.appendChild(button);
+  });
+  els.alphabetNav.replaceChildren(frag);
+}
 function applyFilters(){const q=state.query.trim().toLowerCase();state.filtered=state.patches.filter(p=>!q||searchable(p).includes(q)).sort(compare);render()}
 function render(){
   els.patchList.innerHTML="";
   const frag=document.createDocumentFragment();
+  const groups=new Map();
   state.filtered.forEach((p,i)=>{
+    const letter=letterFor(p);
+    if(!groups.has(letter))groups.set(letter,[]);
+    groups.get(letter).push([p,i]);
+  });
+  alphabet.forEach(letter=>{
+    const entries=groups.get(letter);
+    if(!entries?.length)return;
+    const section=document.createElement("details");
+    section.className="patch-group";
+    section.dataset.letter=letter;
+    section.open=!!state.query.trim()||state.expandedLetters.has(letter);
+    const summary=document.createElement("summary");
+    summary.className="patch-group-summary";
+    const heading=document.createElement("strong");
+    heading.className="patch-group-letter";
+    heading.textContent=letter;
+    const count=document.createElement("span");
+    count.className="patch-group-count";
+    count.textContent=`${entries.length.toLocaleString()}개 패치`;
+    summary.append(heading,count);
+    summary.addEventListener("click",()=>{
+      if(state.query.trim())return;
+      if(section.open)state.expandedLetters.delete(letter);
+      else state.expandedLetters.add(letter);
+    });
+    section.appendChild(summary);
+    const items=document.createElement("div");
+    items.className="patch-group-items";
+    entries.forEach(([p,i])=>{
     const id=idFor(p,i);
     const row=document.createElement("article");
     row.className="patch-row";
@@ -34,13 +92,17 @@ function render(){
         <span class="file-size">${bytes(p.size)}</span>
         ${url?`<a class="icon-btn" href="${escapeHtml(url)}" download>다운로드 ↓</a>`:`<button class="icon-btn" type="button" disabled>준비 중</button>`}
       </div>`;
-    frag.appendChild(row);
+    items.appendChild(row);
+    });
+    section.appendChild(items);
+    frag.appendChild(section);
   });
   els.patchList.appendChild(frag);
+  renderAlphabetNav(groups);
   els.emptyState.hidden=state.filtered.length>0;
   if(!state.patches.length){els.emptyTitle.textContent="등록된 패치가 없습니다.";els.emptyMessage.textContent="GitHub Releases에 패치를 올린 뒤 data/patches.json에 목록을 추가하면 여기에 표시됩니다."}
   else if(!state.filtered.length){els.emptyTitle.textContent="검색 결과가 없습니다.";els.emptyMessage.textContent="다른 게임명, ROM명 또는 패치명으로 검색해 보세요."}
-  els.resultSummary.textContent=`${state.filtered.length}개 표시 / 전체 ${state.patches.length}개`;
+  els.resultSummary.textContent=`${state.filtered.length}개 검색됨 / 전체 ${state.patches.length}개 · ROM명 첫 글자별 그룹`;
   bindChecks();
   updateStats();
 }
@@ -71,7 +133,7 @@ async function sequentialDownload(items){
 }
 els.searchInput.addEventListener("input",e=>{state.query=e.target.value;applyFilters()});
 els.sortSelect.addEventListener("change",e=>{state.sort=e.target.value;applyFilters()});
-els.selectVisibleBtn.addEventListener("click",()=>{state.filtered.forEach((p,i)=>state.selected.add(idFor(p,i)));render()});
+els.selectVisibleBtn.addEventListener("click",()=>{visiblePatches().forEach((p,i)=>state.selected.add(idFor(p,i)));render()});
 els.clearSelectionBtn.addEventListener("click",()=>{state.selected.clear();render()});
 els.selectedDownloadBtn.addEventListener("click",()=>sequentialDownload(selectedPatches()));
 els.bulkDownloadBtn.addEventListener("click",()=>{

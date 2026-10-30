@@ -1,0 +1,124 @@
+{
+  "source": "EKIPS_7z/",
+  "commits": [
+    {
+      "sha": "48e00517bb9b43119081c22aca4e718e56208a38",
+      "date": "2026-10-28T00:51:23Z",
+      "message": "1",
+      "files": [
+        {
+          "filename": "EKIPS_7z/sfiii2/Korean_Translation.zip",
+          "status": "added"
+        },
+        {
+          "filename": "EKIPS_7z/sfiii2j/Korean_Translation.zip",
+          "status": "added"
+        },
+        {
+          "filename": "EKIPS_7z/sfiii2n/Korean_Translation.zip",
+          "status": "added"
+        },
+        {
+          "filename": "EKIPS_7z/timecris/timecriskr.zip",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "sha": "e5b385e09bddfbbe7e8392cb567ef5be16039082",
+      "date": "2026-10-27T23:45:35Z",
+      "message": "release",
+      "files": [
+        {
+          "filename": "EKIPS_7z/jojobanr1/jojobanr1kr.zip",
+          "status": "added"
+        },
+        {
+          "filename": "EKIPS_7z/sengoku/sengoku.7z",
+          "status": "removed"
+        },
+        {
+          "filename": "EKIPS_7z/sengokuh/sengokuh.7z",
+          "status": "removed"
+        }
+      ]
+    },
+    {
+      "sha": "357ceb58f9fc45f522b12a53d56bad50222d200a",
+      "date": "2026-10-25T21:38:36Z",
+      "message": "Merge branch 'main' of https://github.com/WOOSEOK99/EKMAME_IPS",
+      "files": [
+        {
+          "filename": "EKIPS_7z/sengoku/sengoku.7z",
+          "status": "added"
+        },
+        {
+          "filename": "EKIPS_7z/sengokuh/sengokuh.7z",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "sha": "34e7dbe43f1fbbb161749acb9db7785381edf7f5",
+      "date": "2026-10-25T21:38:33Z",
+      "message": "add ips",
+      "files": [
+        {
+          "filename": "EKIPS_7z/deadconxj/deadconxkr.7z",
+          "status": "added"
+        },
+        {
+          "filename": "EKIPS_7z/gijoej/Korean_Translation.zip",
+          "status": "added"
+        },
+        {
+          "filename": "EKIPS_7z/legionnaj/legionnakr.7z",
+          "status": "added"
+        },
+        {
+          "filename": "EKIPS_7z/sengoku/Korean_Translation.7z",
+          "status": "added"
+        },
+        {
+          "filename": "EKIPS_7z/sengokuh/Korean_Translation.7z",
+          "status": "added"
+        },
+        {
+          "filename": "EKIPS_7z/sfiii/Korean_Translation.7z",
+          "status": "added"
+        },
+        {
+          "filename": "EKIPS_7z/sfiiij/Korean_Translation.7z",
+          "status": "added"
+        },
+        {
+          "filename": "EKIPS_7z/sonic/sonickr.7z",
+          "status": "added"
+        },
+        {
+          "filename": "EKIPS_7z/vampj/Korean_Translation.zip",
+          "status": "added"
+        },
+        {
+          "filename": "EKIPS_7z/vhuntj/Korean_Translation.7z",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "sha": "6561a52461d4485ffc773e05c044d6171c7f4352",
+      "date": "2026-10-15T05:46:36Z",
+      "message": "Add files via upload",
+      "files": [
+        {
+          "filename": "EKIPS_7z/sengoku/sengoku.7z",
+          "status": "added"
+        },
+        {
+          "filename": "EKIPS_7z/sengokuh/sengokuh.7z",
+          "status": "added"
+        }
+      ]
+    }
+  ]
+}

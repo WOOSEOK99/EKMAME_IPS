@@ -1,0 +1,40 @@
+/* Homepage recent GitHub commit and file changes */
+.recent-updates{margin:0 0 18px;padding:20px}
+.recent-updates-header{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:14px}
+.recent-updates-header h2{margin:0 0 5px;font-size:20px}
+.recent-updates-header p{margin:0;color:var(--muted);font-size:13px;line-height:1.5}
+.recent-updates-link,.recent-commit-link{color:#8fc6ff;text-decoration:none;font-size:13px;white-space:nowrap}
+.recent-updates-link:hover,.recent-commit-link:hover{text-decoration:underline}
+.recent-updates-list{display:grid;gap:9px}
+.recent-commit{min-width:0;border:1px solid var(--line);background:rgba(5,13,21,.72);border-radius:12px;overflow:hidden}
+.recent-commit[open]{border-color:rgba(75,163,255,.3)}
+.recent-commit-heading{display:flex;align-items:center;gap:12px;justify-content:space-between;padding:12px 14px;cursor:pointer;list-style:none}
+.recent-commit-heading::-webkit-details-marker{display:none}
+.recent-commit-heading::after{content:"▾";color:var(--muted);margin-left:2px;transition:transform .2s}
+.recent-commit[open]>.recent-commit-heading::after{transform:rotate(180deg)}
+.recent-commit-heading:hover{background:rgba(255,255,255,.035)}
+.recent-commit-heading-main{min-width:0;flex:1;display:grid;gap:5px}
+.recent-commit-title{font-size:14px;font-weight:700;overflow-wrap:anywhere}
+.recent-commit-meta{font-size:12px;color:var(--muted)}
+.recent-commit-chips{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.recent-visit-tag,.recent-count-tag{font-size:11px;border-radius:7px;padding:5px 7px;white-space:nowrap}
+.recent-visit-tag{background:rgba(113,225,181,.12);color:#9af2ce;border:1px solid rgba(113,225,181,.25)}
+.recent-count-tag{background:rgba(75,163,255,.10);color:#a9d3ff;border:1px solid rgba(75,163,255,.17)}
+.recent-commit-body{border-top:1px solid var(--line);padding:12px 14px 14px}
+.recent-file-list{list-style:none;display:grid;gap:7px;margin:0 0 12px;padding:0}
+.recent-file{display:flex;align-items:baseline;gap:10px;min-width:0;flex-wrap:wrap}
+.recent-file-tag{flex:none;min-width:56px;text-align:center;border-radius:6px;font-size:11px;font-weight:700;padding:3px 7px;color:#bed1e4;background:#172636}
+.recent-file-added{color:#93f2c9;background:rgba(39,181,123,.16)}
+.recent-file-modified{color:#93c7ff;background:rgba(75,163,255,.15)}
+.recent-file-removed{color:#ffaaaa;background:rgba(255,123,123,.14)}
+.recent-file-renamed{color:#f4d795;background:rgba(247,197,94,.14)}
+.recent-file-name{color:var(--text);text-decoration:none;font-size:13px;overflow-wrap:anywhere;word-break:break-word}
+.recent-file-name:hover{color:#9ed0ff;text-decoration:underline}
+.recent-file-old{color:var(--muted);font-size:11px;overflow-wrap:anywhere}
+.recent-notice{color:var(--muted);font-size:12px;line-height:1.6;margin:0 0 12px}
+@media(max-width:640px){
+  .recent-updates{padding:14px}
+  .recent-updates-header{align-items:flex-start;flex-direction:column}
+  .recent-commit-heading{align-items:flex-start;flex-wrap:wrap;gap:8px}
+  .recent-commit-chips{justify-content:flex-start}
+}
