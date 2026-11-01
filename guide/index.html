@@ -56,6 +56,8 @@
         <a href="#folders"><span>10</span> 폴더와 데이터 이전</a>
         <a href="#faq"><span>11</span> 문제 해결</a>
         <a href="#history"><span>12</span> 버전별 변경 사항</a>
+        <span class="nav-label">콘솔 게임</span>
+        <a href="#console"><span>13</span> 콘솔 게임 사용법</a>
       </nav>
       <div class="sidebar-note"><span class="dot"></span> 사용자 게시글과 첨부 화면을 바탕으로 작성했습니다.</div>
     </aside>
@@ -241,6 +243,101 @@ Extra Uzi (한국어 패치)</code></pre></div>
         </div>
         <div class="sources"><h3>자료 출처</h3><p>사용자가 제공한 네이버 카페 배포 글 PDF와 0.289.4 업데이트 내역을 바탕으로 재구성했습니다. 아래는 원문 게시글 링크입니다.</p><ul><li><a href="https://cafe.naver.com/f-e/cafes/10347637/articles/32914" target="_blank" rel="noopener noreferrer">0.289.3 배포 글 ↗</a></li><li><a href="https://cafe.naver.com/f-e/cafes/10347637/articles/32917" target="_blank" rel="noopener noreferrer">0.289.5 배포 글 (0.289.4 변경 내역 포함) ↗</a></li><li><a href="https://cafe.naver.com/f-e/cafes/10347637/articles/32918" target="_blank" rel="noopener noreferrer">0.289.6 배포 글 ↗</a></li><li><a href="https://cafe.naver.com/f-e/cafes/10347637/articles/32923" target="_blank" rel="noopener noreferrer">0.289.7 배포 글 ↗</a></li><li><a href="https://cafe.naver.com/f-e/cafes/10347637/articles/32930" target="_blank" rel="noopener noreferrer">0.289.8 배포 글 ↗</a></li></ul></div>
         <p class="text-small"><strong>0.289.9 원문:</strong> <a href="https://cafe.naver.com/f-e/cafes/10347637/articles/32946" target="_blank" rel="noopener noreferrer">네이버 카페 「EKMAME 0.289.9 정보」 (2026.10.29) ↗</a></p>
+      </section>
+
+      <section class="doc-section" id="console" data-title="콘솔 게임 사용법 네오지오 CD Neo Geo CD NES SNES GBA GB GBC 메가드라이브 PC Engine BIOS CHD CUE ZIP 7Z 치트 공략 MP4 MNG 스냅샷">
+        <div class="section-heading"><span class="section-index">13 / CONSOLE GAMES</span><h2>콘솔 게임 사용법</h2><p>아케이드와 별도로 콘솔 게임을 관리하고, 미리보기·치트·게임별 공략을 사용하는 방법입니다.</p></div>
+        <div class="notice notice-neutral"><span class="notice-symbol">i</span><p><strong>콘솔 기능이 포함된 EKGUI 빌드에서 사용하세요.</strong> 기존 0.289.3~0.289.9 배포 안내와 별도로 추가된 기능이며, 실행 가능 여부는 빌드에 포함된 MAME 드라이버 및 게임 이미지에 따라 달라집니다.</p></div>
+
+        <h3 class="subheading">지원 콘솔과 파일 형식</h3>
+        <ul class="check-list">
+          <li><strong>Neo Geo CD:</strong> <code>.chd</code>, <code>.cue</code></li>
+          <li><strong>NES:</strong> <code>.nes</code>, <code>.zip</code>, <code>.7z</code></li>
+          <li><strong>SNES:</strong> <code>.sfc</code>, <code>.smc</code>, <code>.zip</code>, <code>.7z</code></li>
+          <li><strong>Game Boy Advance:</strong> <code>.gba</code>, <code>.zip</code>, <code>.7z</code></li>
+          <li><strong>Game Boy:</strong> <code>.gb</code>, <code>.zip</code>, <code>.7z</code></li>
+          <li><strong>Game Boy Color:</strong> <code>.gbc</code>, <code>.gb</code>, <code>.zip</code>, <code>.7z</code></li>
+          <li><strong>Mega Drive / Genesis:</strong> <code>.md</code>, <code>.gen</code>, <code>.bin</code>, <code>.smd</code>, <code>.zip</code>, <code>.7z</code></li>
+          <li><strong>PC Engine:</strong> <code>.pce</code>, <code>.zip</code>, <code>.7z</code></li>
+        </ul>
+        <p>Neo Geo CD는 CHD 또는 CUE 이미지로 등록합니다. CUE/BIN 조합에서는 CUE가 참조하는 BIN 파일도 함께 보관해야 합니다. ZIP/7z는 카트리지 콘솔용 파일 형식이며 Neo Geo CD 압축 이미지 실행을 뜻하지 않습니다.</p>
+
+        <h3 class="subheading">게임 파일 등록과 실행</h3>
+        <div class="code-panel"><div class="code-title">EKGUI 실행 파일 기준 · Games/console</div><pre><code>EKGUI/
+└─ Games/
+   └─ console/
+      ├─ neocd/       ← Neo Geo CD
+      ├─ nes/
+      ├─ snes/
+      ├─ gba/
+      ├─ gb/
+      ├─ gbc/
+      ├─ megadriv/
+      └─ pce/</code></pre></div>
+        <ol class="numbered">
+          <li><strong>기종별 폴더에 게임 복사</strong><span>예: <code>Games/console/snes/chrono_kor.sfc</code>. 아케이드 ROM 폴더와 별도로 관리합니다.</span></li>
+          <li><strong>상단의 콘솔 탭 선택</strong><span>왼쪽에서 기종을 고르거나 전체 목록을 확인하고, 검색창으로 게임을 찾습니다.</span></li>
+          <li><strong>게임 실행</strong><span>게임을 더블클릭하거나 <kbd>Enter</kbd> 키를 누릅니다. 게임을 추가했으면 <kbd>F5</kbd>로 목록을 새로 고칩니다.</span></li>
+        </ol>
+
+        <h3 class="subheading">BIOS 파일 위치</h3>
+        <p>BIOS가 필요한 게임기는 해당 기종의 <code>Games/console</code> 하위 폴더에서도 BIOS를 검색합니다. 기존 MAME ROM 경로에 올바른 BIOS가 있으면 별도로 복사할 필요는 없습니다.</p>
+        <div class="code-panel"><div class="code-title">BIOS 배치 예시 · 파일은 각 게임기에 필요한 경우만 준비</div><pre><code>Games/console/
+├─ neocd/
+│  ├─ neocdz.zip
+│  └─ game.chd
+├─ gba/
+│  ├─ gba.zip
+│  └─ game.gba
+├─ gb/
+│  └─ gameboy.zip
+└─ gbc/
+   └─ gbcolor.zip</code></pre></div>
+        <p>BIOS 파일은 해당 MAME 버전의 요구 구성과 일치해야 합니다. BIOS 압축파일은 게임 선택 목록에서 제외되도록 처리되어 있습니다.</p>
+
+        <h3 class="subheading">오른쪽 미리보기와 게임 정보</h3>
+        <p>콘솔 게임을 선택하면 오른쪽 위에서 MP4·MNG 동영상이나 스냅샷을 표시하며, 아래쪽에서 선택 게임 정보를 확인할 수 있습니다. 미리보기는 <strong>MP4 → MNG → 스냅샷</strong> 순서로 사용합니다.</p>
+        <p>기존에 설정한 미디어 경로를 재사용하므로 콘솔 전용 미디어 파일을 반드시 만들 필요는 없습니다. 같은 이름의 파일이 있다면 공용 폴더에서도 찾습니다. 여러 기종에 같은 ROM 이름이 있을 때는 콘솔별 하위 폴더로 구분하세요.</p>
+        <div class="code-panel"><div class="code-title">기존 미디어 폴더 또는 설정한 미디어 디렉터리 사용</div><pre><code>Artwork/
+├─ mp4/
+│  ├─ snes/chrono_kor.mp4  ← 기종별 파일 우선
+│  └─ chrono_kor.mp4       ← 공용 파일
+├─ mng/
+│  └─ gba/metroid.mng
+└─ snap/
+   └─ gba/metroid.png</code></pre></div>
+
+        <h3 class="subheading">콘솔 게임 치트</h3>
+        <p>콘솔 치트는 MAME 호환 XML 파일을 사용합니다. 직접 등록한 게임 이미지의 경우 <strong>ROM 파일명(확장자 제외) → CRC32 → 시스템 기본 치트</strong> 순서로 검색하므로, 한글패치 ROM도 파일명에 맞는 치트를 지정할 수 있습니다.</p>
+        <div class="code-panel"><div class="code-title">치트 파일명 예시</div><pre><code>Games/console/snes/chrono_kor.sfc
+Resources/cheat/snes/chrono_kor.xml</code></pre></div>
+        <p>치트 XML의 하위 폴더는 MAME 드라이버 이름을 사용합니다. 게임 폴더와 다른 이름은 <code>neocd → neocdz</code>, <code>gb → gameboy</code>, <code>gbc → gbcolor</code>, <code>megadriv → genesis</code>입니다. 치트를 활성화한 뒤 게임 실행 중 MAME 치트 메뉴에서 사용하세요.</p>
+        <div class="tip"><strong>치트 호환성</strong><p>인터넷에서 받은 다른 에뮬레이터 전용 치트 파일은 이름만 바꿔도 읽히지 않을 수 있습니다. 한글패치·개조 ROM은 치트 파일을 불러와도 치트 주소가 달라 작동하지 않을 수 있습니다.</p></div>
+
+        <h3 class="subheading">게임별 공략 파일</h3>
+        <p>기존 아케이드 <code>command.dat</code>는 그대로 사용합니다. 콘솔에서는 <strong>게임별 독립 .dat 파일</strong>을 만들고, 게임을 선택한 다음 오른쪽 아래 <strong>정보 / 공략</strong> 탭에서 공략을 볼 수 있습니다. 이 기능은 콘솔 공략 지원 패치가 적용된 EKGUI 빌드가 필요합니다.</p>
+        <div class="code-panel"><div class="code-title">기본 DAT 폴더 기준 · dats/console/&lt;기종&gt;/&lt;ROM이름&gt;.dat</div><pre><code>dats/
+├─ command.dat             ← 기존 아케이드 공략
+└─ console/
+   ├─ neocd/
+   │  └─ samurairpg.dat
+   ├─ snes/
+   │  └─ chrono_kor.dat
+   └─ gba/
+      └─ metroid.dat</code></pre></div>
+        <p>예를 들어 <code>chrono_kor.sfc</code>를 실행 목록에서 선택했다면 <code>dats/console/snes/chrono_kor.dat</code>를 찾습니다. 공략 디렉터리를 별도로 변경한 경우에는 <strong>설정된 command.dat 폴더의 console 하위</strong>에 배치하세요. CRC 검사는 하지 않습니다.</p>
+        <div class="code-panel"><div class="code-title">chrono_kor.dat 작성 예시 · UTF-8 저장</div><pre><code>$cmd=기본 조작
+이동    방향키
+공격    A 버튼
+메뉴    X 버튼
+$end
+
+$cmd=게임 진행 팁
+보스전에 앞서 아이템을 준비합니다.
+중요한 이벤트 전에 저장하세요.
+$end</code></pre></div>
+        <p>기존 공략 표시 방식과 커맨드 아이콘·정렬 기능을 재사용합니다. 해당 게임의 파일이 없으면 <strong>등록된 공략이 없습니다.</strong>라고 표시됩니다.</p>
+        <div class="notice notice-neutral"><span class="notice-symbol">i</span><p><strong>파일명 일치가 중요합니다.</strong> 미리보기·치트·공략을 등록할 때는 실제 콘솔 ROM 파일의 확장자를 제외한 이름을 기준으로 맞추세요. 프로그램의 지원 여부와 각 게임의 실제 동작은 사용 중인 EKGUI 빌드에서 확인해야 합니다.</p></div>
       </section>
 
       <footer class="guide-footer"><span class="brand-footer">EK<span>+</span> <strong>EKMAME USER GUIDE</strong></span><p>기능 안내는 제공된 배포 자료를 기준으로 하며, 모든 환경에서의 실제 동작을 검증한 것은 아닙니다.</p><a href="#top">맨 위로 ↑</a></footer>
