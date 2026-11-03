@@ -88,11 +88,6 @@
         });
         row.appendChild(a);
         row.appendChild(make("span", "recent-commit-meta", dateText(entry.date)));
-        const commitLink = make("a", "recent-commit-link", "커밋");
-        commitLink.href = "https://github.com/" + repo + "/commit/" + encodeURIComponent(entry.sha);
-        commitLink.target = "_blank";
-        commitLink.rel = "noopener noreferrer";
-        row.appendChild(commitLink);
         fragment.appendChild(row);
       }
       list.appendChild(fragment);
