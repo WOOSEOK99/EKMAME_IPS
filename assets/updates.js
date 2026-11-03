@@ -6,6 +6,7 @@
   const initialCommit = "aaac8d82566f212b4fa340fdf54104795b1a0c9d";
   const dayMs = 24 * 60 * 60 * 1000;
   const pageSize = 100;
+  let downloadablePaths = new Set();
   const list = document.querySelector("#recentUpdatesList");
   const status = document.querySelector("#recentUpdatesStatus");
   if (!list || !status) return;
@@ -48,7 +49,7 @@
         newest.set(event.filename, event);
       }
     }
-    return [...newest.values()].filter(e => e.status !== "removed")
+    return [...newest.values()].filter(e => e.status !== "removed" && downloadablePaths.has(e.filename))
       .sort((a, b) => Date.parse(b.date) - Date.parse(a.date) ||
         a.filename.localeCompare(b.filename, "en", {numeric: true}));
   }
@@ -143,7 +144,15 @@
   async function start() {
     const savedEvents = [];
     let baseline = "";
-    const saved = await Promise.allSettled([readJson("./data/patch-updates.json")]);
+    const saved = await Promise.allSettled([
+      readJson("./data/patch-updates.json"),
+      readJson("./data/patches.json")
+    ]);
+    if (saved[1].status !== "fulfilled" || !Array.isArray(saved[1].value.patches)) {
+      status.textContent = "현재 다운로드 목록을 확인하지 못해 업데이트 내역을 표시할 수 없습니다.";
+      return;
+    }
+    downloadablePaths = new Set(saved[1].value.patches.map(p => p.id).filter(isPatchFile));
     if (saved[0].status === "fulfilled" && Array.isArray(saved[0].value.commits)) {
       const commits = saved[0].value.commits;
       baseline = commits[0]?.sha || "";
