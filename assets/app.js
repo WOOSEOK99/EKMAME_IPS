@@ -73,6 +73,7 @@ function render(){
     const id=idFor(p,i);
     const row=document.createElement("article");
     row.className="patch-row";
+    row.dataset.patchPath=p.id||"";
     const url=p.download_url||p.url||"";
     row.innerHTML=`
       <input class="patch-check" type="checkbox" aria-label="${escapeHtml(p.title||p.rom||"패치")} 선택" data-id="${escapeHtml(id)}" ${state.selected.has(id)?"checked":""}>
@@ -106,6 +107,20 @@ function render(){
   bindChecks();
   updateStats();
 }
+let pendingPatchPath="";
+function jumpToPatch(path){
+  if(!state.patches.length){pendingPatchPath=path;return;}
+  const patch=state.patches.find(p=>p.id===path);
+  if(!patch){toast("해당 패치가 현재 다운로드 목록에 없습니다.");return;}
+  pendingPatchPath="";
+  state.query="";
+  els.searchInput.value="";
+  state.expandedLetters.add(letterFor(patch));
+  applyFilters();
+  const row=Array.from(els.patchList.querySelectorAll(".patch-row")).find(el=>el.dataset.patchPath===path);
+  if(row){row.scrollIntoView({behavior:"smooth",block:"center"});row.classList.add("patch-jump-highlight");setTimeout(()=>row.classList.remove("patch-jump-highlight"),2500);}
+}
+window.addEventListener("ips:jump-to-patch",event=>jumpToPatch(event.detail.path));
 function bindChecks(){document.querySelectorAll(".patch-check").forEach(cb=>cb.addEventListener("change",e=>{e.target.checked?state.selected.add(e.target.dataset.id):state.selected.delete(e.target.dataset.id);updateStats()}))}
 function selectedPatches(){return state.patches.filter((p,i)=>state.selected.has(idFor(p,i)))}
 function updateStats(){
@@ -145,4 +160,5 @@ fetch("./data/patches.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Erro
   state.patches=Array.isArray(payload.patches)?payload.patches:[];
   if(payload.bundle_url&&state.patches.length)state.patches[0].bundle_url=payload.bundle_url;
   applyFilters();
+  if(pendingPatchPath)jumpToPatch(pendingPatchPath);
 }).catch(err=>{console.error(err);els.resultSummary.textContent="패치 목록을 불러오지 못했습니다.";els.emptyState.hidden=false;els.emptyTitle.textContent="패치 목록 로드 실패";els.emptyMessage.textContent="data/patches.json 파일을 확인해 주세요.";updateStats()});

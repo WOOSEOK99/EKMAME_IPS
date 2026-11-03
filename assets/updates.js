@@ -79,12 +79,13 @@
         const kind = ["added","modified","renamed"].includes(entry.status) ? entry.status : "changed";
         const labels = {added:"NEW", modified:"수정", renamed:"이름 변경", changed:"변경"};
         row.appendChild(make("span", "recent-file-tag recent-file-" + kind, labels[kind]));
-        const path = entry.filename.split("/").map(encodeURIComponent).join("/");
         const a = make("a", "recent-file-name", entry.filename.slice(root.length));
-        a.href = "https://github.com/" + repo + "/blob/" + encodeURIComponent(entry.sha) + "/" + path;
-        a.target = "_blank";
-        a.rel = "noopener noreferrer";
+        a.href = "#patchList";
         a.title = entry.filename;
+        a.addEventListener("click", event => {
+          event.preventDefault();
+          window.dispatchEvent(new CustomEvent("ips:jump-to-patch", {detail:{path:entry.filename}}));
+        });
         row.appendChild(a);
         row.appendChild(make("span", "recent-commit-meta", dateText(entry.date)));
         const commitLink = make("a", "recent-commit-link", "커밋");
