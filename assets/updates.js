@@ -4,7 +4,6 @@
   const api = "https://api.github.com/repos/" + repo;
   const root = "EKIPS_7z/";
   const initialCommit = "aaac8d82566f212b4fa340fdf54104795b1a0c9d";
-  const initialDate = "2026-10-07T12:32:09Z";
   const dayMs = 24 * 60 * 60 * 1000;
   const pageSize = 100;
   const list = document.querySelector("#recentUpdatesList");
@@ -42,7 +41,7 @@
     const threshold = Date.now() - 30 * dayMs;
     const newest = new Map();
     for (const event of events) {
-      if (!isPatchFile(event.filename) || !event.date || Date.parse(event.date) < threshold) continue;
+      if (!isPatchFile(event.filename) || event.sha === initialCommit || !event.date || Date.parse(event.date) < threshold) continue;
       const prior = newest.get(event.filename);
       if (!prior || Date.parse(event.date) > Date.parse(prior.date) ||
           (event.date === prior.date && event.priority > prior.priority)) {
@@ -144,28 +143,14 @@
   async function start() {
     const savedEvents = [];
     let baseline = "";
-    const saved = await Promise.allSettled([
-      readJson("./data/patches.json"),
-      readJson("./data/patch-updates.json")
-    ]);
-    if (saved[0].status === "fulfilled") {
-      const patches = saved[0].value.patches;
-      if (Array.isArray(patches)) {
-        for (const file of patches) {
-          if (isPatchFile(file.id)) savedEvents.push({
-            filename:file.id,status:"added",date:initialDate,
-            sha:initialCommit,priority:0
-          });
-        }
-      }
-    } else console.warn("초기 패치 파일 목록 확인 실패", saved[0].reason);
-    if (saved[1].status === "fulfilled" && Array.isArray(saved[1].value.commits)) {
-      const commits = saved[1].value.commits;
+    const saved = await Promise.allSettled([readJson("./data/patch-updates.json")]);
+    if (saved[0].status === "fulfilled" && Array.isArray(saved[0].value.commits)) {
+      const commits = saved[0].value.commits;
       baseline = commits[0]?.sha || "";
       commits.slice().reverse().forEach((commit,i) => {
         savedEvents.push(...commitEvents(commit, i + 1));
       });
-    } else console.warn("패치 변경 기록 확인 실패", saved[1].reason);
+    } else console.warn("패치 변경 기록 확인 실패", saved[0].reason);
     if (savedEvents.length) render(savedEvents, "저장된 기록");
     try {
       const recent = await sinceSnapshot(baseline, cutoff());
