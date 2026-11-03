@@ -90,7 +90,7 @@ function render(){
         </div>
       </div>
       <div class="patch-actions">
-        <span class="file-size">${bytes(p.size)}</span>
+        <span class="file-size">${p.size==null?"용량 미확인":bytes(p.size)}</span>
         ${url?`<a class="icon-btn" href="${escapeHtml(url)}" download>다운로드 ↓</a>`:`<button class="icon-btn" type="button" disabled>준비 중</button>`}
       </div>`;
     items.appendChild(row);
@@ -110,8 +110,18 @@ function render(){
 let pendingPatchPath="";
 function jumpToPatch(path){
   if(!state.patches.length){pendingPatchPath=path;return;}
-  const patch=state.patches.find(p=>p.id===path);
-  if(!patch){toast("해당 패치가 현재 다운로드 목록에 없습니다.");return;}
+  let patch=state.patches.find(p=>p.id===path);
+  if(!patch){
+    // Newly uploaded patches may not yet exist in the static manifest.
+    const parts=path.split("/");
+    if(parts.length!==3||parts[0]!=="EKIPS_7z"||!parts[1]||!parts[2]||!/[.]((7z)|(zip))$/i.test(parts[2])){
+      toast("다운로드 경로가 올바르지 않습니다.");return;
+    }
+    const file=parts[2];
+    patch={id:path,game:parts[1],rom:file.replace(/[.](7z|zip)$/i,""),
+      title:file,file,download_url:"./"+parts.map(encodeURIComponent).join("/"),size:null};
+    state.patches.push(patch);
+  }
   pendingPatchPath="";
   state.query="";
   els.searchInput.value="";

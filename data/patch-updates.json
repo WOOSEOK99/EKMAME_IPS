@@ -2,6 +2,436 @@
   "source": "EKIPS_7z/",
   "commits": [
     {
+      "sha": "e1983207054d769b416e407d5ad8e513f0d5ab77",
+      "date": "2026-11-03T01:45:45Z",
+      "message": "update",
+      "files": [
+        {
+          "filename": "EKIPS_7z/aof/aofmb.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/kof96/kof96bcj.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/kof98umh/kof98umhacu.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/powerinsj/powerinsjh.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/pwrinst2j/pwrinst2jh.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/ssf2xj/SSF2X_GIGA_v19.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/wh2j/Zeus_v28.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/wh2ja/Zeus_v28.7z",
+          "status": "changed"
+        }
+      ]
+    },
+    {
+      "sha": "17dbaaf62323823f7395a44672dc1a69df288923",
+      "date": "2026-11-02T10:37:06Z",
+      "message": "한글패치 추가",
+      "files": [
+        {
+          "filename": "EKIPS_7z/aof2/aof2kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/aof3/aof3kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/baddudes/baddudeskr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/bjourney/bjourneykr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/cadash/cadashkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/crsword/crswordkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/crszone/crszone_ko.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/cyberlip/cyberlipkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/dokaben/dokabenkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/dynwarj/dynwarjkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/elvactrj/elvactrjkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/fatfursp/fatfurspkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/fatfury1/fatfury1kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/fatfury2/fatfury2kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/fatfury3/fatfury3kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/gaiapolsj/gaiapolsjkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/ganryu/ganryukr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/garouh/garouhkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/hsf2/hsf2kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/hsf2j/hsf2jkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/jojobanr2/jojobankr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/kof2003/kof2003kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/kof2003h/kof2003hkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/kof2003h/kof2003hkrboss.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/kof2003h/kof2003huc.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/kotm/kotmkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/kotm2/kotm2kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/kotmh/kotmhkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/lastblad/lastbladkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/lastbld2/lastbld2KR.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/lastduelj/lastdueljkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/legendos/legendoskr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/lightbrj/lightbrjkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/maglordh/maglordhkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/mk/mkkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/mk2/mk2kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/mk3/mk3kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/mwalk/mwalkkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/nam1975/nam1975kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/ncommand/ncommandkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/neobombe/neobombekr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/ninjamas/ninjamaskr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/outfxiesj/outfxiesjkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/penbros/penbroskr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/pheliosj/pheliosjkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/pulirula/pulirulakr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/rbff1/rbff1kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/rbff2/rbff2kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/rbffspec/rbffspeckr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/roboarmy/roboarmykr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/saiyugou/saiyugoukr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/samsh5pf/samsh5pfkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/samsh5sp/samsh5spkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/samsho/samshokr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/samsho2/samsho2kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/samsho3/samsho3kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/samsho4/samsho4kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/samsho5/samsho5kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/sengoku/Korean_Translation.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/sengoku/sengokukr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/sengoku3/sengoku3kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/sengokuh/sengokuh.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/sengokuhkr/sengokuhkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/sf2/sf2kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/sf2ce/sf2cekr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/sf2cejc/sf2cejckr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/sf2hf/sf2hfkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/sf2hfj/sf2hfjkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/sf2j/sf2jkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/sfiii/sfiiikr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/sfiiij/sfiiijkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/sfiiin/sfiiinkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/shocktr2/shocktr2kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/shocktro/shocktrokr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/shocktroa/shocktroakr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/sngkace/sngkacekr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/spinmast/spinmastkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/ssf2/ssf2kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/ssf2j/ssf2jkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/ssf2t/ssf2tkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/ssf2xj/ssf2xjkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/strhoop/strhoopkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/svc/svckr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/timecris/timecriskr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/timecrs2/timecrs2_ko.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/toryumon/toryumonkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/twinspri/twinsprikr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/umk3/umk3kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/vampj/vampjkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/vendetta2pp/vendetta2ppkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/vendettan/vendettankr.zip",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/vhuntj/vhuntjkr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/wakuwak7/wakuwak7kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/wbmld/wbmldkr_v021.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/wh1/wh1kr.7z",
+          "status": "changed"
+        },
+        {
+          "filename": "EKIPS_7z/wwallyj/wwallyjkr.7z",
+          "status": "changed"
+        }
+      ]
+    },
+    {
       "sha": "48e00517bb9b43119081c22aca4e718e56208a38",
       "date": "2026-10-28T00:51:23Z",
       "message": "1",
