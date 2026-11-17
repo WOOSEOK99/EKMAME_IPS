@@ -180,7 +180,7 @@
       const repository = "WOOSEOK99/EKMAME_IPS";
       const folder = "ekgui/releases";
       const apiUrl = "https://api.github.com/repos/" + repository + "/contents/" + folder + "?ref=main";
-      const rawBase = "https://raw.githubusercontent.com/" + repository + "/main/" + folder + "/";
+      const rawBase = "https://media.githubusercontent.com/media/" + repository + "/main/" + folder + "/";
       const downloadIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 17v3h14v-3"/></svg>';
       const elements = {
         version: document.getElementById("latest-version"),
@@ -206,7 +206,7 @@
           version: match[1],
           parts: match[1].split(".").map(Number),
           size: Number(item.size) || 0,
-          url: rawBase + encodeURIComponent(item.name)
+          url: item.download_url || rawBase + encodeURIComponent(item.name)
         };
       }
 
