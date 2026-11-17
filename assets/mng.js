@@ -32,6 +32,9 @@ function safeUrl(file) {
 function safeMp3Url(file) {
   return typeof file.mp3_url === "string" && file.mp3_url.startsWith(mp3UrlPrefix) ? file.mp3_url : "";
 }
+function mp3UrlForDisplay(file) {
+  return safeMp3Url(file);
+}
 function pairSize(file) {
   return file.size + (safeMp3Url(file) ? (Number(file.mp3_size) || 0) : 0);
 }
@@ -83,6 +86,12 @@ function render() {
     title.textContent = file.name;
     main.appendChild(top);
     main.appendChild(title);
+    if (mp3UrlForDisplay(file)) {
+      const mp3Title = document.createElement("div");
+      mp3Title.className = "patch-title";
+      mp3Title.textContent = file.mp3_name || file.name.replace(/\.mng$/i, ".mp3");
+      main.appendChild(mp3Title);
+    }
 
     const meta = document.createElement("div");
     meta.className = "patch-meta";
