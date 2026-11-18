@@ -1,0 +1,14 @@
+/* EKGuideEditor: layouts for user-arranged screenshot grids only. */
+.ekg-grid { display:grid; gap:14px; align-items:start; min-width:0; margin:18px 0; }
+.ekg-grid[data-cols="2"] { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.ekg-grid[data-cols="3"] { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.ekg-grid[data-cols="4"] { grid-template-columns:repeat(4,minmax(0,1fr)); }
+.ekg-grid > figure { min-width:0; box-sizing:border-box; }
+.ekg-grid > figure.screenshot { margin:0; max-width:none; }
+.ekg-grid > figure.screenshot img { max-height:none; width:100%; height:auto; object-fit:contain; }
+@media (max-width:840px) {
+ .ekg-grid[data-cols="3"], .ekg-grid[data-cols="4"] { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media (max-width:620px) {
+ .ekg-grid[data-cols] { grid-template-columns:minmax(0,1fr); }
+}

@@ -8,6 +8,7 @@
   <title>EKMAME / EKGUI 사용설명서</title>
   <link rel="stylesheet" href="./style.css">
   <script src="./app.js" defer></script>
+<link rel="stylesheet" href="./ekguide-layout.css" data-ekguide-layout>
 </head>
 <body>
   <a class="skip-link" href="#content">본문으로 바로가기</a>
@@ -58,6 +59,7 @@
         <a href="#history"><span>12</span> 버전별 변경 사항</a>
         <span class="nav-label">콘솔 게임</span>
         <a href="#console"><span>13</span> 콘솔 게임 사용법</a>
+        <a href="#v028911"><span>14</span> 0.289.11 업데이트</a>
       </nav>
       <div class="sidebar-note"><span class="dot"></span> 사용자 게시글과 첨부 화면을 바탕으로 작성했습니다.</div>
     </aside>
@@ -90,22 +92,22 @@
         </div>
         <div class="notice notice-amber"><span class="notice-symbol">!</span><p><strong>기존 버전에서 업데이트한다면</strong> 개별 게임의 INI·CFG와 사용자 데이터를 먼저 백업하세요. 특히 0.289.7부터 폴더 구조가 바뀌었습니다. <a href="#folders">데이터 이전 안내 보기</a></p></div>
         <div class="note-card"><span class="note-card-tag">0.289.9 추가</span><h3>도움말(H) 메뉴에서 추가된 항목</h3><p><strong>도움말(H)</strong>에 <strong>IPS 패치파일 다운</strong>, <strong>MNG 파일 다운</strong>, <strong>롬파일 다운</strong>, <strong>사용 설명서</strong> 항목이 추가됐습니다. 롬파일 다운은 프로그램이 ROM을 직접 배포하는 기능이 아니라 인터넷의 외부 검색 결과를 보여주는 방식입니다.</p></div>
-        <figure class="screenshot"><a href="./images/v02899-help-menu.webp" data-lightbox><img src="./images/v02899-help-menu.webp" alt="0.289.9 도움말 메뉴에 추가된 IPS 패치파일 다운, MNG 파일 다운, 롬파일 다운, 사용 설명서 항목" loading="lazy"></a><figcaption>도움말(H) 메뉴 — 다운로드 관련 항목 및 사용 설명서</figcaption></figure>
+        <figure class="screenshot" style="width: 30%; max-width: none; margin-inline: auto; box-sizing: border-box;"><a href="./images/v02899-help-menu.webp" data-lightbox=""><img src="./images/v02899-help-menu.webp" alt="0.289.9 도움말 메뉴에 추가된 IPS 패치파일 다운, MNG 파일 다운, 롬파일 다운, 사용 설명서 항목" loading="lazy"></a><figcaption>도움말(H) 메뉴 — 다운로드 관련 항목 및 사용 설명서</figcaption></figure>
       </section>
 
       <section class="doc-section" id="games" data-title="게임 목록 검색 한국어 제목 카드 전체화면 아이콘 폴더">
         <div class="section-heading"><span class="section-index">02 / GAME LIBRARY</span><h2>게임 목록과 검색</h2><p>왼쪽에서 분류를 선택하고, 가운데에서 게임을 찾고, 오른쪽에서 미리보기와 정보를 확인합니다.</p></div>
-        <figure class="screenshot screenshot-wide"><a href="./images/overview.webp" data-lightbox><img src="./images/overview.webp" alt="0.289.8 게임 리스트의 검색창, 왼쪽 분류, 오른쪽 공략 탭" loading="lazy"></a><figcaption><span>01</span> 일반 게임 목록 — 왼쪽 폴더, 중앙 리스트, 오른쪽 미리보기·정보·공략 영역</figcaption></figure>
+        <figure class="screenshot screenshot-wide"><a href="./images/overview.webp" data-lightbox=""><img src="./images/overview.webp" alt="0.289.8 게임 리스트의 검색창, 왼쪽 분류, 오른쪽 공략 탭" loading="lazy"></a><figcaption><span>01</span> 일반 게임 목록 — 왼쪽 폴더, 중앙 리스트, 오른쪽 미리보기·정보·공략 영역</figcaption></figure>
         <div class="feature-grid">
           <article class="feature-card"><div class="feature-icon">⌕</div><h3>게임 검색</h3><p>게임 제목뿐 아니라 ROM 파일명으로도 검색할 수 있습니다. 한국어 검색은 띄어쓰기를 무시하고, 영문 검색은 대소문자를 구분하지 않도록 개선됐습니다.</p><small>0.289.4 ~ 0.289.6</small></article>
           <article class="feature-card"><div class="feature-icon">▦</div><h3>보기 방식</h3><p>목록·상세·아이콘·카드형 보기와 별도의 게임 목록 전체화면 모드를 사용할 수 있습니다. 표시 형태는 버전에 따라 다릅니다.</p><small>0.289.6 ~ 0.289.7</small></article>
           <article class="feature-card"><div class="feature-icon">☰</div><h3>분류 폴더</h3><p>네오지오, CPS, PGM의 전체·해킹 목록과 한국어 게임 등으로 이동할 수 있습니다. 폴더 표시 여부와 순서도 조정할 수 있습니다.</p><small>0.289.3 ~ 0.289.7</small></article>
         </div>
         <div class="image-pair">
-          <figure class="screenshot"><a href="./images/cards.webp" data-lightbox><img src="./images/cards.webp" alt="카드형 게임 목록 화면" loading="lazy"></a><figcaption>카드형 보기 — 게임 이미지를 크게 표시</figcaption></figure>
-          <figure class="screenshot"><a href="./images/icons.webp" data-lightbox><img src="./images/icons.webp" alt="아이콘 방식 게임 목록 화면" loading="lazy"></a><figcaption>아이콘 보기 — 다수의 게임을 한눈에 표시</figcaption></figure>
+          <figure class="screenshot"><a href="./images/cards.webp" data-lightbox=""><img src="./images/cards.webp" alt="카드형 게임 목록 화면" loading="lazy"></a><figcaption>카드형 보기 — 게임 이미지를 크게 표시</figcaption></figure>
+          <figure class="screenshot"><a href="./images/icons.webp" data-lightbox=""><img src="./images/icons.webp" alt="아이콘 방식 게임 목록 화면" loading="lazy"></a><figcaption>아이콘 보기 — 다수의 게임을 한눈에 표시</figcaption></figure>
         </div>
-        <figure class="screenshot screenshot-wide"><a href="./images/fullscreen.webp" data-lightbox><img src="./images/fullscreen.webp" alt="게임 목록 전체화면 모드" loading="lazy"></a><figcaption>0.289.7 전체화면 뷰 — 방향키 이동, Enter 실행, Esc 나가기</figcaption></figure>
+        <figure class="screenshot screenshot-wide"><a href="./images/fullscreen.webp" data-lightbox=""><img src="./images/fullscreen.webp" alt="게임 목록 전체화면 모드" loading="lazy"></a><figcaption>0.289.7 전체화면 뷰 — 방향키 이동, Enter 실행, Esc 나가기</figcaption></figure>
         <div class="tip"><strong>참고</strong><p>전체화면 뷰에서 MP4·MNG 동영상 미리보기를 지원하며, <strong>인터페이스 옵션</strong>에서 실행 시 전체화면 모드로 자동 진입하도록 지정할 수 있습니다.</p></div>
         <h3 class="subheading">0.289.9 — 게임 ROM 검색 및 외부 다운로드 연동</h3>
         <ol class="numbered">
@@ -114,9 +116,9 @@
           <li><strong>외부 검색 결과 확인</strong><span>선택한 게임에 따라 자식 ROM(SPLIT), BIOS/장치 ROM, 통합 ROM(MERGED), 독립형 ROM(STANDALONE) 등의 항목이 표시될 수 있습니다. 이용 가능한 링크와 파일 구성은 검색 결과에 따라 달라집니다.</span></li>
         </ol>
         <div class="notice notice-neutral"><span class="notice-symbol">i</span><p><strong>ROM 파일은 EKMAME에서 제공하거나 공유하지 않습니다.</strong> 인터넷 검색으로 찾은 외부 사이트의 결과를 표시하는 기능이며, 검색 결과에 따라 직접 다운로드 또는 외부 페이지 이동으로 연결됩니다. 다운로드한 파일은 아래 <a href="#scan">ROM 검사 안내</a>에 따라 확인하세요.</p></div>
-        <figure class="screenshot screenshot-wide"><a href="./images/v02899-overview.webp" data-lightbox><img src="./images/v02899-overview.webp" alt="EKMAME 0.289.9 메인 화면의 게임 목록 및 미리보기" loading="lazy"></a><figcaption>0.289.9 메인 화면 — 기존 목록 기능을 유지하면서 새로운 기능이 추가된 모습</figcaption></figure>
-        <figure class="screenshot screenshot-wide"><a href="./images/v02899-rom-search.webp" data-lightbox><img src="./images/v02899-rom-search.webp" alt="ROMSearch 게임명 또는 ROM name 검색 결과와 다운로드 선택 화면" loading="lazy"></a><figcaption>게임명 또는 ROM name 검색 — 직접 다운로드와 외부 페이지 이동 결과, ROM 구성 항목 표시</figcaption></figure>
-        <figure class="screenshot"><a href="./images/v02899-context-menu.webp" data-lightbox><img src="./images/v02899-context-menu.webp" alt="게임 목록 마우스 오른쪽 버튼 메뉴의 선택된 게임 다운 항목" loading="lazy"></a><figcaption>게임 목록 우클릭 메뉴 — 선택된 게임 다운</figcaption></figure>
+        <figure class="screenshot screenshot-wide"><a href="./images/v02899-overview.webp" data-lightbox=""><img src="./images/v02899-overview.webp" alt="EKMAME 0.289.9 메인 화면의 게임 목록 및 미리보기" loading="lazy"></a><figcaption>0.289.9 메인 화면 — 기존 목록 기능을 유지하면서 새로운 기능이 추가된 모습</figcaption></figure>
+        <figure class="screenshot screenshot-wide"><a href="./images/v02899-rom-search.webp" data-lightbox=""><img src="./images/v02899-rom-search.webp" alt="ROMSearch 게임명 또는 ROM name 검색 결과와 다운로드 선택 화면" loading="lazy"></a><figcaption>게임명 또는 ROM name 검색 — 직접 다운로드와 외부 페이지 이동 결과, ROM 구성 항목 표시</figcaption></figure>
+        <figure class="screenshot" style="width: 34%; max-width: none; margin-inline: auto; box-sizing: border-box;"><a href="./images/v02899-context-menu.webp" data-lightbox=""><img src="./images/v02899-context-menu.webp" alt="게임 목록 마우스 오른쪽 버튼 메뉴의 선택된 게임 다운 항목" loading="lazy"></a><figcaption>게임 목록 우클릭 메뉴 — 선택된 게임 다운</figcaption></figure>
       </section>
 
       <section class="doc-section" id="scan" data-title="ROM 검사 빠른검색 F5 캐시 ZIP 변경 검색 갱신">
@@ -341,6 +343,37 @@ $end</code></pre></div>
       </section>
 
       <footer class="guide-footer"><span class="brand-footer">EK<span>+</span> <strong>EKMAME USER GUIDE</strong></span><p>기능 안내는 제공된 배포 자료를 기준으로 하며, 모든 환경에서의 실제 동작을 검증한 것은 아닙니다.</p><a href="#top">맨 위로 ↑</a></footer>
+
+<section class="doc-section" id="v028911" data-title="0.289.11 버추어 파이터 MSX MSX2 자동연사 미리보기 영상 네오지오 한글 UI">
+  <div class="section-heading"><span class="section-index">14 / 0.289.11 UPDATE</span><h2>EKGUI 0.289.11 업데이트</h2><p>2026년 11월 18일 배포 글에 소개된 신규 기능 및 개선 사항입니다.</p></div>
+  <div class="notice notice-neutral"><span class="notice-symbol">i</span><p>원본은 <a href="https://cafe.naver.com/f-e/cafes/10347637/articles/33003" target="_blank" rel="noopener noreferrer">네이버 카페의 EKGUI 0.289.11 게시글</a>입니다. 아래 화면은 해당 게시글 PDF의 첨부 이미지를 추출했으며, 실제 실행 환경에서 별도로 검증한 설명은 아닙니다.</p></div>
+  <h3 class="subheading">1. 버추어 파이터 네이티브 엔진</h3>
+  <p>버추어 파이터 1·2·3의 네이티브 실행 엔진이 추가됐습니다. VF1·VF2에서는 렌더링 해상도와 화면비를 설정할 수 있으며, VF3는 실험적 GPU 렌더링을 지원합니다. 16:9 및 21:9 와이드스크린 화면비를 지원합니다.</p>
+<figure class="screenshot"><a href="./images/v028911-page1-02.webp" data-lightbox=""><img src="./images/v028911-page1-02.webp" alt="버추어 파이터 1·2·3 네이티브 엔진 및 GPU 가속 설정 화면" loading="lazy"></a><figcaption>버추어 파이터 1·2·3 네이티브 엔진 및 GPU 가속 설정 화면</figcaption></figure>
+
+  <h3 class="subheading">2. MSX / MSX2 콘솔 지원</h3>
+  <p>MSX 및 MSX2 게임 실행을 지원합니다. ROM·ZIP·7Z 및 MSX2 디스크 이미지 형식과 게임 실행 시 화면·키보드 입력 설정 개선이 포함됩니다.</p>
+<figure class="screenshot"><a href="./images/v028911-page1-03.webp" data-lightbox=""><img src="./images/v028911-page1-03.webp" alt="MSX / MSX2 게임 목록 및 미리보기 화면" loading="lazy"></a><figcaption>MSX / MSX2 게임 목록 및 미리보기 화면</figcaption></figure>
+
+  <h3 class="subheading">3. 자동연사 기능 확장</h3>
+  <p>게임에서 사용하지 않는 키보드 또는 조이스틱 버튼에도 자동연사키를 지정할 수 있습니다. 원하는 게임 버튼을 별도 자동연사키에 할당하고, 자동연사키를 추가·수정·삭제할 수 있습니다.</p>
+  <div class="notice notice-neutral"><span class="notice-symbol">i</span><p>아래 4개 이미지는 설정 과정의 서로 다른 화면입니다. 빠짐없이 개별 이미지로 제공하며 각 이미지를 눌러 확대할 수 있습니다.</p></div>
+<div class="ekg-grid" data-cols="2"><figure class="screenshot"><a href="./images/v028911-page2-01.webp" data-lightbox=""><img src="./images/v028911-page2-01.webp" alt="자동연사 기능 설정 화면 — 버튼별 연사 사용 및 설정" loading="lazy"></a><figcaption>자동연사 기능 설정 화면 — 버튼별 연사 사용 및 설정</figcaption></figure><figure class="screenshot"><a href="./images/v028911-page2-02.webp" data-lightbox=""><img src="./images/v028911-page2-02.webp" alt="자동연사 대상 선택 화면" loading="lazy"></a><figcaption>자동연사 대상 선택 화면</figcaption></figure></div>
+
+<div class="ekg-grid" data-cols="2"><figure class="screenshot"><a href="./images/v028911-page2-03.webp" data-lightbox=""><img src="./images/v028911-page2-03.webp" alt="자동연사 관리 메뉴 — 지정·제거·편집" loading="lazy"></a><figcaption>자동연사 관리 메뉴 — 지정·제거·편집</figcaption></figure><figure class="screenshot"><a href="./images/v028911-page2-04.webp" data-lightbox=""><img src="./images/v028911-page2-04.webp" alt="자동연사 설정 결과 — 별도 버튼 할당" loading="lazy"></a><figcaption>자동연사 설정 결과 — 별도 버튼 할당</figcaption></figure></div>
+
+
+  <h3 class="subheading">4. 게임 미리보기 영상 다운로드</h3>
+  <p>게임 목록의 오른쪽 클릭 메뉴에서 미리보기 영상 다운로드 기능이 추가됐습니다. 외부 영상 다운로드 도구를 연동하여 이용하는 방식입니다.</p>
+<figure class="screenshot"><a href="./images/v028911-page3-01.webp" data-lightbox=""><img src="./images/v028911-page3-01.webp" alt="게임 목록 우클릭 — 미리보기 동영상 다운로드 메뉴" loading="lazy"></a><figcaption>게임 목록 우클릭 — 미리보기 동영상 다운로드 메뉴</figcaption></figure>
+<figure class="screenshot"><a href="./images/v028911-page3-02.webp" data-lightbox=""><img src="./images/v028911-page3-02.webp" alt="외부 영상 다운로드 도구 연동 화면" loading="lazy"></a><figcaption>외부 영상 다운로드 도구 연동 화면</figcaption></figure>
+
+  <h3 class="subheading">5. 네오지오 해킹 ROM 추가</h3>
+  <p><strong>Samurai Shodown V Special Final Edition</strong> (<code>samsh5fe</code>) 및 <strong>Samurai Shodown V Perfect</strong> (<code>samsh5pf</code>)가 추가됐습니다.</p>
+  <h3 class="subheading">6. 한글 인터페이스 및 화면 표시 개선</h3>
+  <p>언어팩과 각종 설정창의 번역 처리를 개선했습니다. 게임 목록 및 UI의 화면 깜빡임을 줄이고, 창 크기 변경 시 화면 갱신 안정성을 개선했습니다.</p>
+</section>
+
     </main>
   </div>
 
